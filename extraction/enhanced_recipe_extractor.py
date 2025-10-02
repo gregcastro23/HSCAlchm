@@ -15,7 +15,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # Configuration
-PDF_PATH = "../../HSCARECIPES/HSCA_Recipes.pdf"
+PDF_PATH = "../../../HSCARECIPES/HSCA_Recipes.pdf"
 OUTPUT_DIR = "enhanced_extracted_recipes"
 
 # Existing recipes inventory for duplicate checking
@@ -91,9 +91,53 @@ UNIT_MAPPING = {
     'teaspoon': 'tsp', 'teaspoons': 'tsp', 'ounce': 'oz', 'ounces': 'oz'
 }
 
-# Comprehensive OCR character correction mapping
+# Enhanced OCR character correction mapping for recipe text
 OCR_CORRECTIONS = {
-    # Fraction symbols - most common OCR errors
+    # === NUMERIC CHARACTER SUBSTITUTIONS (Most Critical) ===
+    '0': 'o',    # 0 -> o (olive, onion, etc.)
+    '1': 'i',    # 1 -> i (in, with, etc.)
+    '2': 'z',    # 2 -> z (rare but occurs)
+    '3': 'e',    # 3 -> e (recipe, etc.)
+    '4': 'a',    # 4 -> a (rare)
+    '5': 's',    # 5 -> s (sauce, sauce, etc.)
+    '6': 'g',    # 6 -> g (rare)
+    '7': 't',    # 7 -> t (rare)
+    '8': 'b',    # 8 -> b (broth, etc.)
+    '9': 'g',    # 9 -> g (rare)
+
+    # === COMMON LETTER SUBSTITUTIONS ===
+    'l': 'i',    # lowercase l -> i (common in OCR)
+    'I': 'i',    # uppercase I -> i
+    'O': 'o',    # uppercase O -> o
+    'S': 's',    # uppercase S -> s
+    'Z': 'z',    # uppercase Z -> z
+
+    # === COMMON OCR WORD CORRECTIONS ===
+    'AND': 'and',
+    'W1TH': 'with',
+    'TH': 'the',
+    'FOR': 'for',
+    '0F': 'of',
+    '1N': 'in',
+    '0N': 'on',
+    'T0': 'to',
+    '15': 'is',
+    '5T1R': 'stir',
+    'M1X': 'mix',
+    'CH0P': 'chop',
+    'C00K': 'cook',
+    'BAK3': 'bake',
+    'HEAT': 'heat',
+    'B01L': 'boil',
+    'UNT1L': 'until',
+    'M1NUT35': 'minutes',
+    'CUP5': 'cups',
+    '0UNC35': 'ounces',
+    'P0UND5': 'pounds',
+    'T3A5P00N': 'teaspoon',
+    'TABL35P00N': 'tablespoon',
+
+    # === FRACTION SYMBOLS ===
     '¥': '1/4',  # OCR often reads ¼ as ¥
     '\\': '1/2',  # OCR often reads ½ as \\
     '§': '1/8',  # OCR misreads ⅛
@@ -103,22 +147,16 @@ OCR_CORRECTIONS = {
     'Â': '3/8',  # OCR misreads ⅜
     'È': '5/8',  # OCR misreads ⅝
     'Ç': '7/8',  # OCR misreads ⅞
-    
-    # Common number misreads
-    'O': '0',    # Letter O to number 0
-    'l': '1',    # Lowercase L to number 1 (context dependent)
-    'I': '1',    # Capital I to number 1 (context dependent)
-    'S': '5',    # S to 5 (context dependent)
-    
-    # Common character corruptions
+
+    # === SPECIAL CHARACTERS ===
     'º': 'degrees',
     '°': 'degrees',
     'â€™': "'",  # Smart quote corruption
     'â€œ': '"',  # Smart quote corruption
     'â€': '"',   # Smart quote corruption
     'Â ': ' ',   # Non-breaking space corruption
-    
-    # Unit corruptions
+
+    # === UNIT CORRECTIONS ===
     'Ibs': 'lbs',
     'Ib': 'lb',
     'teaspoons': 'tsp',
@@ -127,6 +165,38 @@ OCR_CORRECTIONS = {
     'TSP': 'tsp',
     'CUP': 'cup',
     'CUPS': 'cups',
+    '0Z': 'oz',
+    '0ZS': 'oz',
+    'LB5': 'lbs',
+    'LB': 'lb',
+
+    # === RECIPE NAME OCR CORRECTIONS (with spaces for actual OCR output) ===
+    'CUCUMBERAGUAFRE5CA': 'Cucumber Agua Fresca',
+    'P0MEGRANATE BLUEBERRY ANDG1NGEREL1X1R': 'Pomegranate Blueberry and Ginger Elixir',
+    'T0MAT0V1NA1GRETTE': 'Tomato Vinaigrette',
+    'REDLENT1LANDT0A5TED5UNFL0WERBURGER': 'Red Lentil and Toasted Sunflower Burger',
+    'FRE5HKETCHUP F0RREDLENT1LANDT0A5TED5UNFL0WERBURGER)': 'Fresh Ketchup for Red Lentil and Toasted Sunflower Burger',
+    'T0MAT0CREAM5AUCE F0RVEGETABLE P0LENTANAP0LE0N5)': 'Tomato Cream Sauce for Vegetable Polenta Napoleons',
+    'VEGETABLEANDTEMPEHWRAP5W1THAV0CAD0 C1LANTR0CREAM': 'Vegetable and Tempeh Wraps with Avocado Cilantro Cream',
+    'MED1TERRANEANR0A5TEDBLACKC0DW1THMUHAMMARA': 'Mediterranean Roasted Black Cod with Muhammara',
+    'BABYB0KCH0YANDREDCABBAGE5LAW F0R5EAF00D5AU5AGE)': 'Baby Bok Choy and Red Cabbage Slaw for Sea Food Sausage',
+    'BR01LEDARCT1CCHAR0VERBLACKQU1N0A RAP1N1 ANDCAPER5': 'Broiled Arctic Char over Black Quinoa Rapini and Capers',
+    'BLACKQU1N0AW1THCAPER5ANDRAP1N1 F0RBR01LEDARCT1CCHAR)': 'Black Quinoa with Capers and Rapini for Broiled Arctic Char',
+    'LEM0NANDMAPLE FLAV0REDY0GURT': 'Lemon and Maple Flavored Yogurt',
+    '5KEWEREDFRU1TW1THCH0C0LATEF0NDUE': 'Skewered Fruit with Chocolate Fondue',
+    'CH0C0LATEF0NDUE': 'Chocolate Fondue',
+    'WATERMEL0NJU1CE': 'Watermelon Juice',
+    'BEETANDAPPLEJU1CE': 'Beet and Apple Juice',
+    'CARR0T CELERY G1NGERJU1CE': 'Carrot Celery Ginger Juice',
+    'GREENJU1CE': 'Green Juice',
+    'H0R5ERAD15HANDLEM0NC0ND1MENT': 'Horseradish and Lemon Condiment',
+
+    # === COMMON RECIPE NAME PATTERNS ===
+    'AGUAFRE5CA': 'Agua Fresca',
+    'JU1CE': 'Juice',
+    'V1NA1GRETTE': 'Vinaigrette',
+    'F0NDUE': 'Fondue',
+    'C0ND1MENT': 'Condiment',
 }
 
 # Improved fraction mapping with decimals
@@ -171,15 +241,47 @@ class PageInfo:
     """Structure to hold page metadata and raw text"""
     def __init__(self, page_num: int, text: str):
         self.page_num = page_num
-        self.text = text
+        self.text = text  # Keep original text - apply OCR corrections only when needed
         self.lesson_num = self._extract_lesson_number()
         self.course_info = self._extract_course_info()
     
     def _extract_lesson_number(self) -> Optional[int]:
-        """Extract lesson number from upper right corner"""
-        # Handle both \"Lesson 85\" and \"Lesson85\" formats  
+        """Extract lesson number from upper right corner - robust to OCR corruption"""
+        # First try standard pattern
         match = re.search(r'Lesson\s*(\d+)', self.text, re.IGNORECASE)
-        return int(match.group(1)) if match else None
+        if match:
+            lesson_num = int(match.group(1))
+            print(f"DEBUG: Found lesson {lesson_num} on page (standard pattern)")
+            return lesson_num
+
+        # Try corrupted patterns - map to actual lesson numbers
+        corrupted_mappings = {
+            r'Lessonba': 84,  # "Lesson 84" with 8->b, 4->a
+            r'Lessonbs': 85,  # "Lesson 85" with 5->s
+            r'Lessonbb': 88,  # "Lesson 88" with 8->b
+            r'Lessonti': 71,  # "Lesson 71" with 1->i
+            r'Lessontz': 72,  # "Lesson 72" with 2->z
+            r'Lesson\d+b': lambda m: int(re.search(r'(\d+)b', m.group(0)).group(1)) if 'b' in m.group(0) else None,  # Handle other b substitutions
+            r'Lesson\d+s': lambda m: int(re.search(r'(\d+)s', m.group(0)).group(1)) if 's' in m.group(0) else None,  # Handle s substitutions
+            r'Lesson\d+i': lambda m: int(re.search(r'(\d+)i', m.group(0)).group(1)) if 'i' in m.group(0) else None,  # Handle i substitutions
+        }
+
+        for pattern, lesson_num in corrupted_mappings.items():
+            match = re.search(pattern, self.text, re.IGNORECASE)
+            if match:
+                if callable(lesson_num):
+                    actual_num = lesson_num(match)
+                else:
+                    actual_num = lesson_num
+
+                if actual_num:
+                    print(f"DEBUG: Mapped corrupted pattern '{match.group(0)}' to lesson {actual_num}")
+                    return actual_num
+
+        # Debug: show first 200 chars to see if lesson text exists
+        first_200 = self.text[:200] if self.text else "EMPTY"
+        print(f"DEBUG: No lesson found on page. First 200 chars: {repr(first_200)}")
+        return None
     
     def _extract_course_info(self) -> Dict[str, str]:
         """Extract course and page info from footer"""
@@ -194,10 +296,15 @@ class PageInfo:
     def _extract_recipes(self) -> List[Dict]:
         """Extract recipes from this page"""
         recipes = []
-        
+
         # Look for recipe titles (usually in ALL CAPS)
         recipe_pattern = r'^([A-Z][A-Z\s&\-()]{10,})$'
         lines = self.text.split('\n')
+
+        # Debug: show what we're looking for
+        print(f"DEBUG: Page {self.page_num} - checking {len(lines)} lines for recipes")
+        caps_titles = [line.strip() for line in lines if re.match(recipe_pattern, line.strip())]
+        print(f"DEBUG: Found {len(caps_titles)} potential recipe titles: {caps_titles[:3]}")
         
         current_recipe = None
         in_ingredients = False
@@ -271,7 +378,7 @@ def extract_page_with_ocr(pdf_path: str, page_num: int) -> PageInfo:
         # Try to reconstruct line breaks by detecting sentence patterns
         structured_text = reconstruct_text_structure(page_text)
         
-        # Clean OCR artifacts immediately
+        # Apply OCR corrections for recipe processing
         cleaned_text = clean_ocr_text(structured_text)
         return PageInfo(page_num, cleaned_text)
 
@@ -315,11 +422,17 @@ def clean_ocr_text(text: str) -> str:
     """Clean OCR artifacts and character corruptions from text"""
     if not text:
         return text
-    
+
     cleaned = text
-    
-    # Apply OCR corrections
-    for corrupt, correct in OCR_CORRECTIONS.items():
+
+    # First apply recipe name corrections (exact string matches for known OCR corruption patterns)
+    recipe_corrections = {k: v for k, v in OCR_CORRECTIONS.items() if len(k) > 3}  # Recipe names are longer
+    for corrupt, correct in recipe_corrections.items():
+        cleaned = cleaned.replace(corrupt, correct)
+
+    # Then apply character-by-character OCR corrections
+    char_corrections = {k: v for k, v in OCR_CORRECTIONS.items() if len(k) <= 3}  # Single chars and short patterns
+    for corrupt, correct in char_corrections.items():
         cleaned = cleaned.replace(corrupt, correct)
     
     # Fix common OCR number/letter confusions in context
@@ -379,22 +492,46 @@ def clean_ocr_text(text: str) -> str:
     cleaned = re.sub(r'\b5 8\b', '5/8', cleaned)
     cleaned = re.sub(r'\b7 8\b', '7/8', cleaned)
     
+    # Enhanced OCR artifact cleanup
+    # Remove repeating character sequences (common OCR errors)
+    cleaned = re.sub(r'(.)\1{3,}', r'\1\1', cleaned)  # Reduce 4+ repeats to 2
+
+    # Fix common OCR spacing issues
+    cleaned = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', cleaned)  # Add space between letters and numbers
+    cleaned = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', cleaned)  # Add space between numbers and letters
+
     # Clean up whitespace but preserve newlines
     lines = cleaned.split('\n')
     cleaned_lines = []
     for line in lines:
         # Clean spaces within lines but preserve line structure
         cleaned_line = re.sub(r'\s+', ' ', line.strip())
-        # Remove isolated single characters that are likely OCR artifacts
+
+        # Remove isolated single characters that are likely OCR artifacts (but keep I, a, etc.)
         cleaned_line = re.sub(r'\b[^a-zA-Z0-9]\b', ' ', cleaned_line)
+
+        # Remove lines that are just punctuation or single characters
+        if len(cleaned_line) <= 1 and not cleaned_line.isalnum():
+            continue
+
         # Clean up multiple spaces again
         cleaned_line = re.sub(r'\s+', ' ', cleaned_line.strip())
         if cleaned_line:  # Only add non-empty lines
             cleaned_lines.append(cleaned_line)
-    
-    cleaned = '\n'.join(cleaned_lines)
-    
-    return cleaned
+
+    # Join back and do final cleanup
+    final_text = '\n'.join(cleaned_lines)
+
+    # Fix common OCR word fragments that got split
+    final_text = re.sub(r'\bEngiish\b', 'English', final_text)
+    final_text = re.sub(r'\bcucumbers with skin\b', 'English cucumbers with skin', final_text)
+    final_text = re.sub(r'\bL Combine\b', 'Combine', final_text)
+    final_text = re.sub(r'\bacups pomegranate juice\b', '2 cups pomegranate juice', final_text)
+    final_text = re.sub(r'\ba cups ginger juice\b', '2 cups ginger juice', final_text)
+    final_text = re.sub(r'\biL Combine\b', 'Combine', final_text)
+    final_text = re.sub(r'\bVitaMix and puree\b', 'VitaMix and puree', final_text)
+
+    return final_text
 
 def normalize_unit(unit: str) -> str:
     """Convert unit to valid TypeScript Unit type with OCR corruption handling."""
@@ -621,13 +758,20 @@ def suggest_category(recipe_name: str, lesson_num: Optional[int] = None, yield_i
     ingredients_text = ' '.join(ingredients or []).lower()
     combined_text = f'{text} {ingredients_text}'
     
-    # Enhanced beverage detection - most specific first
-    beverage_indicators = [
-        'juice', 'smoothie', 'drink', 'tea', 'coffee', 'milk', 'agua', 'cooler', 
+    # Enhanced beverage detection - much more specific to avoid false positives
+    # Only categorize as beverage if the recipe name clearly indicates a drink
+    beverage_name_indicators = [
+        'juice', 'smoothie', 'agua fresca', 'iced tea', 'coffee', 'milk', 'agua', 'cooler',
         'elixir', 'brew', 'tonic', 'lemonade', 'punch', 'cocktail', 'mocktail',
-        'hibiscus', 'kombucha', 'kefir', 'cleanse', 'detox', 'water'
+        'kombucha', 'kefir', 'cleanse', 'detox', 'watermelon juice', 'beet juice',
+        'carrot juice', 'ginger juice', 'green juice', 'watermelon juice'
     ]
-    if any(word in combined_text for word in beverage_indicators):
+    # Check if recipe name contains beverage-specific terms
+    if any(word in clean_name for word in beverage_name_indicators):
+        return 'beverages'
+
+    # Check for specific beverage patterns in yield info (like "serves 4 glasses")
+    if yield_info and any(term in yield_info.lower() for term in ['glass', 'drink', 'beverage']):
         return 'beverages'
     
     # Enhanced bread/baked goods detection
@@ -676,10 +820,10 @@ def suggest_category(recipe_name: str, lesson_num: Optional[int] = None, yield_i
     if any(word in combined_text for word in soup_indicators):
         return 'soups'
     
-    # Enhanced breakfast detection
+    # Enhanced breakfast detection - more specific
     breakfast_indicators = [
         'pancake', 'oats', 'oatmeal', 'frittata', 'porridge', 'muffin', 'cereal',
-        'granola', 'toast', 'breakfast', 'morning', 'brunch', 'crepe'
+        'granola', 'french toast', 'breakfast burrito', 'breakfast', 'morning', 'brunch', 'crepe'
     ]
     if any(word in combined_text for word in breakfast_indicators):
         return 'breakfast'
@@ -711,20 +855,28 @@ def suggest_category(recipe_name: str, lesson_num: Optional[int] = None, yield_i
         if not any(word in combined_text for word in exclusions):
             return 'dinner'
     
-    # Enhanced side dish detection
-    side_indicators = [
-        'side', 'roasted vegetable', 'steamed', 'sautéed', 'quinoa', 'rice',
-        'beans', 'lentils', 'vegetables', 'greens', 'stuffed pepper', 'stuffed mushroom',
-        'root vegetables', 'brussels sprouts', 'squash', 'arame', 'hiziki'
+    # Enhanced side dish detection - more specific to avoid false positives
+    side_name_indicators = [
+        'side', 'roasted vegetables', 'steamed vegetables', 'sautéed vegetables',
+        'quinoa pilaf', 'rice pilaf', 'stuffed peppers', 'stuffed mushrooms',
+        'roasted root vegetables', 'brussels sprouts', 'butternut squash'
     ]
-    if any(word in combined_text for word in side_indicators):
+    # Only categorize as side if recipe name suggests it's a side dish
+    if any(word in clean_name for word in side_name_indicators):
+        return 'sides'
+
+    # Or if it's clearly a vegetable/bean dish without main proteins
+    vegetable_focused = any(word in clean_name for word in ['vegetable', 'bean ', 'lentil ', 'rice ', 'quinoa '])
+    has_main_protein = any(word in combined_text for word in ['chicken', 'beef', 'pork', 'fish', 'salmon', 'tofu', 'tempeh', 'seitan'])
+    if vegetable_focused and not has_main_protein and not any(word in clean_name for word in ['burger', 'cake', 'pie', 'tart']):
         return 'sides'
     
     # Lesson-based categorization with better logic
     if lesson_num:
         if lesson_num in [84, 85, 88]:  # Spa/Detox/Juice lessons
-            # Only default to beverages if no other category detected
-            if not any(word in combined_text for word in ['burger', 'salad', 'bread', 'sauce']):
+            # Only default to beverages if no other category detected AND it looks like a beverage
+            beverage_like = any(word in clean_name for word in ['juice', 'smoothie', 'agua', 'elixir', 'drink'])
+            if beverage_like and not any(word in combined_text for word in ['burger', 'salad', 'bread', 'sauce', 'chicken', 'fish', 'beef']):
                 return 'beverages'
         elif lesson_num in [71, 72, 73]:  # Baking lessons
             # Only default to desserts if clearly baked goods
@@ -904,46 +1056,52 @@ def parse_lesson_recipes(lesson_num: int, combined_text: str, pages: List[PageIn
     in_procedure = False
     
     for i, line in enumerate(lines):
-        # Enhanced recipe title detection with OCR corruption handling
+        # Recipe title detection for cleaned OCR text (strict approach)
         is_recipe_title = (
-            # Enhanced pattern for OCR-corrupted ALL CAPS with numbers
-            re.match(r'^[A-Z0-9][A-Z0-9\s&\-(),.]{6,}$', line) and 
-            # Not lesson/course info
-            'LESSON' not in line and 'INSTITUTE' not in line and 'COURSE' not in line and
+            # Reasonable title length (not too short, not too long)
+            12 <= len(line) <= 55 and
+            # Should have 2-6 words (typical recipe title length)
+            2 <= len(line.split()) <= 6 and
+            # Must contain food-related words (core food categories)
+            any(food in line.lower() for food in [
+                'soup', 'salad', 'sauce', 'chicken', 'beef', 'fish', 'pasta', 'rice', 'bread',
+                'cake', 'pie', 'tart', 'mousse', 'custard', 'fondue', 'crepe', 'brownie',
+                'crust', 'juice', 'smoothie', 'cucumber', 'tomato', 'mushroom', 'spinach',
+                'artichoke', 'broccoli', 'cauliflower', 'zucchini', 'eggplant', 'onion',
+                'garlic', 'roasted', 'grilled', 'baked', 'cream', 'chocolate', 'quinoa',
+                'lentil', 'burger', 'roll', 'pudding', 'curry', 'stew', 'puree', 'pesto',
+                'hummus', 'guacamole', 'salsa', 'relish', 'chutney', 'aguafresca', 'fresca',
+                'congee', 'consomme', 'ketchup', 'detox', 'cruciferous'
+            ]) and
+            # Must NOT contain instruction-like content
+            not any(instr in line.lower() for instr in [
+                'combine', 'stir', 'mix', 'heat', 'cook', 'bake', 'boil', 'chop', 'slice',
+                'dice', 'puree', 'blend', 'whisk', 'fold', 'until', 'minutes', 'strain',
+                'serve', 'garnish', 'refrigerate', 'freeze', 'thaw', 'preheat', 'oven',
+                'do not', 'ice.', 'glasses', 'bring', 'cut', 'alternate', 'scrape',
+                'whisk', 'knead', 'coat', 'sear', 'for bread', 'add oil'
+            ]) and
+            # Must NOT contain administrative content
+            not any(skip in line.lower() for skip in [
+                'lesson', 'institute', 'course', 'yield', 'serving', 'servings', 'makes',
+                'ingredients', 'procedure', 'method', 'directions', 'preparation',
+                'yieid', 'for vegetable', 'for red lentil'
+            ]) and
             # Not yield statements
             not is_yield_statement(line) and
-            # Enhanced food name detection including OCR corruptions
-            (
-                any(food_word in line.lower() for food_word in [
-                    'soup', 'salad', 'sauce', 'chicken', 'beef', 'fish', 'pasta', 'rice', 
-                    'bread', 'cake', 'juice', 'smoothie', 'roasted', 'grilled', 'baked',
-                    'with', 'and', 'over', 'in', 'cream', 'chocolate', 'quinoa', 'lentil',
-                    'burger', 'roll', 'pie', 'tart', 'mousse', 'custard', 'fondue',
-                    'crepe', 'brownie', 'crust', 'dressing', 'stirfry', 'bechamel',
-                    'watermelon', 'kasha', 'seitan', 'chickpea', 'arugula', 'frisee',
-                    'glazed', 'vegan', 'dough', 'ghirardelli', 'pressed', 'nut'
-                ]) or
-                # OCR-corrupted food words
-                any(food_word in line.lower() for food_word in [
-                    'ju1ce', 'sm00th1e', 'sa1ad', 'ch1cken', 'f1sh', 'r1ce', 'bread',
-                    'cak3', 'ch0c0late', 'qu1n0a', 'crepe5', 'br0wn1e5', 'cru5t',
-                    'w1th', 'dr3ss1ng', 'st1rfry', 'bech4mel', 'waterme10n', 'ka5ha',
-                    '5e1tan', 'ch1ckpea', 'arugu1a', 'fr15ee', 'g1azed', 'vegan',
-                    'd0ugh', 'gh1rardell1', 'pre55ed', 'nut', 'carr0t5', 'rad15he5',
-                    'av0cad0', 'cucumber', 'mushroom', 'sp1nach', 'art1choke',
-                    'br0cc0li', 'caulifl0wer', 'z0cch1n1', 'eggp1ant', 'tomato',
-                    't0mat0', 'peppe7', 'pepper5', 'on10n', 'garlick', 'gar1ic',
-                    'herbs', 'her5s', 'sp1ces', 'season1ng', 'mar1nade', 'gl4ze'
-                ]) or
-                # Common cooking terms in OCR
-                any(cooking_term in line.lower() for cooking_term in [
-                    'roasted', 'grilled', 'baked', 'steamed', 'sauteed', 'braised',
-                    'r0asted', 'gr1lled', 'bak3d', 'steam3d', 'saut33d', 'bra1sed',
-                    'stir', 'fry', 'fried', 'boiled', 'poached', 'stuffed', 'filled',
-                    'marinated', 'glazed', 'seasoned', 'spiced', 'herbed', 'crusted'
-                ])
-            )
+            # Not lines that start with numbers or lowercase letters (likely instructions)
+            not (line.strip()[0].isdigit() or line.strip()[0].islower()) and
+            # Should not be too ingredient-like (no measurements in title)
+            len([word for word in line.lower().split() if any(unit in word for unit in [
+                'cup', 'cups', 'tbsp', 'tsp', 'oz', 'lb', 'pound', 'ounce', 'inch', 'piece',
+                'pieces', 'seeded', 'cut', 'into', 'each', 'approximately', 'about'
+            ])]) == 0 and  # No measurement words allowed in titles
+            # Should not contain too many parentheses (ingredient style)
+            line.count('(') <= 1 and line.count(')') <= 1 and
+            # Should not be all caps with numbers (likely OCR artifacts)
+            not (line.isupper() and any(char.isdigit() for char in line))
         )
+
         
         if is_recipe_title:
             # Save previous recipe
@@ -952,7 +1110,7 @@ def parse_lesson_recipes(lesson_num: int, combined_text: str, pages: List[PageIn
             
             # Start new recipe
             current_recipe = {
-                'name': line,
+                'name': clean_ocr_text(line),
                 'yield': '',
                 'ingredients': [],
                 'procedure': [],
