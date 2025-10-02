@@ -1,0 +1,452 @@
+{
+  "roasted butternut squash salad": {
+    "name": "Roasted Butternut Squash Salad",
+    "category": "sides",
+    "original_name": "Roasted Butternut Squash Salad"
+  },
+  "quinoa stuffed bell peppers": {
+    "name": "Quinoa Stuffed Bell Peppers",
+    "category": "sides",
+    "original_name": "Quinoa Stuffed Bell Peppers"
+  },
+  "arame with vegetables": {
+    "name": "Arame with Vegetables",
+    "category": "sides",
+    "original_name": "Arame with Vegetables"
+  },
+  "hiziki with carrots and ag tofu": {
+    "name": "Hiziki with Carrots and Agé Tofu",
+    "category": "sides",
+    "original_name": "Hiziki with Carrots and Agé Tofu"
+  },
+  "roasted brussels sprouts with balsamic glaze": {
+    "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+    "category": "sides",
+    "original_name": "Roasted Brussels Sprouts with Balsamic Glaze"
+  },
+  "spinach and artichoke dip": {
+    "name": "Spinach and Artichoke Dip",
+    "category": "appetizers",
+    "original_name": "Spinach and Artichoke Dip"
+  },
+  "grilled portobello mushroom steaks": {
+    "name": "Grilled Portobello Mushroom Steaks",
+    "category": "dinner",
+    "original_name": "Grilled Portobello Mushroom Steaks"
+  },
+  "roasted root vegetables with toasted hazelnuts": {
+    "name": "Roasted Root Vegetables with Toasted Hazelnuts",
+    "category": "sides",
+    "original_name": "Roasted Root Vegetables with Toasted Hazelnuts"
+  },
+  "grilled vegetable skewers": {
+    "name": "Grilled Vegetable Skewers",
+    "category": "appetizers",
+    "original_name": "Grilled Vegetable Skewers"
+  },
+  "baba ghanoush": {
+    "name": "Baba Ghanoush",
+    "category": "appetizers",
+    "original_name": "Baba Ghanoush"
+  },
+  "mushroom consomm": {
+    "name": "Mushroom Consommé",
+    "category": "soups",
+    "original_name": "Mushroom Consommé"
+  },
+  "mango avocado salsa": {
+    "name": "Mango Avocado Salsa",
+    "category": "appetizers",
+    "original_name": "Mango Avocado Salsa"
+  },
+  "caprese skewers with balsamic glaze": {
+    "name": "Caprese Skewers with Balsamic Glaze",
+    "category": "appetizers",
+    "original_name": "Caprese Skewers with Balsamic Glaze"
+  },
+  "roasted red pepper hummus": {
+    "name": "Roasted Red Pepper Hummus",
+    "category": "appetizers",
+    "original_name": "Roasted Red Pepper Hummus"
+  },
+  "stuffed mushroom caps": {
+    "name": "Stuffed Mushroom Caps",
+    "category": "appetizers",
+    "original_name": "Stuffed Mushroom Caps"
+  },
+  "bruschetta with fresh tomatoes": {
+    "name": "Bruschetta with Fresh Tomatoes",
+    "category": "appetizers",
+    "original_name": "Bruschetta with Fresh Tomatoes"
+  },
+  "edamame with sea salt": {
+    "name": "Edamame with Sea Salt",
+    "category": "appetizers",
+    "original_name": "Edamame with Sea Salt"
+  },
+  "caesar salad with shrimp": {
+    "name": "Caesar Salad with Shrimp",
+    "category": "salads",
+    "original_name": "Caesar Salad with Shrimp"
+  },
+  "quinoa and black bean salad": {
+    "name": "Quinoa and Black Bean Salad",
+    "category": "lunch",
+    "original_name": "Quinoa and Black Bean Salad"
+  },
+  "avocado egg salad": {
+    "name": "Avocado Egg Salad",
+    "category": "lunch",
+    "original_name": "Avocado Egg Salad"
+  },
+  "lemon garlic roasted chicken": {
+    "name": "Lemon Garlic Roasted Chicken",
+    "category": "dinner",
+    "original_name": "Lemon Garlic Roasted Chicken"
+  },
+  "pesto zucchini noodles": {
+    "name": "Pesto Zucchini Noodles",
+    "category": "dinner",
+    "original_name": "Pesto Zucchini Noodles"
+  },
+  "mediterranean black cod": {
+    "name": "Mediterranean Black Cod",
+    "category": "dinner",
+    "original_name": "Mediterranean Black Cod"
+  },
+  "vegetable and tempeh wraps": {
+    "name": "Vegetable and Tempeh Wraps",
+    "category": "dinner",
+    "original_name": "Vegetable and Tempeh Wraps"
+  },
+  "fish congee": {
+    "name": "Fish Congee",
+    "category": "dinner",
+    "original_name": "Fish Congee"
+  },
+  "quinoa buddha bowl": {
+    "name": "Quinoa Buddha Bowl",
+    "category": "dinner",
+    "original_name": "Quinoa Buddha Bowl"
+  },
+  "miso glazed salmon": {
+    "name": "Miso Glazed Salmon",
+    "category": "dinner",
+    "original_name": "Miso Glazed Salmon"
+  },
+  "caprese stuffed portobello mushrooms": {
+    "name": "Caprese Stuffed Portobello Mushrooms",
+    "category": "dinner",
+    "original_name": "Caprese Stuffed Portobello Mushrooms"
+  },
+  "spinach and artichoke stuffed peppers": {
+    "name": "Spinach and Artichoke Stuffed Peppers",
+    "category": "dinner",
+    "original_name": "Spinach and Artichoke Stuffed Peppers"
+  },
+  "grilled portobello mushroom burgers": {
+    "name": "Grilled Portobello Mushroom Burgers",
+    "category": "dinner",
+    "original_name": "Grilled Portobello Mushroom Burgers"
+  },
+  "red lentil and toasted sunflower burger": {
+    "name": "Red Lentil and Toasted Sunflower Burger",
+    "category": "dinner",
+    "original_name": "Red Lentil and Toasted Sunflower Burger"
+  },
+  "seafood sausage": {
+    "name": "Seafood Sausage",
+    "category": "dinner",
+    "original_name": "Seafood Sausage"
+  },
+  "broiled arctic char with black quinoa": {
+    "name": "Broiled Arctic Char with Black Quinoa",
+    "category": "dinner",
+    "original_name": "Broiled Arctic Char with Black Quinoa"
+  },
+  "watermelon feta salad": {
+    "name": "Watermelon Feta Salad",
+    "category": "salads",
+    "original_name": "Watermelon Feta Salad"
+  },
+  "grilled peach and burrata salad": {
+    "name": "Grilled Peach and Burrata Salad",
+    "category": "salads",
+    "original_name": "Grilled Peach and Burrata Salad"
+  },
+  "cruciferous salad": {
+    "name": "Cruciferous Salad",
+    "category": "salads",
+    "original_name": "Cruciferous Salad"
+  },
+  "baby bok choy and red cabbage slaw": {
+    "name": "Baby Bok Choy and Red Cabbage Slaw",
+    "category": "salads",
+    "original_name": "Baby Bok Choy and Red Cabbage Slaw"
+  },
+  "wakame cucumber salad with orange": {
+    "name": "Wakame Cucumber Salad with Orange",
+    "category": "salads",
+    "original_name": "Wakame Cucumber Salad with Orange"
+  },
+  "thai mango salad": {
+    "name": "Thai Mango Salad",
+    "category": "salads",
+    "original_name": "Thai Mango Salad"
+  },
+  "strawberry spinach salad with poppy seed dressing": {
+    "name": "Strawberry Spinach Salad with Poppy Seed Dressing",
+    "category": "salads",
+    "original_name": "Strawberry Spinach Salad with Poppy Seed Dressing"
+  },
+  "grilled eggplant and zucchini salad": {
+    "name": "Grilled Eggplant and Zucchini Salad",
+    "category": "salads",
+    "original_name": "Grilled Eggplant and Zucchini Salad"
+  },
+  "warm pinto bean salad with shiitake": {
+    "name": "Warm Pinto Bean Salad with Shiitake",
+    "category": "salads",
+    "original_name": "Warm Pinto Bean Salad with Shiitake"
+  },
+  "chocolate chip cookies": {
+    "name": "Chocolate Chip Cookies",
+    "category": "desserts",
+    "original_name": "Chocolate Chip Cookies"
+  },
+  "mango chia pudding": {
+    "name": "Mango Chia Pudding",
+    "category": "desserts",
+    "original_name": "Mango Chia Pudding"
+  },
+  "coffee custard": {
+    "name": "Coffee Custard",
+    "category": "desserts",
+    "original_name": "Coffee Custard"
+  },
+  "coconutlime flan": {
+    "name": "Coconut-Lime Flan",
+    "category": "desserts",
+    "original_name": "Coconut-Lime Flan"
+  },
+  "berrygrape kanten": {
+    "name": "Berry-Grape Kanten",
+    "category": "desserts",
+    "original_name": "Berry-Grape Kanten"
+  },
+  "berry chia pudding": {
+    "name": "Berry Chia Pudding",
+    "category": "desserts",
+    "original_name": "Berry Chia Pudding"
+  },
+  "applepear crisp": {
+    "name": "Apple-Pear Crisp",
+    "category": "desserts",
+    "original_name": "Apple-Pear Crisp"
+  },
+  "matcha green tea ice cream": {
+    "name": "Matcha Green Tea Ice Cream",
+    "category": "desserts",
+    "original_name": "Matcha Green Tea Ice Cream"
+  },
+  "dark chocolate avocado mousse": {
+    "name": "Dark Chocolate Avocado Mousse",
+    "category": "desserts",
+    "original_name": "Dark Chocolate Avocado Mousse"
+  },
+  "apple phyllo roll": {
+    "name": "Apple Phyllo Roll",
+    "category": "desserts",
+    "original_name": "Apple Phyllo Roll"
+  },
+  "berry sorbet": {
+    "name": "Berry Sorbet",
+    "category": "desserts",
+    "original_name": "Berry Sorbet"
+  },
+  "chocolate fondue": {
+    "name": "Chocolate Fondue",
+    "category": "desserts",
+    "original_name": "Chocolate Fondue"
+  },
+  "smoky cilantrolime vinaigrette": {
+    "name": "Smoky Cilantro-Lime Vinaigrette",
+    "category": "condiments",
+    "original_name": "Smoky Cilantro-Lime Vinaigrette"
+  },
+  "classic pesto": {
+    "name": "Classic Pesto",
+    "category": "sauces",
+    "original_name": "Classic Pesto"
+  },
+  "horseradish cashew sauce": {
+    "name": "Horseradish Cashew Sauce",
+    "category": "sauces",
+    "original_name": "Horseradish Cashew Sauce"
+  },
+  "honeybalsamic dressing": {
+    "name": "Honey-Balsamic Dressing",
+    "category": "sauces",
+    "original_name": "Honey-Balsamic Dressing"
+  },
+  "cucumber agua fresca": {
+    "name": "Cucumber Agua Fresca",
+    "category": "beverages",
+    "original_name": "Cucumber Agua Fresca"
+  },
+  "pomegranate blueberry and ginger elixir": {
+    "name": "Pomegranate, Blueberry, and Ginger Elixir",
+    "category": "beverages",
+    "original_name": "Pomegranate, Blueberry, and Ginger Elixir"
+  },
+  "hemp seed milk": {
+    "name": "Hemp Seed Milk",
+    "category": "beverages",
+    "original_name": "Hemp Seed Milk"
+  },
+  "golden turmeric milk": {
+    "name": "Golden Turmeric Milk",
+    "category": "beverages",
+    "original_name": "Golden Turmeric Milk"
+  },
+  "pineapple turmeric smoothie": {
+    "name": "Pineapple Turmeric Smoothie",
+    "category": "beverages",
+    "original_name": "Pineapple Turmeric Smoothie"
+  },
+  "watermelon mint cooler": {
+    "name": "Watermelon Mint Cooler",
+    "category": "beverages",
+    "original_name": "Watermelon Mint Cooler"
+  },
+  "green goddess smoothie": {
+    "name": "Green Goddess Smoothie",
+    "category": "beverages",
+    "original_name": "Green Goddess Smoothie"
+  },
+  "hibiscus iced tea": {
+    "name": "Hibiscus Iced Tea",
+    "category": "beverages",
+    "original_name": "Hibiscus Iced Tea"
+  },
+  "watermelon juice": {
+    "name": "Watermelon Juice",
+    "category": "beverages",
+    "original_name": "Watermelon Juice"
+  },
+  "green vitality juice": {
+    "name": "Green Vitality Juice",
+    "category": "beverages",
+    "original_name": "Green Vitality Juice"
+  },
+  "beet and apple juice": {
+    "name": "Beet and Apple Juice",
+    "category": "beverages",
+    "original_name": "Beet and Apple Juice"
+  },
+  "celerycarrotginger juice": {
+    "name": "Celery-Carrot-Ginger Juice",
+    "category": "beverages",
+    "original_name": "Celery-Carrot-Ginger Juice"
+  },
+  "master cleanse": {
+    "name": "Master Cleanse",
+    "category": "beverages",
+    "original_name": "Master Cleanse"
+  },
+  "sweet citrus brew": {
+    "name": "Sweet Citrus Brew",
+    "category": "beverages",
+    "original_name": "Sweet Citrus Brew"
+  },
+  "miso soup with wakame": {
+    "name": "Miso Soup with Wakame",
+    "category": "soups",
+    "original_name": "Miso Soup with Wakame"
+  },
+  "butternut squash soup": {
+    "name": "Butternut Squash Soup",
+    "category": "soups",
+    "original_name": "Butternut Squash Soup"
+  },
+  "vegetable detox soup": {
+    "name": "Vegetable Detox Soup",
+    "category": "soups",
+    "original_name": "Vegetable Detox Soup"
+  },
+  "roasted dulse condiment": {
+    "name": "Roasted Dulse Condiment",
+    "category": "condiments",
+    "original_name": "Roasted Dulse Condiment"
+  },
+  "nori condiment": {
+    "name": "Nori Condiment",
+    "category": "condiments",
+    "original_name": "Nori Condiment"
+  },
+  "fresh herb dressing": {
+    "name": "Fresh Herb Dressing",
+    "category": "condiments",
+    "original_name": "Fresh Herb Dressing"
+  },
+  "spicy mango chutney": {
+    "name": "Spicy Mango Chutney",
+    "category": "condiments",
+    "original_name": "Spicy Mango Chutney"
+  },
+  "gingerscallion sauce": {
+    "name": "Ginger-Scallion Sauce",
+    "category": "condiments",
+    "original_name": "Ginger-Scallion Sauce"
+  },
+  "carrotginger dressing": {
+    "name": "Carrot-Ginger Dressing",
+    "category": "condiments",
+    "original_name": "Carrot-Ginger Dressing"
+  },
+  "horseradish and lemon condiment": {
+    "name": "Horseradish and Lemon Condiment",
+    "category": "condiments",
+    "original_name": "Horseradish and Lemon Condiment"
+  },
+  "blueberry almond overnight oats": {
+    "name": "Blueberry Almond Overnight Oats",
+    "category": "breakfast",
+    "original_name": "Blueberry Almond Overnight Oats"
+  },
+  "spinach and mushroom frittata": {
+    "name": "Spinach and Mushroom Frittata",
+    "category": "breakfast",
+    "original_name": "Spinach and Mushroom Frittata"
+  },
+  "caprese avocado toast": {
+    "name": "Caprese Avocado Toast",
+    "category": "breakfast",
+    "original_name": "Caprese Avocado Toast"
+  },
+  "quinoa breakfast bowl": {
+    "name": "Quinoa Breakfast Bowl",
+    "category": "breakfast",
+    "original_name": "Quinoa Breakfast Bowl"
+  },
+  "green power smoothie bowl": {
+    "name": "Green Power Smoothie Bowl",
+    "category": "breakfast",
+    "original_name": "Green Power Smoothie Bowl"
+  },
+  "whole grain pancakes": {
+    "name": "Whole Grain Pancakes",
+    "category": "breakfast",
+    "original_name": "Whole Grain Pancakes"
+  },
+  "breakfast burrito bowl": {
+    "name": "Breakfast Burrito Bowl",
+    "category": "breakfast",
+    "original_name": "Breakfast Burrito Bowl"
+  },
+  "amaranth porridge": {
+    "name": "Amaranth Porridge",
+    "category": "breakfast",
+    "original_name": "Amaranth Porridge"
+  }
+}

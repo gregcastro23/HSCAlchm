@@ -1,0 +1,36 @@
+{
+  "correction_metadata": {
+    "original_recipe_count": 325,
+    "corrected_recipe_count": 325,
+    "corrections_applied": {
+      "category_corrections": 15,
+      "name_standardizations": 0,
+      "ingredient_improvements": 194,
+      "format_corrections": 38
+    }
+  },
+  "validation_results": {
+    "total_recipes": 325,
+    "corrections_summary": {
+      "category_corrections": 15,
+      "name_standardizations": 0,
+      "ingredient_improvements": 194,
+      "format_corrections": 38
+    },
+    "validation_checks": {
+      "all_recipes_have_names": 325,
+      "all_recipes_have_categories": 15,
+      "all_recipes_have_ingredients": 325,
+      "ingredient_name_quality": 217,
+      "all_recipes_have_names_percentage": 100.0,
+      "all_recipes_have_categories_percentage": 4.615384615384616,
+      "all_recipes_have_ingredients_percentage": 100.0,
+      "ingredient_name_quality_percentage": 66.76923076923077
+    }
+  },
+  "improvement_summary": {
+    "total_corrections": 247,
+    "correction_rate": 0.76,
+    "quality_improvements": "Applied based on gold standard analysis"
+  }
+}
