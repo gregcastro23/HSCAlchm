@@ -1,0 +1,12 @@
+{
+  "recovery_date": "2025-07-26T00:38:18.616444",
+  "source_missed_file": "ultra_enhanced_extraction/missed_opportunities.json",
+  "total_missed_opportunities": 17,
+  "successfully_recovered": 0,
+  "recovery_rate": "0.0%",
+  "recovered_recipes": [],
+  "summary": {
+    "total_recipes": 0,
+    "recipes_by_category": {}
+  }
+}

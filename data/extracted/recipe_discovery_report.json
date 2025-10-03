@@ -1,0 +1,35 @@
+{
+  "discovery_date": "2025-07-26",
+  "analysis_summary": {
+    "total_pdf_pages": 507,
+    "previously_processed_pages": 0,
+    "pages_with_potential_recipes": 0,
+    "high_confidence_recipes_found": 0,
+    "extraction_efficiency_improvement": 0.0
+  },
+  "successful_patterns_used": {
+    "title_indicators": 424,
+    "ingredient_patterns": 4147,
+    "instruction_indicators": 11,
+    "top_recipe_words": [
+      "gluten",
+      "with",
+      "cucumber",
+      "tofusourcream",
+      "chocolate",
+      "almond",
+      "fortempehreubensandwich)",
+      "toasted",
+      "juice",
+      "beet"
+    ]
+  },
+  "missed_opportunities": [],
+  "extracted_recipes": [],
+  "recommendations": [
+    "Continue using successful extraction patterns for future discoveries",
+    "Focus on high-confidence recipes for quality maintenance",
+    "Consider manual review of medium-confidence opportunities",
+    "Update extraction algorithms based on new findings"
+  ]
+}

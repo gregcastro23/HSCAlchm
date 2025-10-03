@@ -1,0 +1,102 @@
+{
+  "pipeline_run": {
+    "timestamp": "2025-07-16T19:56:25.156355",
+    "version": "2.0",
+    "components": [
+      "enhanced_extractor",
+      "cross_referencer",
+      "duplicate_filter"
+    ]
+  },
+  "extraction_results": {
+    "extracted_count": 325,
+    "cross_reference": {
+      "total_matches": 249,
+      "duplicates": 4,
+      "high_confidence": 14,
+      "no_matches": 76,
+      "duplicate_percentage": 1.2307692307692308
+    },
+    "filtering": {
+      "total_extracted": 325,
+      "filtered_recipes": 321,
+      "duplicates_removed": 4,
+      "recipes_by_category": {
+        "beverages": 274,
+        "desserts": 15,
+        "sides": 8,
+        "dinner": 7,
+        "breakfast": 14,
+        "sauces": 3
+      },
+      "recipes_by_lesson": {
+        "84": 13,
+        "85": 3,
+        "88": 4,
+        "71": 7,
+        "72": 15,
+        "73": 11,
+        "74": 6,
+        "75": 3,
+        "76": 8,
+        "77": 8,
+        "79": 6,
+        "793": 10,
+        "55": 2,
+        "57": 6,
+        "58": 6,
+        "60": 14,
+        "62": 1,
+        "64": 13,
+        "65": 9,
+        "66": 9,
+        "67": 7,
+        "42": 9,
+        "43": 5,
+        "44": 13,
+        "45": 6,
+        "47": 12,
+        "50": 2,
+        "28": 2,
+        "29": 4,
+        "30": 1,
+        "31": 2,
+        "34": 12,
+        "35": 8,
+        "36": 6,
+        "37": 1,
+        "38": 9,
+        "40": 10,
+        "16": 10,
+        "17": 4,
+        "18": 4,
+        "20": 3,
+        "22": 5,
+        "23": 6,
+        "24": 12,
+        "25": 2,
+        "26": 3,
+        "11": 2,
+        "12": 7
+      }
+    }
+  },
+  "quality_metrics": {
+    "duplicate_rate": 1.2307692307692308,
+    "match_rate": 76.61538461538461,
+    "new_recipe_rate": 23.384615384615383,
+    "retention_rate": 98.76923076923076
+  },
+  "recommendations": [
+    {
+      "type": "low_duplicate_rate",
+      "message": "Low duplicate rate (1.2%). Extraction working well.",
+      "priority": "info"
+    },
+    {
+      "type": "high_efficiency",
+      "message": "High retention rate (98.8%). Good extraction quality.",
+      "priority": "info"
+    }
+  ]
+}

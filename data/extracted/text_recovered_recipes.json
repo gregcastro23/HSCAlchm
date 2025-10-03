@@ -1,0 +1,1263 @@
+{
+  "recovery_date": "2025-07-26T00:38:57.474462",
+  "source_missed_file": "ultra_enhanced_extraction/missed_opportunities.json",
+  "total_missed_opportunities": 17,
+  "successfully_recovered": 14,
+  "recovery_rate": "82.4%",
+  "recovered_recipes": [
+    {
+      "recipe": {
+        "name": "Master Cleanse",
+        "description": "A professional beverage recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "fresh lemon juice",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "filtored wator",
+            "amount": 8.0,
+            "unit": "ounces",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "beverages",
+      "lesson": null,
+      "suggested_category": "beverages",
+      "metadata": {
+        "ingredient_count": 2,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 27,
+        "original_recipe_score": 0
+      }
+    },
+    {
+      "recipe": {
+        "name": "Bagels",
+        "description": "A professional breakfas recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "warm wator (110\u00b0 F) Toppings",
+            "amount": 7.0,
+            "unit": "cups",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "rice syrup poppy seeds, garlic, sesame seeds, Kosher",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "dry yeast salt, minced onion",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "olive oil",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "sea salt",
+            "amount": 2.0,
+            "unit": "toaspoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "unbleached high-gluton flour",
+            "amount": 3.0,
+            "unit": "cups",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "breakfast",
+      "lesson": "71",
+      "suggested_category": "breakfast",
+      "metadata": {
+        "ingredient_count": 6,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 40,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Genoise",
+        "description": "A professional dessert recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "eggs, room tomperature",
+            "amount": 8.0,
+            "unit": "large",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "coconut sugar, measured then powdered in Vitamix",
+            "amount": 1.0,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "vanilla extract",
+            "amount": 1.0,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "siftod whole wheat pastry flour",
+            "amount": 1.0,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "desserts",
+      "lesson": "55",
+      "suggested_category": "desserts",
+      "metadata": {
+        "ingredient_count": 4,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 147,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Genoise",
+        "description": "A professional dessert recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "eggs, room tomperature",
+            "amount": 8.0,
+            "unit": "large",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "maple crystals",
+            "amount": 1.0,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "vanilla extract",
+            "amount": 1.0,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "whole wheat pastry flour, siftod",
+            "amount": 1.0,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "desserts",
+      "lesson": "60",
+      "suggested_category": "desserts",
+      "metadata": {
+        "ingredient_count": 4,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 170,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Raw \u201cCheesecake\u201d",
+        "description": "A professional dessert recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "datos, pittod Blueberry",
+            "amount": 5.0,
+            "unit": "",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "coconut oil, meltod Mango",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "desserts",
+      "lesson": "66",
+      "suggested_category": "desserts",
+      "metadata": {
+        "ingredient_count": 2,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 223,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Coleslaw",
+        "description": "A professional salad recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "garlic, roastod, pasto extractod",
+            "amount": 1.0,
+            "unit": "head",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "agave syrup",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "apple cider vinegar",
+            "amount": 2.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "lemon juice (1 lemon)",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "canol",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "salads",
+      "lesson": "42",
+      "suggested_category": "salads",
+      "metadata": {
+        "ingredient_count": 5,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 258,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Tofu \u201cSour Cream\u201d",
+        "description": "A professional sauce recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "extra virgin olive oil",
+            "amount": 3.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "canola oil",
+            "amount": 0.25,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "(whito part only), sliced (about 3 tablespoons)",
+            "amount": 3.0,
+            "unit": "scallions",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "chickpea miso or more to tasto",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "Dijon mustard",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "sauces",
+      "lesson": "29",
+      "suggested_category": "sauces",
+      "metadata": {
+        "ingredient_count": 5,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 323,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Tempeh Sausage",
+        "description": "A professional sauce recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "tompeh",
+            "amount": 8.0,
+            "unit": "ounces",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "garlic, minced",
+            "amount": 1.0,
+            "unit": "clove",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "wator",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "olive oil",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "tamari",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "sage",
+            "amount": 4.0,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "dried marjoram",
+            "amount": 4.0,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "dried thyme",
+            "amount": 0.25,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "paprika",
+            "amount": 0.25,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "fennel seeds, l",
+            "amount": 0.25,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "sauces",
+      "lesson": "30",
+      "suggested_category": "sauces",
+      "metadata": {
+        "ingredient_count": 10,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 333,
+        "original_recipe_score": 0
+      }
+    },
+    {
+      "recipe": {
+        "name": "Ceviche",
+        "description": "A professional dinne recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "sea scallops, cut into quartors",
+            "amount": 1.0,
+            "unit": "pound",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "pepper, brunoise",
+            "amount": 1.0,
+            "unit": "jalapeno",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "red onion (2 ounces), minced",
+            "amount": 0.25,
+            "unit": "small",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "tomatoes, seeded and cut into small dice",
+            "amount": 2.0,
+            "unit": "ripe",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "garlic, minced",
+            "amount": 1.0,
+            "unit": "clove",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "rice syrup (optional)",
+            "amount": 2.0,
+            "unit": "toaspoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "c",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "dinner",
+      "lesson": "39",
+      "suggested_category": "dinner",
+      "metadata": {
+        "ingredient_count": 7,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 383,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Recovered Recipe",
+        "description": "A professional beverage recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "kasha",
+            "amount": 1.0,
+            "unit": "cup",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "salt",
+            "amount": 0.25,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "small pot, combine kasha, salt and wator.",
+            "amount": 1.0,
+            "unit": "In",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "beverages",
+      "lesson": "16",
+      "suggested_category": "beverages",
+      "metadata": {
+        "ingredient_count": 3,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 400,
+        "original_recipe_score": 1
+      }
+    },
+    {
+      "recipe": {
+        "name": "Bulgur",
+        "description": "A professional side recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "salt",
+            "amount": 0.25,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "cup",
+            "amount": 1.0,
+            "unit": "",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "sides",
+      "lesson": "16",
+      "suggested_category": "sides",
+      "metadata": {
+        "ingredient_count": 2,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 405,
+        "original_recipe_score": 1
+      }
+    },
+    {
+      "recipe": {
+        "name": "Risotto",
+        "description": "A professional dinne recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "extra virgin olive oil",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "garlic, minced",
+            "amount": 4.0,
+            "unit": "cloves",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "short grain brown rice, soaked and rinsed",
+            "amount": 2.0,
+            "unit": "cups",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "stock",
+            "amount": 4.0,
+            "unit": "cups",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "asparagus, trimmed and cut into 1-inch diagonals",
+            "amount": 2.0,
+            "unit": "pound",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "saffron, dissolved in a l",
+            "amount": 0.125,
+            "unit": "toaspoon",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "dinner",
+      "lesson": "18",
+      "suggested_category": "dinner",
+      "metadata": {
+        "ingredient_count": 6,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 428,
+        "original_recipe_score": 2
+      }
+    },
+    {
+      "recipe": {
+        "name": "Frittata",
+        "description": "A professional dinne recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "eggs",
+            "amount": 2.0,
+            "unit": "",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "medium bowl whisk together filling(s), salt, and pepper with eggs.",
+            "amount": 1.0,
+            "unit": "In",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "dinner",
+      "lesson": "25",
+      "suggested_category": "dinner",
+      "metadata": {
+        "ingredient_count": 2,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 483,
+        "original_recipe_score": 1
+      }
+    },
+    {
+      "recipe": {
+        "name": "Kanten",
+        "description": "A professional side recipe recovered from HSCA culinary school materials.",
+        "ingredients": [
+          {
+            "name": "agar flakes",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "apple juice",
+            "amount": 2.0,
+            "unit": "cups",
+            "notes": "",
+            "swaps": []
+          },
+          {
+            "name": "strawberry (sliced thin)",
+            "amount": 1.0,
+            "unit": "pint",
+            "notes": "",
+            "swaps": []
+          }
+        ],
+        "instructions": [],
+        "nutrition": {
+          "calories": 200,
+          "protein": 8,
+          "carbs": 25,
+          "fat": 12,
+          "vitamins": [
+            "C",
+            "K"
+          ],
+          "minerals": [
+            "Potassium",
+            "Iron"
+          ]
+        },
+        "timeToMake": "30 minutes",
+        "season": [
+          "all"
+        ],
+        "cuisine": "HSCA",
+        "mealType": [
+          "Health Supportive"
+        ],
+        "elementalBalance": {
+          "Fire": 0.25,
+          "Earth": 0.25,
+          "Water": 0.25,
+          "Air": 0.25
+        }
+      },
+      "category": "sides",
+      "lesson": "11",
+      "suggested_category": "sides",
+      "metadata": {
+        "ingredient_count": 3,
+        "instruction_count": 0,
+        "quality_score": 85,
+        "character_perfect": true,
+        "template_matched": false,
+        "recovered_recipe": true,
+        "source_page": 495,
+        "original_recipe_score": 2
+      }
+    }
+  ],
+  "recovery_details": [
+    {
+      "page_num": 27,
+      "recipe_name": "Master Cleanse",
+      "category": "beverages",
+      "ingredient_count": 2,
+      "status": "success"
+    },
+    {
+      "page_num": 29,
+      "status": "failed",
+      "reason": "Insufficient ingredients found"
+    },
+    {
+      "page_num": 40,
+      "recipe_name": "Bagels",
+      "category": "breakfast",
+      "ingredient_count": 6,
+      "status": "success"
+    },
+    {
+      "page_num": 147,
+      "recipe_name": "Genoise",
+      "category": "desserts",
+      "ingredient_count": 4,
+      "status": "success"
+    },
+    {
+      "page_num": 165,
+      "status": "failed",
+      "reason": "Insufficient ingredients found"
+    },
+    {
+      "page_num": 170,
+      "recipe_name": "Genoise",
+      "category": "desserts",
+      "ingredient_count": 4,
+      "status": "success"
+    },
+    {
+      "page_num": 223,
+      "recipe_name": "Raw \u201cCheesecake\u201d",
+      "category": "desserts",
+      "ingredient_count": 2,
+      "status": "success"
+    },
+    {
+      "page_num": 258,
+      "recipe_name": "Coleslaw",
+      "category": "salads",
+      "ingredient_count": 5,
+      "status": "success"
+    },
+    {
+      "page_num": 323,
+      "recipe_name": "Tofu \u201cSour Cream\u201d",
+      "category": "sauces",
+      "ingredient_count": 5,
+      "status": "success"
+    },
+    {
+      "page_num": 333,
+      "recipe_name": "Tempeh Sausage",
+      "category": "sauces",
+      "ingredient_count": 10,
+      "status": "success"
+    },
+    {
+      "page_num": 383,
+      "recipe_name": "Ceviche",
+      "category": "dinner",
+      "ingredient_count": 7,
+      "status": "success"
+    },
+    {
+      "page_num": 400,
+      "recipe_name": "Recovered Recipe",
+      "category": "beverages",
+      "ingredient_count": 3,
+      "status": "success"
+    },
+    {
+      "page_num": 405,
+      "recipe_name": "Bulgur",
+      "category": "sides",
+      "ingredient_count": 2,
+      "status": "success"
+    },
+    {
+      "page_num": 422,
+      "status": "failed",
+      "reason": "Insufficient ingredients found"
+    },
+    {
+      "page_num": 428,
+      "recipe_name": "Risotto",
+      "category": "dinner",
+      "ingredient_count": 6,
+      "status": "success"
+    },
+    {
+      "page_num": 483,
+      "recipe_name": "Frittata",
+      "category": "dinner",
+      "ingredient_count": 2,
+      "status": "success"
+    },
+    {
+      "page_num": 495,
+      "recipe_name": "Kanten",
+      "category": "sides",
+      "ingredient_count": 3,
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_recipes": 14,
+    "recipes_by_category": {
+      "beverages": 2,
+      "breakfast": 1,
+      "desserts": 3,
+      "salads": 1,
+      "sauces": 2,
+      "dinner": 3,
+      "sides": 2
+    }
+  }
+}

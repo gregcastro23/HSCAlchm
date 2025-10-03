@@ -1,0 +1,4357 @@
+{
+  "validation_date": "2025-07-26T00:39:56.696797",
+  "database_version": "2.0-production-perfect",
+  "validation_summary": {
+    "total_recipes": 328,
+    "perfect_recipes": 277,
+    "high_quality_recipes": 5,
+    "needs_improvement": 46,
+    "critical_issues": 0,
+    "average_score": 96.8,
+    "grade_distribution": {
+      "A": 282,
+      "B": 46,
+      "C": 0,
+      "D": 0,
+      "F": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "recipe_name": "Cucumber Agua Fresca",
+      "overall_score": 85.4,
+      "structure_score": 95.0,
+      "ingredients_score": 96.7,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Pomegranate, Blueberry, And Ginger Elixir",
+      "overall_score": 85.8,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tomatovinaigrette",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Red Lentil And Toasted Sunflower Burger",
+      "overall_score": 85.8,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'ground'",
+        "Unusual descriptor: 'ground'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tomatocreamsauce Forvegetable Polentanapoleons)",
+      "overall_score": 98.0,
+      "structure_score": 95.0,
+      "ingredients_score": 97.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vegetableandtempehwrapswithavocado Cilantrocream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'can'",
+        "Non-standard unit: 'large'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Mediterraneanroastedblackcodwithmuhammara",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Babybokchoyandredcabbageslaw Forseafoodsausage)",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Broiledarcticcharoverblackquinoa Rapini Andcapers",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Blackquinoawithcapersandrapini Forbroiledarcticchar)",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lemonandmaple Flavoredyogurt",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Skeweredfruitwithchocolatefondue",
+      "overall_score": 85.7,
+      "structure_score": 95.0,
+      "ingredients_score": 97.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Chocolate Fondue",
+      "overall_score": 85.9,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Watermelon Juice",
+      "overall_score": 85.0,
+      "structure_score": 95.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Beet And Apple Juice",
+      "overall_score": 84.8,
+      "structure_score": 95.0,
+      "ingredients_score": 94.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'inch'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Carrot Celery Gingerjuice",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Greenjuice",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Horseradish And Lemon Condiment",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Warm Pinto Bean Salad With Shiitake",
+      "overall_score": 85.8,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'medium'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'cooked'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Hizikiwithfreshlemon",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Roasted Root Vegetables With Toasted Hazelnuts",
+      "overall_score": 85.3,
+      "structure_score": 95.0,
+      "ingredients_score": 96.4,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Sweetbrewwithcitrusfruit",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Herbeddinerrolls",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bulgurraisinbread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wholewheatpoppyseedbread",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wholewheatbread",
+      "overall_score": 98.1,
+      "structure_score": 95.0,
+      "ingredients_score": 97.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Semolinabread",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Olivebread",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Speltbread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sweetvegancrepes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickpeacrepes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freecrepes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wildricepancakes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Buckwheatpancakes",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Commealpancakes Johnycakes)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Riceflourgriddlecakes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freeandveganwaffles",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Freshstrawberriesandbananas",
+      "overall_score": 85.7,
+      "structure_score": 95.0,
+      "ingredients_score": 97.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'whole'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Whippedcream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vegancashewcream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Whitebeanwithgarlic Rosemary Andtomatoes",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sauteedmushroomswithherbs",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Arugula Oliveoil Balsamicreduction",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Cranberrywalnutscones",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganscones",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sourcreamcoffeecake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Zucchinibread",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganandgluten Freespicedfruitmuffins",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganandgluten Freechocolatebrownies",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freefeta Dillquickbread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freepear Cardamomquickbread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freeirishsodabread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freebananabread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freegreenolive Parmesanbread",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Pizzadough2",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Speltpizzadough",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sun Driedtomatoandpesto",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Roasted Red Pepper Hummus",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'drained and rinsed'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tomatosauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganmozzarella",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tomatopasta",
+      "overall_score": 98.1,
+      "structure_score": 95.0,
+      "ingredients_score": 97.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganpastadough",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vegandoughwithwater",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Ravioliwithbeetstuffing",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Herbravioliwithporcinimushroompestoandtofuricotta",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Pumpkin Sage Andpecanravioli",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Whitebeanandgarlicsauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Freshtomatosauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basil Walnutpesto",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Dassicbutterandsagesauce",
+      "overall_score": 97.5,
+      "structure_score": 90.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Almondcreamsauce",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 97.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Toastedwalnutcrust Forlightlemontart)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lightlemontart",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freechocolatemacaroons",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Almond Oatcrust Foralmond Fruittart)",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Richalmondmilk Foralmond Fruittart)",
+      "overall_score": 97.9,
+      "structure_score": 95.0,
+      "ingredients_score": 96.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Almond Fruittartwithalmondcrust",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freechocolatecake",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Freshberrytartwithnutcrust",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tempehreubensandwich",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Ketchup Fortempehreubensandwich)",
+      "overall_score": 86.1,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Chickpeacrepeswithcurriedchickpeas Vegetablesmangosauce",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Chickpeacrepe",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Orange Kiwi Andredgrapecompote",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Crepessuzette",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Goatcheese Beet Andwalnutsalad",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamyfreshhorseradishdressing",
+      "overall_score": 86.1,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Friedtempeh Fortempehreubensandwich)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Speltbread Fortempehreubensandwich)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basicwaffles Withbutterandmilk)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Kashavamishkes Kashawithbowties)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Mangosauce Forchickpeacrepe)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Curriedchickpeacrepefilling",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatepudding",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Plaincrepes Dassic)",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Carobcakewithwalnuts",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Shortbreadcookies",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Blackandwhitecookies",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Ghirardelliawardwiningchocolatebrownies",
+      "overall_score": 97.5,
+      "structure_score": 90.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gingerbreadmuffins",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Peanutbuttercookies",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Carrotcake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolate Chip Cookies",
+      "overall_score": 85.7,
+      "structure_score": 95.0,
+      "ingredients_score": 97.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Fudgychocolatecake",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vanillacake",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Zestylemoncake",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Orangecake",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Spicedcarrotcake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gingercake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bananacake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lemonwhippedcoconutcream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Orangewhippedcoconutcream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolate Peanutbutterfrosting",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Coconut Cashewfrosting",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamcheesefrosting",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lemonsoycreamfrosting",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganpastrycrust",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sweetcranberrytart",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Swissbumtpecantart",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Poachedpeartartwithcommealcrust",
+      "overall_score": 86.1,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Commealcrust",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Frenchwalnuttart",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Caramelizedoniontart",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Coconut Limecreamtart",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gluten Freesweetpotatopecantart",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganpastrycrust",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Buttercrust",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Oliveoilcrust",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sesamepressedcrust",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Pressednutcrust",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Almondpastrycream",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hazelnut Mochaandalmondparfait",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatepudding",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Ricepudding",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Avocadoandcoconutterrine",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Frenchvanillaicecream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolategelato",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Blacksesameseedicecream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basilicecream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Rawcheesecake",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Mint Chocolateganachetruffles",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lime Seasaltchocolateganachetruffles",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatecoating Fortruffles)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Saltedpecanandrosemarybrittle",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Saltedalmondandthymebrittle",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatebark",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Flourlesschocolatecake",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Flourlesscoconutcake",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Coconutmacaroons",
+      "overall_score": 97.5,
+      "structure_score": 90.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Walnutteacookies",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Peanutbuttercookies",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatecherrypecanbars",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Raspberryshortbreadlinzercookies",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chocolatebiscotti",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wildricesalad",
+      "overall_score": 98.7,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vegancaesarsalad",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Withavocadodressing",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Watercressanddandeliongreenswithbabyartichokes",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamyartichokedressing",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wiltedgreenswithspringonions",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'large'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wiltedbittergreenswithcipollinionions",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wildwatercresssaladwithcitrus",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Massagedkalesaladwithroastedchickpeasandpickledredonion",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Poachedchickenandroastedasparagus",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Cabbagesaladwithpeanutdressing",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Celeriacwithgrilledaspargusandeggs",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Greenswithcucumbericeandlimevinaigrette",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Beetsaladwithgreensandpistachio Crustedgoatcheese",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Phyllotriangleswithfetaandkale",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Phyllotriangleswithtofuandspinach",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Deviledeggswithbeetchips",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Friedshrimpwithwasabigamish",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Whitebeanspreadwithsundriedtomato Kalamatatapenadeon",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Rosemaryandgarlicpizzelle Forwhitebeanspread)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Curriedchickensaladonpapadamwithyogurtraita",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Pinenutricottaontrevisoleaves",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Zucchinilatkeswithcremefraicheandherbs",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'bunch'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Scallion Edamame Andleekdumplings",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sweetpotatolatkeswithpear Fenelmarmalade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Cashewcream",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Rosemary Squash Andleekdumplings",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Polenta Goatcheese Andblackbeanterrine",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Greenbeanandwalnutpate",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickenliverpate",
+      "overall_score": 98.7,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Mushroom Walnutpate",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sun Driedtomatoandsunflowerseedpate",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Berriesandcreamterrine",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Focacciawithherbs",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Vegancaesarsalad",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Croutonsforvegancaesarsalad",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Cucumber Citrussalsa Forpoachedsalmon)",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'whole'",
+        "Ingredient name has double spaces",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofasparagussoup",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickpea Arugulasalad",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Herbedquinoa",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Lacinatakalewithmatchstickcarrots",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganbaklava",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofmushroomsoup",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Ricepilaf",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hashedbrusselsproutswithcarrotsandpoppyseeds",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'lbs'",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Grilledpineapplechutney",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 97.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickenbreastsinmushroomsauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamycarrotsoupwithpotato",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Romainesaladwithsherryvinaigrette",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamyfreshhorseradishdressing",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'large'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tofusourcream",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Misomarinade",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Misomarinade",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tofuburgers",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamysweetpotatobisquewithcashewcremefraicheandcandied",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Zucchinipeanutnoodlebowlw Srirachastringbeans",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Airlinechickenbreastswithcompoundbutter",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basicbroiledchicken",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basicchickenstock",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Braisedchickenwithvegetablesandtarragon",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickenunderabrick",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickenkotletky Chickenburgers)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Chickenpotpiefillingwithtoastedbreadcrumbs",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Grilledchickentenderswithpeanutsauce",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Peanutsauce",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Hotwingswithstilton Yogurtdressing",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sauteedchickenbreastmarsalawithcriminimushrooms",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sauteedchickenliverswithonion Apple Andfrisee",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basicseitanrecipe",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Glazedseitanstirfry",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Seitanstew",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Seitancroquettes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Seitanbordelaise",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Seitankebabswithyellowrice",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Indian Styleseitankebabswithmangocoulis",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Jerkseitansloppyjoes",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Almond Fruittartwithalmondcrust",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Richalmondmilk Foralmondfruittart)",
+      "overall_score": 97.9,
+      "structure_score": 95.0,
+      "ingredients_score": 96.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Raspberrysauce Foralmondfruittart)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Flourlesschocolatecake",
+      "overall_score": 98.7,
+      "structure_score": 95.0,
+      "ingredients_score": 99.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Goldenturmericpanacottawithginger Pepperlacecookies",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hempcoconutmilk Forgoldenturmericpanacotta)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Greencabbagesauerkrautwithgingerandturmeric",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'inch'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Horseradish Crustedsalmon",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Miso Glazedwhitefish",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Potato Crustedbassfilets",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Ingredient name has double spaces",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Monkfishwithlemon Caperbutter",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hazelnut Crustedflounder",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Mangosalsaforcrustedflounder",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Salt Crustedbakedbass",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sesame Crustedtuna",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Brandade",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Gingermarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Three Citrusmarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Balinesechilemarinade",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'large'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Herbmarinade",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Redwinemarinade",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Currymarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Freshherbmarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Basicmarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Whitewinemarinade",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Aslanflavorsmarinade",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Kashawithegg",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Brownbasmatiricevariationai",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Brownbasmatiricevariationa2",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Brownbasmatiricevariationae",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wildrice",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Longgrainbrownrice",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Shortgrainbrownrice",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wildandlonggrainricesalad",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Refriedsobawithvegetables",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'can'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Kasha Potatoloaf",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Roastedredpepperchickpeapuree",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Greatnorthembeanandroastedgarlicpuree",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Curriedredlentilwithcoconutmilk Dairy)",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Curriedredlentilsoupwithcoconutmilk Vegan)",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Pan Friedpolentacakes",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Broiledand Orbakedpolenta",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bakedmilletcroquettes",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bakedquinoawithpeasandherbs",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Ichibandashi",
+      "overall_score": 98.3,
+      "structure_score": 95.0,
+      "ingredients_score": 98.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Brownbeefstock",
+      "overall_score": 85.8,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'medium'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Chickenstock",
+      "overall_score": 86.2,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tomatosauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bolognesesaucewithchicken",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Dassicbechamel",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganbechamel",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Veganmomaysauce",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.4,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sweetcomsaucewithbutter",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Yellowpeppercouliswithbutter",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Yelllowpeppercouliswitholiveoil",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Grilledseitan",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bakedtofu",
+      "overall_score": 98.4,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Sweetandsourmangobarbequesauce",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tofusourcream",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Shntakebrothwithshrimp Soba Andbabybokchoy",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "E Beanchiliwithcashewsourcream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Cashewsourcream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Darkonionsoupwithwholegraincroutons",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Buttemutminestrone",
+      "overall_score": 98.7,
+      "structure_score": 95.0,
+      "ingredients_score": 99.6,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofmushroomsoupwithroux",
+      "overall_score": 98.1,
+      "structure_score": 95.0,
+      "ingredients_score": 97.5,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofcurriedsweetpotatosoup",
+      "overall_score": 98.2,
+      "structure_score": 95.0,
+      "ingredients_score": 97.7,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'medium'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofbroccolisoup",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofcarrotsoupwithpotato",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofcarrotsoupwitharboriorice",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Creamofcarrotsgupwithoats",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.1,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Handmadegarlicmayonaise",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hollandaise",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bakedmeringueshells",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Bakedcustard Cremecaramel)",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wakame Cucumber Salad With Orange",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'bunch'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tofusourcream",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 98.9,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'whole'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Tofusourcream",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Withcreamycarrotdressing",
+      "overall_score": 98.5,
+      "structure_score": 95.0,
+      "ingredients_score": 99.2,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Ingredient name has double spaces",
+        "Ingredient name has double spaces",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Wakame Seitan Andtoastedwalnutcasserole",
+      "overall_score": 98.7,
+      "structure_score": 95.0,
+      "ingredients_score": 99.8,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Ingredient name has double spaces"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Hiziki With Carrots And Agé Tofu",
+      "overall_score": 86.0,
+      "structure_score": 95.0,
+      "ingredients_score": 99.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Arame With Vegetables",
+      "overall_score": 85.9,
+      "structure_score": 95.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Cucumber Dulsesalad",
+      "overall_score": 98.8,
+      "structure_score": 95.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Stir Friedarameandgingerwithsobanoodles",
+      "overall_score": 98.6,
+      "structure_score": 95.0,
+      "ingredients_score": 99.3,
+      "instructions_score": 100.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'"
+      ],
+      "improvements": [],
+      "validation_grade": "A"
+    },
+    {
+      "recipe_name": "Coconut-lime Flan",
+      "overall_score": 85.4,
+      "structure_score": 93.0,
+      "ingredients_score": 98.8,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe name should be in title case"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Master Cleanse",
+      "overall_score": 85.0,
+      "structure_score": 90.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Bagels",
+      "overall_score": 85.0,
+      "structure_score": 95.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'toaspoons'",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'minced onion'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Genoise",
+      "overall_score": 85.0,
+      "structure_score": 95.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'toaspoon'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'room tomperature'",
+        "Unusual descriptor: 'measured then powdered in Vitamix'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Genoise",
+      "overall_score": 85.0,
+      "structure_score": 95.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'large'",
+        "Non-standard unit: 'toaspoon'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'room tomperature'",
+        "Unusual descriptor: 'siftod'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Raw “cheesecake”",
+      "overall_score": 84.5,
+      "structure_score": 88.0,
+      "ingredients_score": 100.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe name should be in title case",
+        "Recipe has very few ingredients",
+        "Unusual descriptor: 'pittod Blueberry'",
+        "Unusual descriptor: 'meltod Mango'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Coleslaw",
+      "overall_score": 85.8,
+      "structure_score": 95.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'head'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tofu “sour Cream”",
+      "overall_score": 85.2,
+      "structure_score": 93.0,
+      "ingredients_score": 98.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'scallions'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe name should be in title case",
+        "Unusual descriptor: 'sliced (about 3 tablespoons)'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Tempeh Sausage",
+      "overall_score": 84.8,
+      "structure_score": 95.0,
+      "ingredients_score": 94.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'clove'",
+        "Non-standard unit: 'toaspoon'",
+        "Non-standard unit: 'toaspoon'",
+        "Non-standard unit: 'toaspoon'",
+        "Non-standard unit: 'toaspoon'",
+        "Non-standard unit: 'toaspoon'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'l'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Ceviche",
+      "overall_score": 84.5,
+      "structure_score": 95.0,
+      "ingredients_score": 92.9,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'jalapeno'",
+        "Non-standard unit: 'small'",
+        "Non-standard unit: 'ripe'",
+        "Non-standard unit: 'clove'",
+        "Non-standard unit: 'toaspoons'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'cut into quartors'",
+        "Unusual descriptor: 'brunoise'",
+        "Unusual descriptor: 'seeded and cut into small dice'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Recovered Recipe",
+      "overall_score": 84.6,
+      "structure_score": 95.0,
+      "ingredients_score": 93.3,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'toaspoon'",
+        "Non-standard unit: 'in'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Bulgur",
+      "overall_score": 83.8,
+      "structure_score": 90.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'toaspoon'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Risotto",
+      "overall_score": 84.6,
+      "structure_score": 95.0,
+      "ingredients_score": 93.3,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cloves'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'cups'",
+        "Non-standard unit: 'toaspoon'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Unusual descriptor: 'soaked and rinsed'",
+        "Unusual descriptor: 'trimmed and cut into 1-inch diagonals'",
+        "Unusual descriptor: 'dissolved in a l'"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Frittata",
+      "overall_score": 83.8,
+      "structure_score": 90.0,
+      "ingredients_score": 95.0,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'in'",
+        "No instructions provided"
+      ],
+      "improvements": [
+        "Recipe has very few ingredients"
+      ],
+      "validation_grade": "B"
+    },
+    {
+      "recipe_name": "Kanten",
+      "overall_score": 85.4,
+      "structure_score": 95.0,
+      "ingredients_score": 96.7,
+      "instructions_score": 75.0,
+      "issues": [
+        "Non-standard meal type: Health Supportive",
+        "Non-standard unit: 'cups'",
+        "No instructions provided"
+      ],
+      "improvements": [],
+      "validation_grade": "B"
+    }
+  ],
+  "top_issues": [
+    [
+      "Non-standard meal type: Health Supportive",
+      328
+    ],
+    [
+      "Non-standard unit: 'cups'",
+      169
+    ],
+    [
+      "No instructions provided",
+      46
+    ],
+    [
+      "Non-standard unit: 'medium'",
+      31
+    ],
+    [
+      "Non-standard unit: 'large'",
+      14
+    ],
+    [
+      "Ingredient name has double spaces",
+      12
+    ],
+    [
+      "Non-standard unit: 'toaspoon'",
+      10
+    ],
+    [
+      "Non-standard unit: 'whole'",
+      9
+    ],
+    [
+      "Non-standard unit: 'can'",
+      2
+    ],
+    [
+      "Non-standard unit: 'inch'",
+      2
+    ]
+  ],
+  "recommendations": []
+}
