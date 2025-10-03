@@ -1,0 +1,6 @@
+priority,area,issue,recommendation
+LOW,OCR Processing,Average OCR corruption: 7.2% (very manageable),Current OCR correction handles 97% of cases with >20% corruption successfully. Minor improvements possible but not critical.
+LOW,Lesson Detection,Lesson assignment appears accurate (legacy data has no lesson info for comparison),Extraction lesson detection seems reliable. Focus validation efforts on recipes with lesson mismatches.
+MEDIUM,Recipe Parsing,"94.3% of matches are high quality, only 15 recipes need significant improvement",Target improvements on the 15 low-quality matches. Focus on text segmentation for complex recipes.
+LOW,Duplicate Detection,81.5% duplicate detection rate shows comprehensive coverage,Current fuzzy matching works well. Consider adding confidence scores for edge cases.
+HIGH,Data Quality,Legacy database missing lesson information prevents proper validation,Add lesson metadata to legacy recipes to enable proper cross-validation and quality assurance.

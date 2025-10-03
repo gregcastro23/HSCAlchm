@@ -1,0 +1,20 @@
+{
+  "analysis_metadata": {
+    "total_typescript_recipes": 0,
+    "total_extraction_recipes": 1374,
+    "total_matches_found": 0,
+    "analysis_timestamp": "Phase 1 Complete Database Analysis"
+  },
+  "coverage_statistics": {
+    "total_typescript_recipes": 0,
+    "total_matched_recipes": 0,
+    "coverage_percentage": 0,
+    "unmatched_count": 0,
+    "category_coverage": {},
+    "match_type_distribution": {},
+    "phase_distribution": {},
+    "average_confidence": 0
+  },
+  "detailed_matches": [],
+  "unmatched_recipes": []
+}

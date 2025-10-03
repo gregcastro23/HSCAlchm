@@ -1,9 +1,10 @@
-export type Unit = 'cup' | 'cups' | 'tsp' | 'tbsp' | 'oz' | 'lb' | '' | 'can' | 'large' | 'medium' | 'small' | 'pint';
+export type Unit = 'cup' | 'cups' | 'tsp' | 'tbsp' | 'oz' | 'lb' | 'lbs' | '' | 'can' | 'large' | 'medium' | 'small' | 'pint' | 'inch';
 
 export interface Ingredient {
   name: string;
   amount: number;
   unit: Unit;
+  notes?: string;
   swaps?: string[];
 }
 

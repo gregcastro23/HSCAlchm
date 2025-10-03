@@ -1,0 +1,266 @@
+extracted_name,legacy_name,similarity,extracted_lesson,legacy_lesson,lesson_match,extraction_quality
+CUCUMBERAGUAFRE5CA,Cucumber Agua Fresca,0.9473684210526315,84,unknown,False,fair
+P0MEGRANATE BLUEBERRY ANDG1NGEREL1X1R,"Pomegranate, Blueberry, and Ginger Elixir",0.9736842105263158,84,unknown,False,good
+T0MAT0V1NA1GRETTE,Tomatovinaigrette,1.0,84,unknown,False,good
+REDLENT1LANDT0A5TED5UNFL0WERBURGER,Red Lentil and Toasted Sunflower Burger,0.9315068493150684,84,unknown,False,fair
+T0MAT0CREAM5AUCE F0RVEGETABLE P0LENTANAP0LE0N5),Tomatocreamsauce Forvegetable polentanapoleons),1.0,84,unknown,False,good
+BLACKQU1N0AW1THCAPER5ANDRAP1N1 F0RBR01LEDARCT1CCHAR),Blackquinoawithcapersandrapini forbroiledarcticchar),1.0,84,unknown,False,good
+LEM0NANDMAPLE FLAV0REDY0GURT,Lemonandmaple Flavoredyogurt,1.0,84,unknown,False,good
+CH0C0LATEF0NDUE,Chocolate Fondue,0.967741935483871,84,unknown,False,good
+BEETANDAPPLEJU1CE,Beet and Apple Juice,0.918918918918919,85,unknown,False,fair
+H1Z1K1W1THFRE5HLEM0N,Hizikiwithfreshlemon,1.0,88,unknown,False,good
+5WEETBREWW1THC1TRU5FRU1T,Sweetbrewwithcitrusfruit,1.0,88,unknown,False,good
+HERBEDD1NNERR0LL5,Herbeddinerrolls,0.9696969696969697,71,unknown,False,good
+BULGURRA151NBREAD,Bulgurraisinbread,1.0,71,unknown,False,good
+WH0LEWHEATP0PPY5EEDBREAD,Wholewheatpoppyseedbread,1.0,71,unknown,False,good
+WH0LEWHEATBREAD,Wholewheatbread,1.0,71,unknown,False,good
+5EM0L1NABREAD,Semolinabread,1.0,71,unknown,False,good
+0L1VEBREAD,Olivebread,1.0,71,unknown,False,good
+5PELTBREAD,Speltbread,1.0,71,unknown,False,good
+5WEETVEGANCREPE5,Sweetvegancrepes,1.0,72,unknown,False,good
+CH1CKPEACREPE5,Chickpeacrepes,1.0,72,unknown,False,good
+GLUTEN FREECREPE5,Gluten Freecrepes,1.0,72,unknown,False,good
+W1LDR1CEPANCAKE5,Wildricepancakes,1.0,72,unknown,False,good
+C0RNMEALPANCAKE5 J0HNNYCAKE5),Commealpancakes johnycakes),0.9259259259259259,72,unknown,False,fair
+R1CEFL0URGR1DDLECAKE5,Riceflourgriddlecakes,1.0,72,unknown,False,good
+GLUTEN FREEANDVEGANWAFFLE5,Gluten Freeandveganwaffles,1.0,72,unknown,False,good
+FRE5H5TRAWBERR1E5ANDBANANA5,Freshstrawberriesandbananas,1.0,72,unknown,False,good
+WH1PPEDCREAM,Whippedcream,1.0,72,unknown,False,good
+VEGANCA5HEWCREAM,Vegancashewcream,1.0,72,unknown,False,good
+ARUGULA 0L1VE01L BAL5AM1CREDUCT10N,Arugula Oliveoil Balsamicreduction,1.0,72,unknown,False,good
+CRANBERRYWALNUT5C0NE5,Cranberrywalnutscones,1.0,73,unknown,False,good
+VEGAN5C0NE5,Veganscones,1.0,73,unknown,False,good
+50URCREAMC0FFEECAKE,Sourcreamcoffeecake,1.0,73,unknown,False,good
+VEGANANDGLUTEN FREE5P1CEDFRU1TMUFF1N5,Veganandgluten Freespicedfruitmuffins,1.0,73,unknown,False,good
+VEGANANDGLUTEN FREECH0C0LATEBR0WN1E5,Veganandgluten Freechocolatebrownies,1.0,73,unknown,False,good
+GLUTEN FREEFETA D1LLQU1CKBREAD,Gluten Freefeta Dillquickbread,1.0,73,unknown,False,good
+GLUTEN FREEPEAR CARDAM0MQU1CKBREAD,Gluten Freepear Cardamomquickbread,1.0,73,unknown,False,good
+GLUTEN FREE1R15H50DABREAD,Gluten Freeirishsodabread,1.0,73,unknown,False,good
+GLUTEN FREEBANANABREAD,Gluten Freebananabread,1.0,73,unknown,False,good
+GLUTEN FREEGREEN0L1VE PARME5ANBREAD,Gluten Freegreenolive Parmesanbread,1.0,73,unknown,False,good
+P1ZZAD0UGH2,pizzadough2,1.0,74,unknown,False,good
+5PELTP1ZZAD0UGH,Speltpizzadough,1.0,74,unknown,False,good
+5UN DR1EDT0MAT0ANDPE5T0,Sun Driedtomatoandpesto,1.0,74,unknown,False,good
+T0MAT05AUCE,Tomatosauce,1.0,74,unknown,False,good
+VEGANM0ZZARELLA,Veganmozzarella,1.0,74,unknown,False,good
+T0MAT0PA5TA,Tomatopasta,1.0,75,unknown,False,good
+VEGANPA5TAD0UGH,Veganpastadough,1.0,75,unknown,False,good
+VEGAND0UGHW1THWATER,Vegandoughwithwater,1.0,75,unknown,False,good
+RAV10L1W1THBEET5TUFF1NG,Ravioliwithbeetstuffing,1.0,76,unknown,False,good
+HERBRAV10L1W1THP0RC1N1MU5HR00MPE5T0ANDT0FUR1C0TTA,Herbravioliwithporcinimushroompestoandtofuricotta,1.0,76,unknown,False,good
+PUMPK1N 5AGE ANDPECANRAV10L1,Pumpkin Sage Andpecanravioli,1.0,76,unknown,False,good
+WH1TEBEANANDGARL1C5AUCE,Whitebeanandgarlicsauce,1.0,76,unknown,False,good
+FRE5HT0MAT05AUCE,Freshtomatosauce,1.0,76,unknown,False,good
+CLA551CBUTTERAND5AGE5AUCE,Dassicbutterandsagesauce,0.9387755102040817,76,unknown,False,fair
+ALM0NDCREAM5AUCE,Almondcreamsauce,1.0,76,unknown,False,good
+T0A5TEDWALNUTCRU5T F0RL1GHTLEM0NTART),Toastedwalnutcrust forlightlemontart),1.0,77,unknown,False,good
+L1GHTLEM0NTART,Lightlemontart,1.0,77,unknown,False,good
+GLUTEN FREECH0C0LATEMACAR00N5,Gluten Freechocolatemacaroons,1.0,77,unknown,False,good
+ALM0ND 0ATCRU5T F0RALM0ND FRU1TTART),Almond Oatcrust Foralmond fruittart),1.0,77,unknown,False,good
+R1CHALM0NDM1LK F0RALM0ND FRU1TTART),Richalmondmilk Foralmond fruittart),1.0,77,unknown,False,good
+ALM0ND FRU1TTARTW1THALM0NDCRU5T,Almond Fruittartwithalmondcrust,1.0,77,unknown,False,good
+GLUTEN FREECH0C0LATECAKE,Gluten Freechocolatecake,1.0,77,unknown,False,good
+FRE5HBERRYTARTW1THNUTCRU5T,Freshberrytartwithnutcrust,1.0,77,unknown,False,good
+TEMPEHREUBEN5ANDW1CH,Tempehreubensandwich,1.0,79,unknown,False,good
+KETCHUP F0RTEMPEHREUBEN5ANDW1CH),Ketchup fortempehreubensandwich),1.0,79,unknown,False,good
+CH1CKPEACREPE5W1THCURR1EDCH1CKPEA5 VEGETABLE5MANG05AUCE,Chickpeacrepeswithcurriedchickpeas Vegetablesmangosauce,1.0,79,unknown,False,good
+CH1CKPEACREPE,Chickpeacrepe,1.0,79,unknown,False,good
+0RANGE K1W1 ANDREDGRAPEC0MP0TE,Orange Kiwi Andredgrapecompote,1.0,79,unknown,False,good
+CREPE55UZETTE,Crepessuzette,1.0,79,unknown,False,good
+G0ATCHEE5E BEET ANDWALNUT5ALAD,Goatcheese Beet Andwalnutsalad,1.0,793,unknown,False,good
+FR1EDTEMPEH F0RTEMPEHREUBEN5ANDW1CH),Friedtempeh fortempehreubensandwich),1.0,793,unknown,False,good
+5PELTBREAD F0RTEMPEHREUBEN5ANDW1CH),Speltbread fortempehreubensandwich),1.0,793,unknown,False,good
+BA51CWAFFLE5 W1THBUTTERANDM1LK),Basicwaffles withbutterandmilk),1.0,793,unknown,False,good
+KA5HAVARN15HKE5 KA5HAW1THB0WT1E5),Kashavamishkes kashawithbowties),0.9523809523809523,793,unknown,False,good
+MANG05AUCE F0RCH1CKPEACREPE),Mangosauce forchickpeacrepe),1.0,793,unknown,False,good
+CURR1EDCH1CKPEACREPEF1LL1NG,Curriedchickpeacrepefilling,1.0,793,unknown,False,good
+PLA1NCREPE5 CLA551C),Plaincrepes dassic),0.918918918918919,793,unknown,False,fair
+CAR0BCAKEW1THWALNUT5,Carobcakewithwalnuts,1.0,55,unknown,False,good
+5H0RTBREADC00K1E5,Shortbreadcookies,1.0,55,unknown,False,good
+BLACKANDWH1TEC00K1E5,Blackandwhitecookies,1.0,57,unknown,False,good
+GH1RARDELL1AWARDW1NN1NGCH0C0LATEBR0WN1E5,Ghirardelliawardwiningchocolatebrownies,0.9873417721518988,57,unknown,False,good
+G1NGERBREADMUFF1N5,Gingerbreadmuffins,1.0,57,unknown,False,good
+CARR0TCAKE,Carrotcake,1.0,57,unknown,False,good
+CH0C0LATECH1PC00K1E5,Chocolate Chip Cookies,0.9523809523809523,57,unknown,False,good
+BLACKANDWH1TEC00K1E5,Blackandwhitecookies,1.0,58,unknown,False,good
+GH1RARDELL1AWARDW1NN1NGCH0C0LATEBR0WN1E5,Ghirardelliawardwiningchocolatebrownies,0.9873417721518988,58,unknown,False,good
+G1NGERBREADMUFF1N5,Gingerbreadmuffins,1.0,58,unknown,False,good
+CARR0TCAKE,Carrotcake,1.0,58,unknown,False,good
+CH0C0LATECH1PC00K1E5,Chocolate Chip Cookies,0.9523809523809523,58,unknown,False,good
+FUDGYCH0C0LATECAKE,Fudgychocolatecake,1.0,60,unknown,False,good
+VAN1LLACAKE,Vanillacake,1.0,60,unknown,False,good
+ZE5TYLEM0NCAKE,Zestylemoncake,1.0,60,unknown,False,good
+0RANGECAKE,Orangecake,1.0,60,unknown,False,good
+G1NGERCAKE,Gingercake,1.0,60,unknown,False,good
+BANANACAKE,Bananacake,1.0,60,unknown,False,good
+LEM0NWH1PPEDC0C0NUTCREAM,Lemonwhippedcoconutcream,1.0,60,unknown,False,good
+0RANGEWH1PPEDC0C0NUTCREAM,Orangewhippedcoconutcream,1.0,60,unknown,False,good
+CH0C0LATE PEANUTBUTTERFR05T1NG,Chocolate Peanutbutterfrosting,1.0,60,unknown,False,good
+C0C0NUT CA5HEWFR05T1NG,Coconut Cashewfrosting,1.0,60,unknown,False,good
+CREAMCHEE5EFR05T1NG,Creamcheesefrosting,1.0,60,unknown,False,good
+LEM0N50YCREAMFR05T1NG,Lemonsoycreamfrosting,1.0,60,unknown,False,good
+VEGANPA5TRYCRU5T,Veganpastrycrust,1.0,62,unknown,False,good
+5WEETCRANBERRYTART,Sweetcranberrytart,1.0,64,unknown,False,good
+5W155BURNTPECANTART,Swissbumtpecantart,0.918918918918919,64,unknown,False,fair
+P0ACHEDPEARTARTW1THC0RNMEALCRU5T,Poachedpeartartwithcommealcrust,0.9523809523809523,64,unknown,False,good
+FRENCHWALNUTTART,Frenchwalnuttart,1.0,64,unknown,False,good
+CARAMEL1ZED0N10NTART,Caramelizedoniontart,1.0,64,unknown,False,good
+GLUTEN FREE5WEETP0TAT0PECANTART,Gluten Freesweetpotatopecantart,1.0,64,unknown,False,good
+VEGANPA5TRYCRU5T,Veganpastrycrust,1.0,64,unknown,False,good
+0L1VE01LCRU5T,Oliveoilcrust,1.0,64,unknown,False,good
+5E5AMEPRE55EDCRU5T,Sesamepressedcrust,1.0,64,unknown,False,good
+PRE55EDNUTCRU5T,Pressednutcrust,1.0,64,unknown,False,good
+HAZELNUT M0CHAANDALM0NDPARFA1T,Hazelnut Mochaandalmondparfait,1.0,65,unknown,False,good
+AV0CAD0ANDC0C0NUTTERR1NE,Avocadoandcoconutterrine,1.0,65,unknown,False,good
+BLACK5E5AME5EED1CECREAM,Blacksesameseedicecream,1.0,65,unknown,False,good
+BA51L1CECREAM,Basilicecream,1.0,65,unknown,False,good
+RAWCHEE5ECAKE,Rawcheesecake,1.0,66,unknown,False,good
+M1NT CH0C0LATEGANACHETRUFFLE5,Mint Chocolateganachetruffles,1.0,66,unknown,False,good
+L1ME 5EA5ALTCH0C0LATEGANACHETRUFFLE5,Lime Seasaltchocolateganachetruffles,1.0,66,unknown,False,good
+5ALTEDPECANANDR05EMARYBR1TTLE,Saltedpecanandrosemarybrittle,1.0,66,unknown,False,good
+5ALTEDALM0NDANDTHYMEBR1TTLE,Saltedalmondandthymebrittle,1.0,66,unknown,False,good
+FL0URLE55CH0C0LATECAKE,Flourlesschocolatecake,1.0,66,unknown,False,good
+FL0URLE55C0C0NUTCAKE,Flourlesscoconutcake,1.0,66,unknown,False,good
+WALNUTTEAC00K1E5,Walnutteacookies,1.0,67,unknown,False,good
+CH0C0LATECHERRYPECANBAR5,Chocolatecherrypecanbars,1.0,67,unknown,False,good
+RA5PBERRY5H0RTBREADL1NZERC00K1E5,Raspberryshortbreadlinzercookies,1.0,67,unknown,False,good
+W1LDR1CE5ALAD,Wildricesalad,1.0,42,unknown,False,good
+W1THAV0CAD0DRE551NG,Withavocadodressing,1.0,42,unknown,False,good
+WATERCRE55ANDDANDEL10NGREEN5W1THBABYART1CH0KE5,Watercressanddandeliongreenswithbabyartichokes,1.0,42,unknown,False,good
+W1LTEDGREEN5W1TH5PR1NG0N10N5,Wiltedgreenswithspringonions,1.0,42,unknown,False,good
+W1LTEDB1TTERGREEN5W1THC1P0LL1N10N10N5,Wiltedbittergreenswithcipollinionions,1.0,42,unknown,False,good
+W1LDWATERCRE555ALADW1THC1TRU5,Wildwatercresssaladwithcitrus,1.0,42,unknown,False,good
+MA55AGEDKALE5ALADW1THR0A5TEDCH1CKPEA5ANDP1CKLEDRED0N10N,Massagedkalesaladwithroastedchickpeasandpickledredonion,1.0,42,unknown,False,good
+P0ACHEDCH1CKENANDR0A5TEDA5PARAGU5,Poachedchickenandroastedasparagus,1.0,43,unknown,False,good
+CELER1ACW1THGR1LLEDA5PARGU5ANDEGG5,Celeriacwithgrilledaspargusandeggs,1.0,43,unknown,False,good
+BEET5ALADW1THGREEN5ANDP15TACH10 CRU5TEDG0ATCHEE5E,Beetsaladwithgreensandpistachio Crustedgoatcheese,1.0,43,unknown,False,good
+PHYLL0TR1ANGLE5W1THFETAANDKALE,Phyllotriangleswithfetaandkale,1.0,44,unknown,False,good
+PHYLL0TR1ANGLE5W1THT0FUAND5P1NACH,Phyllotriangleswithtofuandspinach,1.0,44,unknown,False,good
+DEV1LEDEGG5W1THBEETCH1P5,Deviledeggswithbeetchips,1.0,44,unknown,False,good
+FR1ED5HR1MPW1THWA5AB1GARN15H,Friedshrimpwithwasabigamish,0.9454545454545454,44,unknown,False,fair
+WH1TEBEAN5PREADW1TH5UNDR1EDT0MAT0 KALAMATATAPENADE0N,Whitebeanspreadwithsundriedtomato Kalamatatapenadeon,1.0,44,unknown,False,good
+R05EMARYANDGARL1CP1ZZELLE F0RWH1TEBEAN5PREAD),Rosemaryandgarlicpizzelle forwhitebeanspread),1.0,44,unknown,False,good
+CURR1EDCH1CKEN5ALAD0NPAPADAMW1THY0GURTRA1TA,Curriedchickensaladonpapadamwithyogurtraita,1.0,44,unknown,False,good
+P1NENUTR1C0TTA0NTREV150LEAVE5,Pinenutricottaontrevisoleaves,1.0,44,unknown,False,good
+ZUCCH1N1LATKE5W1THCREMEFRA1CHEANDHERB5,Zucchinilatkeswithcremefraicheandherbs,1.0,44,unknown,False,good
+5CALL10N EDAMAME ANDLEEKDUMPL1NG5,Scallion Edamame Andleekdumplings,1.0,44,unknown,False,good
+5WEETP0TAT0LATKE5W1THPEAR FENNELMARMALADE,Sweetpotatolatkeswithpear Fenelmarmalade,0.9876543209876543,44,unknown,False,good
+CA5HEWCREAM,Cashewcream,1.0,44,unknown,False,good
+R05EMARY 5QUA5H ANDLEEKDUMPL1NG5,Rosemary Squash Andleekdumplings,1.0,44,unknown,False,good
+P0LENTA G0ATCHEE5E ANDBLACKBEANTERR1NE,Polenta Goatcheese Andblackbeanterrine,1.0,45,unknown,False,good
+GREENBEANANDWALNUTPATE,Greenbeanandwalnutpate,1.0,45,unknown,False,good
+CH1CKENL1VERPATE,Chickenliverpate,1.0,45,unknown,False,good
+5UN DR1EDT0MAT0AND5UNFL0WER5EEDPATE,Sun Driedtomatoandsunflowerseedpate,1.0,45,unknown,False,good
+BERR1E5ANDCREAMTERR1NE,Berriesandcreamterrine,1.0,45,unknown,False,good
+F0CACC1AW1THHERB5,Focacciawithherbs,1.0,47,unknown,False,good
+CR0UT0N5F0RVEGANCAE5AR5ALAD,Croutonsforvegancaesarsalad,1.0,47,unknown,False,good
+CUCUMBER C1TRU55AL5A F0RP0ACHED5ALM0N),Cucumber Citrussalsa forpoachedsalmon),1.0,47,unknown,False,good
+CREAM0FA5PARAGU550UP,Creamofasparagussoup,1.0,47,unknown,False,good
+HERBEDQU1N0A,Herbedquinoa,1.0,47,unknown,False,good
+LAC1NATAKALEW1THMATCH5T1CKCARR0T5,Lacinatakalewithmatchstickcarrots,1.0,47,unknown,False,good
+VEGANBAKLAVA,Veganbaklava,1.0,47,unknown,False,good
+CREAM0FMU5HR00M50UP,Creamofmushroomsoup,1.0,47,unknown,False,good
+R1CEP1LAF,Ricepilaf,1.0,47,unknown,False,good
+GR1LLEDP1NEAPPLECHUTNEY,Grilledpineapplechutney,1.0,50,unknown,False,good
+CH1CKENBREA5T51NMU5HR00M5AUCE,Chickenbreastsinmushroomsauce,1.0,50,unknown,False,good
+CREAMYCARR0T50UPW1THP0TAT0,Creamycarrotsoupwithpotato,1.0,28,unknown,False,good
+R0MA1NE5ALADW1TH5HERRYV1NA1GRETTE,Romainesaladwithsherryvinaigrette,1.0,28,unknown,False,good
+T0FU50URCREAM,Tofusourcream,1.0,29,unknown,False,good
+M150MAR1NADE,Misomarinade,1.0,29,unknown,False,good
+M150MAR1NADE,Misomarinade,1.0,29,unknown,False,good
+T0FUBURGER5,Tofuburgers,1.0,30,unknown,False,good
+CREAMY5WEETP0TAT0B15QUEW1THCA5HEWCREMEFRA1CHEANDCAND1ED,Creamysweetpotatobisquewithcashewcremefraicheandcandied,1.0,31,unknown,False,good
+ZUCCH1N1PEANUTN00DLEB0WLW 5R1RACHA5TR1NGBEAN5,Zucchinipeanutnoodlebowlw Srirachastringbeans,1.0,31,unknown,False,good
+A1RL1NECH1CKENBREA5T5W1THC0MP0UNDBUTTER,Airlinechickenbreastswithcompoundbutter,1.0,34,unknown,False,good
+BA51CBR01LEDCH1CKEN,Basicbroiledchicken,1.0,34,unknown,False,good
+BA51CCH1CKEN5T0CK,Basicchickenstock,1.0,34,unknown,False,good
+BRA15EDCH1CKENW1THVEGETABLE5ANDTARRAG0N,Braisedchickenwithvegetablesandtarragon,1.0,34,unknown,False,good
+CH1CKENUNDERABR1CK,Chickenunderabrick,1.0,34,unknown,False,good
+CH1CKENK0TLETKY CH1CKENBURGER5),Chickenkotletky chickenburgers),1.0,34,unknown,False,good
+CH1CKENP0TP1EF1LL1NGW1THT0A5TEDBREADCRUMB5,Chickenpotpiefillingwithtoastedbreadcrumbs,1.0,34,unknown,False,good
+GR1LLEDCH1CKENTENDER5W1THPEANUT5AUCE,Grilledchickentenderswithpeanutsauce,1.0,34,unknown,False,good
+PEANUT5AUCE,Peanutsauce,1.0,34,unknown,False,good
+H0TW1NG5W1TH5T1LT0N Y0GURTDRE551NG,Hotwingswithstilton Yogurtdressing,1.0,34,unknown,False,good
+5AUTEEDCH1CKENBREA5TMAR5ALAW1THCR1M1N1MU5HR00M5,Sauteedchickenbreastmarsalawithcriminimushrooms,1.0,34,unknown,False,good
+5AUTEEDCH1CKENL1VER5W1TH0N10N APPLE ANDFR15EE,Sauteedchickenliverswithonion Apple Andfrisee,1.0,34,unknown,False,good
+BA51C5E1TANREC1PE,Basicseitanrecipe,1.0,35,unknown,False,good
+GLAZED5E1TAN5T1RFRY,Glazedseitanstirfry,1.0,35,unknown,False,good
+5E1TAN5TEW,Seitanstew,1.0,35,unknown,False,good
+5E1TANCR0QUETTE5,Seitancroquettes,1.0,35,unknown,False,good
+5E1TANB0RDELA15E,Seitanbordelaise,1.0,35,unknown,False,good
+5E1TANKEBAB5W1THYELL0WR1CE,Seitankebabswithyellowrice,1.0,35,unknown,False,good
+1ND1AN 5TYLE5E1TANKEBAB5W1THMANG0C0UL15,Indian Styleseitankebabswithmangocoulis,1.0,35,unknown,False,good
+JERK5E1TAN5L0PPYJ0E5,Jerkseitansloppyjoes,1.0,35,unknown,False,good
+ALM0ND FRU1TTARTW1THALM0NDCRU5T,Almond Fruittartwithalmondcrust,1.0,36,unknown,False,good
+R1CHALM0NDM1LK F0RALM0NDFRU1TTART),Richalmondmilk foralmondfruittart),1.0,36,unknown,False,good
+FL0URLE55CH0C0LATECAKE,Flourlesschocolatecake,1.0,36,unknown,False,good
+G0LDENTURMER1CPANNAC0TTAW1THG1NGER PEPPERLACEC00K1E5,Goldenturmericpanacottawithginger Pepperlacecookies,0.9902912621359223,36,unknown,False,good
+HEMPC0C0NUTM1LK F0RG0LDENTURMER1CPANNAC0TTA),Hempcoconutmilk forgoldenturmericpanacotta),0.9882352941176471,36,unknown,False,good
+GREENCABBAGE5AUERKRAUTW1THG1NGERANDTURMER1C,Greencabbagesauerkrautwithgingerandturmeric,1.0,37,unknown,False,good
+P0TAT0 CRU5TEDBA55F1LET5,Potato Crustedbassfilets,1.0,38,unknown,False,good
+M0NKF15HW1THLEM0N CAPERBUTTER,Monkfishwithlemon Caperbutter,1.0,38,unknown,False,good
+HAZELNUT CRU5TEDFL0UNDER,Hazelnut Crustedflounder,1.0,38,unknown,False,good
+MANG05AL5AF0RCRU5TEDFL0UNDER,Mangosalsaforcrustedflounder,1.0,38,unknown,False,good
+5ALT CRU5TEDBAKEDBA55,Salt Crustedbakedbass,1.0,38,unknown,False,good
+5E5AME CRU5TEDTUNA,Sesame Crustedtuna,1.0,38,unknown,False,good
+BRANDADE,Brandade,1.0,38,unknown,False,good
+BAL1NE5ECH1LEMAR1NADE,Balinesechilemarinade,1.0,40,unknown,False,good
+HERBMAR1NADE,Herbmarinade,1.0,40,unknown,False,good
+REDW1NEMAR1NADE,Redwinemarinade,1.0,40,unknown,False,good
+CURRYMAR1NADE,Currymarinade,1.0,40,unknown,False,good
+BA51CMAR1NADE,Basicmarinade,1.0,40,unknown,False,good
+WH1TEW1NEMAR1NADE,Whitewinemarinade,1.0,40,unknown,False,good
+A5LANFLAV0R5MAR1NADE,Aslanflavorsmarinade,1.0,40,unknown,False,good
+KA5HAW1THEGG,Kashawithegg,1.0,16,unknown,False,good
+BR0WNBA5MAT1R1CEVAR1AT10N41,Brownbasmatiricevariationai,0.9629629629629629,16,unknown,False,good
+BR0WNBA5MAT1R1CEVAR1AT10N42,brownbasmatiricevariationa2,0.9629629629629629,16,unknown,False,good
+BR0WNBA5MAT1R1CEVAR1AT10N43,Brownbasmatiricevariationae,0.9629629629629629,16,unknown,False,good
+W1LDR1CE,Wildrice,1.0,16,unknown,False,good
+L0NGGRA1NBR0WNR1CE,Longgrainbrownrice,1.0,16,unknown,False,good
+5H0RTGRA1NBR0WNR1CE,Shortgrainbrownrice,1.0,16,unknown,False,good
+W1LDANDL0NGGRA1NR1CE5ALAD,Wildandlonggrainricesalad,1.0,16,unknown,False,good
+KA5HA P0TAT0L0AF,Kasha Potatoloaf,1.0,16,unknown,False,good
+GREATN0RTHERNBEANANDR0A5TEDGARL1CPUREE,Greatnorthembeanandroastedgarlicpuree,0.96,17,unknown,False,good
+CURR1EDREDLENT1LW1THC0C0NUTM1LK DA1RY),Curriedredlentilwithcoconutmilk dairy),1.0,17,unknown,False,good
+CURR1EDREDLENT1L50UPW1THC0C0NUTM1LK VEGAN),Curriedredlentilsoupwithcoconutmilk vegan),1.0,17,unknown,False,good
+PAN FR1EDP0LENTACAKE5,Pan Friedpolentacakes,1.0,18,unknown,False,good
+BR01LEDAND 0RBAKEDP0LENTA,Broiledand Orbakedpolenta,1.0,18,unknown,False,good
+BAKEDM1LLETCR0QUETTE5,Bakedmilletcroquettes,1.0,18,unknown,False,good
+BAKEDQU1N0AW1THPEA5ANDHERB5,Bakedquinoawithpeasandherbs,1.0,18,unknown,False,good
+1CH1BANDA5H1,Ichibandashi,1.0,20,unknown,False,good
+BR0WNBEEF5T0CK,Brownbeefstock,1.0,20,unknown,False,good
+CH1CKEN5T0CK,Chickenstock,1.0,20,unknown,False,good
+T0MAT05AUCE,Tomatosauce,1.0,22,unknown,False,good
+B0L0GNE5E5AUCEW1THCH1CKEN,Bolognesesaucewithchicken,1.0,22,unknown,False,good
+CLA551CBECHAMEL,Dassicbechamel,0.896551724137931,22,unknown,False,poor
+VEGANBECHAMEL,Veganbechamel,1.0,22,unknown,False,good
+VEGANM0RNAY5AUCE,Veganmomaysauce,0.9032258064516129,22,unknown,False,fair
+5WEETC0RN5AUCEW1THBUTTER,Sweetcomsaucewithbutter,0.9361702127659575,23,unknown,False,fair
+YELL0WPEPPERC0UL15W1THBUTTER,Yellowpeppercouliswithbutter,1.0,23,unknown,False,good
+YELLL0WPEPPERC0UL15W1TH0L1VE01L,Yelllowpeppercouliswitholiveoil,1.0,23,unknown,False,good
+GR1LLED5E1TAN,Grilledseitan,1.0,23,unknown,False,good
+BAKEDT0FU,Bakedtofu,1.0,23,unknown,False,good
+5WEETAND50URMANG0BARBEQUE5AUCE,Sweetandsourmangobarbequesauce,1.0,23,unknown,False,good
+T0FU50URCREAM,Tofusourcream,1.0,24,unknown,False,good
+5H11TAKEBR0THW1TH5HR1MP 50BA ANDBABYB0KCH0Y,Shntakebrothwithshrimp Soba Andbabybokchoy,0.9647058823529412,24,unknown,False,good
+3 BEANCH1L1W1THCA5HEW50URCREAM,E Beanchiliwithcashewsourcream,1.0,24,unknown,False,good
+CA5HEW50URCREAM,Cashewsourcream,1.0,24,unknown,False,good
+DARK0N10N50UPW1THWH0LEGRA1NCR0UT0N5,Darkonionsoupwithwholegraincroutons,1.0,24,unknown,False,good
+BUTTERNUTM1NE5TR0NE,Buttemutminestrone,0.918918918918919,24,unknown,False,fair
+CREAM0FMU5HR00M50UPW1THR0UX,Creamofmushroomsoupwithroux,1.0,24,unknown,False,good
+CREAM0FCURR1ED5WEETP0TAT050UP,Creamofcurriedsweetpotatosoup,1.0,24,unknown,False,good
+CREAM0FBR0CC0L150UP,Creamofbroccolisoup,1.0,24,unknown,False,good
+CREAM0FCARR0T50UPW1THP0TAT0,Creamofcarrotsoupwithpotato,1.0,24,unknown,False,good
+CREAM0FCARR0T50UPW1THARB0R10R1CE,Creamofcarrotsoupwitharboriorice,1.0,24,unknown,False,good
+CREAM0FCARR0T5GUPW1TH0AT5,Creamofcarrotsgupwithoats,1.0,24,unknown,False,good
+HANDMADEGARL1CMAY0NNA15E,Handmadegarlicmayonaise,0.9787234042553191,25,unknown,False,good
+H0LLANDA15E,Hollandaise,1.0,25,unknown,False,good
+BAKEDMER1NGUE5HELL5,Bakedmeringueshells,1.0,26,unknown,False,good
+BAKEDCU5TARD CREMECARAMEL),Bakedcustard cremecaramel),1.0,26,unknown,False,good
+WAKAMECUCUMBER5ALADW1TH0RANGE,Wakame Cucumber Salad with Orange,0.9354838709677419,11,unknown,False,fair
+T0FU50URCREAM,Tofusourcream,1.0,11,unknown,False,good
+T0FU50URCREAM,Tofusourcream,1.0,12,unknown,False,good
+WAKAME 5E1TAN ANDT0A5TEDWALNUTCA55ER0LE,Wakame Seitan Andtoastedwalnutcasserole,1.0,12,unknown,False,good
+ARAMEW1THVEGETABLE5,Arame with Vegetables,0.95,12,unknown,False,fair
+5T1R FR1EDARAMEANDG1NGERW1TH50BAN00DLE5,Stir Friedarameandgingerwithsobanoodles,1.0,12,unknown,False,good
+C0C0NUT L1MEFLAN,Coconut-Lime Flan,0.9375,12,unknown,False,fair

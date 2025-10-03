@@ -14,25 +14,25 @@ import { Recipe } from '../../types/recipe';
 import { breakfastRecipes } from './breakfast';
 import { lunchRecipes } from './lunch';
 import { dinnerRecipes } from './dinner';
-import { appetizerRecipes } from './appetizers';
-import { sideRecipes } from './sides';
-import { sauceRecipes } from './sauces';
-import { dessertRecipes } from './desserts';
-import { saladRecipes } from './salads';
-import { beverageRecipes } from './beverages';
-import { condimentRecipes } from './condiments';
-import { soupRecipes } from './soups';
+import { appetizersRecipes } from './appetizers';
+import { sidesRecipes } from './sides';
+import { saucesRecipes } from './sauces';
+import { dessertsRecipes } from './desserts';
+import { saladsRecipes } from './salads';
+import { beveragesRecipes } from './beverages';
+import { condimentsRecipes } from './condiments';
+import { soupsRecipes } from './soups';
 
 export const allRecipes: Recipe[] = [
   ...breakfastRecipes,
   ...lunchRecipes,
   ...dinnerRecipes,
-  ...appetizerRecipes,
-  ...sideRecipes,
-  ...sauceRecipes,
-  ...dessertRecipes,
-  ...saladRecipes,
-  ...beverageRecipes,
-  ...condimentRecipes,
-  ...soupRecipes
+  ...appetizersRecipes,
+  ...sidesRecipes,
+  ...saucesRecipes,
+  ...dessertsRecipes,
+  ...saladsRecipes,
+  ...beveragesRecipes,
+  ...condimentsRecipes,
+  ...soupsRecipes
 ]; 

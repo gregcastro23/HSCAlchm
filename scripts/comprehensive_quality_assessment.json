@@ -1,0 +1,27 @@
+{
+  "assessment_metadata": {
+    "total_recipes_assessed": 0,
+    "quality_weights": {
+      "ingredient_accuracy": 0.6,
+      "name_standardization": 0.15,
+      "category_precision": 0.1,
+      "format_consistency": 0.1,
+      "completeness_score": 0.05
+    },
+    "assessment_date": "current"
+  },
+  "overall_statistics": {
+    "mean_quality_score": 0.0,
+    "median_quality_score": 0.0,
+    "std_deviation": 0.0,
+    "min_score": 0.0,
+    "max_score": 0.0
+  },
+  "grade_distribution": {},
+  "production_readiness": {
+    "production_ready_count": 0,
+    "production_ready_percentage": 0.0
+  },
+  "category_performance": {},
+  "detailed_recipe_scores": []
+}

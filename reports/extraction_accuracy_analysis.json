@@ -1,0 +1,258 @@
+{
+  "analysis_date": "2025-10-02T14:57:31.698352",
+  "total_extracted_recipes": 325,
+  "total_legacy_recipes": 325,
+  "duplicate_recipes_found": 265,
+  "duplicate_percentage": 0.8153846153846154,
+  "new_recipes_discovered": 60,
+  "extraction_accuracy": 0.9938772379782048,
+  "lesson_assignment_accuracy": 0.0,
+  "quality_breakdown": {
+    "good": 250,
+    "fair": 14,
+    "poor": 1
+  },
+  "lesson_performance": {
+    "11": {
+      "avg_similarity": 0.968,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "12": {
+      "avg_similarity": 0.978,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "16": {
+      "avg_similarity": 0.988,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 9
+    },
+    "17": {
+      "avg_similarity": 0.987,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "18": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 4
+    },
+    "20": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "22": {
+      "avg_similarity": 0.96,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "23": {
+      "avg_similarity": 0.989,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 6
+    },
+    "24": {
+      "avg_similarity": 0.99,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 12
+    },
+    "25": {
+      "avg_similarity": 0.989,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "26": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "28": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "29": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "30": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 1
+    },
+    "31": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "34": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 12
+    },
+    "35": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 8
+    },
+    "36": {
+      "avg_similarity": 0.996,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "37": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 1
+    },
+    "38": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "40": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "42": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "43": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "44": {
+      "avg_similarity": 0.995,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 13
+    },
+    "45": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "47": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 9
+    },
+    "50": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "55": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    },
+    "57": {
+      "avg_similarity": 0.988,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "58": {
+      "avg_similarity": 0.988,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "60": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 12
+    },
+    "62": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 1
+    },
+    "64": {
+      "avg_similarity": 0.987,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 10
+    },
+    "65": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 4
+    },
+    "66": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "67": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "71": {
+      "avg_similarity": 0.996,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "72": {
+      "avg_similarity": 0.993,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 11
+    },
+    "73": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 10
+    },
+    "74": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 5
+    },
+    "75": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 3
+    },
+    "76": {
+      "avg_similarity": 0.991,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 7
+    },
+    "77": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 8
+    },
+    "79": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 6
+    },
+    "793": {
+      "avg_similarity": 0.984,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 8
+    },
+    "84": {
+      "avg_similarity": 0.978,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 8
+    },
+    "85": {
+      "avg_similarity": 0.919,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 1
+    },
+    "88": {
+      "avg_similarity": 1.0,
+      "lesson_accuracy": 0.0,
+      "recipe_count": 2
+    }
+  },
+  "overall_assessment": "EXCELLENT - Extraction algorithm performing very well with 94.3% high-quality matches"
+}
