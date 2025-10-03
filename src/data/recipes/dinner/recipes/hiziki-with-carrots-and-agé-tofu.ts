@@ -1,68 +1,75 @@
 import { Recipe } from '../../../types/recipe';
 
-export const wakame-cucumber-salad-with-orange: Recipe = {
-  "name": "Wakame Cucumber Salad with Orange",
-  "description": "A refreshing Japanese-inspired salad combining sea vegetables with citrus.",
+export const hiziki-with-carrots-and-agé-tofu: Recipe = {
+  "name": "Hiziki with Carrots and Agé Tofu",
+  "description": "A traditional Japanese side dish combining sea vegetables with fried tofu.",
   "ingredients": [
     {
-      "name": "wakame",
-      "amount": 0.25,
+      "name": "canola oil",
+      "amount": 2.0,
+      "unit": "cups",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "firm tofu",
+      "amount": 7.0,
+      "unit": "oz",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "hiziki",
+      "amount": 0.5,
       "unit": "cup",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "cucumbers",
-      "amount": 2.0,
-      "unit": "",
+      "name": "apple juice",
+      "amount": 1.0,
+      "unit": "cup",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "sea salt",
-      "amount": 0.25,
-      "unit": "tsp",
+      "name": "water",
+      "amount": 0.75,
+      "unit": "cup",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "juice oranges",
-      "amount": 2.0,
-      "unit": "",
+      "name": "carrot",
+      "amount": 6.0,
+      "unit": "oz",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "cilantro",
-      "amount": 0.25,
-      "unit": "bunch",
+      "name": "onion",
+      "amount": 10.0,
+      "unit": "oz",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "rice vinegar",
-      "amount": 2.0,
-      "unit": "tbsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "mirin",
-      "amount": 2.0,
-      "unit": "tbsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "shoyu",
+      "name": "toasted sesame oil",
       "amount": 1.0,
       "unit": "tbsp",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "maple syrup",
-      "amount": 1.5,
+      "name": "shoyu",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "white sesame seeds",
+      "amount": 1.0,
       "unit": "tbsp",
       "notes": "",
       "swaps": []

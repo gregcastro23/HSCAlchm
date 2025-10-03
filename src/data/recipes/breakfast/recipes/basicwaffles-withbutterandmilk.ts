@@ -1,116 +1,109 @@
 import { Recipe } from '../../../types/recipe';
 
-export const basicwaffleswithbutterandmilk: Recipe = {
-  "name": "Basicwaffles withbutterandmilk",
+export const basicwaffles-withbutterandmilk: Recipe = {
+  "name": "Basicwaffles withbutterandmilk)",
   "description": "A delicious beverages recipe from HSCA culinary arts program.",
   "ingredients": [
     {
       "name": "Icupswhoiewheat Pastryfiour Sifted",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Tspbakingpowder",
       "amount": 2.0,
       "unit": "tsp",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Itabiespoonmapiecrystais",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Eeggs Separated",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Iacupmeitedbutter",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Icupsorganicmnk",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Iatspait Fineiyground",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Biueberrysyrup Forgamish recipebeiow)",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Whisktogetherfiour Bakingpowder andmapiecrystais.",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
-    },
+    }
     {
       "name": "Beateggyoikswen Addbutter Mnk andsait.",
       "amount": 1.0,
-      "unit": "unit",
+      "unit": "",
       "notes": "",
       "swaps": []
     }
   ],
   "instructions": [
-    "Makewenincenterofdryingredients pourinquidingredientsandcombinewithafew.",
-    "Swiftstrokes Battershouidhavepebbiediook simnartomuffinbatter.",
-    "Beateggwhitesuntnstiff Butnotdry foidintobatterwithrubberspatuiajustto.",
-    "Heatwaftieiron ladiein.",
-    "Cookeachwaffie.",
-    "Minutesoruntnindicatornghtonmachinegoeson.",
-    "Blueberrysyrup.",
-    "Ouncebagfrozenbiueberries.",
-    "Teaspoonvania.",
-    "Combineaningredientsin.",
-    "Additional steps: Quartpot Bringsyruptobon Reduceheat andswimmer. Mixtureuncoveredfor. Strainsyrupthroughchinois Press..."
-  ],
-  "nutrition": {
+    "Makewenincenterofdryingredients pourinquidingredientsandcombinewithafew."
+    "Swiftstrokes Battershouidhavepebbiediook simnartomuffinbatter."
+    "Beateggwhitesuntnstiff Butnotdry foidintobatterwithrubberspatuiajustto."
+    "Heatwaftieiron ladiein."
+    "Cookeachwaffie."
+    "Minutesoruntnindicatornghtonmachinegoeson."
+    "Blueberrysyrup."
+    "Ouncebagfrozenbiueberries."
+    "Teaspoonvania."
+    "Combineaningredientsin."
+    "Quartpot Bringsyruptobon Reduceheat andswimmer."
+    "Mixtureuncoveredfor."
+    "Strainsyrupthroughchinois Pressinganyremainingjuicefrombiueberries discard."
+    "Biueberries andtransfersyruptosyrupcontainers."
+    "Nstituteofcunaryeducation Courseg ieo."
+    "Lessont9e brunchpreparation."
+  ],  "nutrition": {
     "calories": 200,
     "protein": 8,
     "carbs": 25,
     "fat": 12,
-    "vitamins": [
-      "C",
-      "K"
-    ],
-    "minerals": [
-      "Potassium",
-      "Iron"
-    ]
+    "vitamins": ["C", "K"],
+    "minerals": ["Potassium", "Iron"]
   },
   "timeToMake": "30 minutes",
-  "season": [
-    "all"
-  ],
+  "season": ["all"],
   "cuisine": "HSCA",
-  "mealType": [
-    "Health Supportive"
-  ],
-  "elementalBalance": {
+  "mealType": ["Health Supportive"],  "elementalBalance": {
     "Fire": 0.25,
     "Earth": 0.25,
     "Water": 0.25,

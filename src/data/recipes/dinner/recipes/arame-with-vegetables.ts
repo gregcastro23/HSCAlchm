@@ -1,46 +1,46 @@
 import { Recipe } from '../../../types/recipe';
 
-export const wakame-cucumber-salad-with-orange: Recipe = {
-  "name": "Wakame Cucumber Salad with Orange",
-  "description": "A refreshing Japanese-inspired salad combining sea vegetables with citrus.",
+export const arame-with-vegetables: Recipe = {
+  "name": "Arame with Vegetables",
+  "description": "A nourishing side dish combining sea vegetables with land vegetables.",
   "ingredients": [
     {
-      "name": "wakame",
-      "amount": 0.25,
-      "unit": "cup",
+      "name": "sesame oil",
+      "amount": 1.0,
+      "unit": "tbsp",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "cucumbers",
+      "name": "onion",
+      "amount": 10.0,
+      "unit": "oz",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "carrot",
+      "amount": 6.0,
+      "unit": "oz",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "arame",
+      "amount": 1.5,
+      "unit": "cups",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "shoyu",
       "amount": 2.0,
-      "unit": "",
+      "unit": "tbsp",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "sea salt",
-      "amount": 0.25,
-      "unit": "tsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "juice oranges",
-      "amount": 2.0,
-      "unit": "",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "cilantro",
-      "amount": 0.25,
-      "unit": "bunch",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "rice vinegar",
+      "name": "brown rice syrup",
       "amount": 2.0,
       "unit": "tbsp",
       "notes": "",
@@ -54,16 +54,9 @@ export const wakame-cucumber-salad-with-orange: Recipe = {
       "swaps": []
     }
     {
-      "name": "shoyu",
-      "amount": 1.0,
-      "unit": "tbsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "maple syrup",
-      "amount": 1.5,
-      "unit": "tbsp",
+      "name": "bok choy",
+      "amount": 8.0,
+      "unit": "oz",
       "notes": "",
       "swaps": []
     }

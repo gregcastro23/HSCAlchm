@@ -4,7 +4,9 @@ import { avocadoandcoconutterrine } from './recipes/avocadoandcoconutterrine.ts'
 import { basicbroiledchicken } from './recipes/basicbroiledchicken.ts';
 import { carrotSoupOcr } from './recipes/carrot-soup-ocr.ts';
 import { carrotSoupsOcr } from './recipes/carrot-soups-ocr.ts';
+import { chocolate-fondue } from './recipes/chocolate-fondue.ts';
 import { classicSoupsRecipeOcr } from './recipes/classic-soups-recipe-ocr.ts';
+import { hempcoconutmilk-forgoldenturmericpanacotta } from './recipes/hempcoconutmilk-forgoldenturmericpanacotta.ts';
 import { hollandaise } from './recipes/hollandaise.ts';
 import { ichibandashi } from './recipes/ichibandashi.ts';
 import { oliveoilcrust } from './recipes/oliveoilcrust.ts';
@@ -18,6 +20,8 @@ import { tomatoSoupOcr } from './recipes/tomato-soup-ocr.ts';
 import { tomatoSoupsOcr } from './recipes/tomato-soups-ocr.ts';
 import { veganpastadough } from './recipes/veganpastadough.ts';
 import { yelllowpeppercouliswitholiveoil } from './recipes/yelllowpeppercouliswitholiveoil.ts';
+
+
 
 export const lunchRecipes: Recipe[] = [
   avocadoEggSalad,

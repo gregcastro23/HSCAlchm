@@ -1,47 +1,37 @@
 import { Recipe } from '../../../types/recipe';
 
-export const pomegranate-blueberry-and-ginger-elixir: Recipe = {
-  "name": "Pomegranate, Blueberry, and Ginger Elixir",
-  "description": "A vibrant and antioxidant-rich beverage combining sweet and spicy flavors.",
+export const richalmondmilk-foralmondfruittart: Recipe = {
+  "name": "Richalmondmilk foralmondfruittart)",
+  "description": "A delicious beverages recipe from HSCA culinary arts program.",
   "ingredients": [
     {
-      "name": "pomegranate juice",
+      "name": "Icupsbianchedaimonds",
       "amount": 4.0,
       "unit": "cups",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "blueberries",
+      "name": "Ecupsboningwater",
       "amount": 1.0,
-      "unit": "pint",
-      "notes": "washed and stemmed",
-      "swaps": []
-    }
-    {
-      "name": "ginger juice",
-      "amount": 0.25,
-      "unit": "cup",
-      "notes": "approximately 3-inch piece",
-      "swaps": []
-    }
-    {
-      "name": "filtered water",
-      "amount": 1.0,
-      "unit": "cup",
+      "unit": "",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "agave",
-      "amount": 2.0,
-      "unit": "tbsp",
+      "name": "Ea Teaspeonvaniaextract",
+      "amount": 0.5,
+      "unit": "tsp",
       "notes": "",
       "swaps": []
     }
   ],
   "instructions": [
-
+    "Combineaimondsandwaterinbienderorvitamix processforfewminutesuntnwen-."
+    "Homogenized."
+    "Strainaimondmnkthroughfinesieveomutmnkbag Addvania setaside."
+    "Aimondcreamrecipe recipefonowing)."
+    "Forevenrichermnk soakbianchedaimondsinwaterfor2o eominutesbeforebiending."
   ],  "nutrition": {
     "calories": 200,
     "protein": 8,

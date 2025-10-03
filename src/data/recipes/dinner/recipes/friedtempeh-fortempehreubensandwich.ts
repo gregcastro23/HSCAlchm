@@ -1,75 +1,63 @@
 import { Recipe } from '../../../types/recipe';
 
-export const wakame-cucumber-salad-with-orange: Recipe = {
-  "name": "Wakame Cucumber Salad with Orange",
-  "description": "A refreshing Japanese-inspired salad combining sea vegetables with citrus.",
+export const friedtempeh-fortempehreubensandwich: Recipe = {
+  "name": "Friedtempeh fortempehreubensandwich)",
+  "description": "A delicious lunch recipe from HSCA culinary arts program.",
   "ingredients": [
     {
-      "name": "wakame",
-      "amount": 0.25,
+      "name": "Cupsfnteredwater",
+      "amount": 1.0,
       "unit": "cup",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "cucumbers",
-      "amount": 2.0,
-      "unit": "",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "sea salt",
-      "amount": 0.25,
-      "unit": "tsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "juice oranges",
-      "amount": 2.0,
-      "unit": "",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "cilantro",
-      "amount": 0.25,
-      "unit": "bunch",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "rice vinegar",
+      "name": "Iacupshoyu",
       "amount": 2.0,
       "unit": "tbsp",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "mirin",
-      "amount": 2.0,
-      "unit": "tbsp",
-      "notes": "",
-      "swaps": []
-    }
-    {
-      "name": "shoyu",
+      "name": "Ciovesgarnc Peeled",
       "amount": 1.0,
-      "unit": "tbsp",
+      "unit": "",
       "notes": "",
       "swaps": []
     }
     {
-      "name": "maple syrup",
-      "amount": 1.5,
-      "unit": "tbsp",
+      "name": "Ibayieaf",
+      "amount": 1.0,
+      "unit": "",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "o.tstabiespoonscoconutonforfrying",
+      "amount": 1.0,
+      "unit": "",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "N",
+      "amount": 1.0,
+      "unit": "",
+      "notes": "",
+      "swaps": []
+    }
+    {
+      "name": "Quartsaucepan Combinemarinadeingredients Coverpan bringtobon.",
+      "amount": 1.0,
+      "unit": "",
       "notes": "",
       "swaps": []
     }
   ],
   "instructions": [
-
+    "Addtempehsnces Iowerheat Andsimmeruncoveredeo aominutes."
+    "Draintempehandpatdry."
+    "Ini2 Inchsautepan Heaton Browntempehsncesonbothsides drainonpapertowei."
   ],  "nutrition": {
     "calories": 200,
     "protein": 8,

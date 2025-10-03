@@ -10,18 +10,15 @@ from pathlib import Path
 
 def extract_recipe_names_from_pdf(pdf_path):
     """Extract all recipe names from the PDF using text extraction."""
-    import subprocess
-
     try:
-        # Use pdftotext to extract text from PDF
-        result = subprocess.run(
-            ['pdftotext', '-layout', pdf_path, '-'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        import pdfplumber
 
-        text = result.stdout
+        text = ""
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text + "\n"
 
         # Look for recipe patterns - typically capitalized titles
         # Common patterns: "RECIPE NAME", "Recipe Name", or lines that look like titles
@@ -84,11 +81,104 @@ def extract_recipe_names_from_database():
 
     return sorted(list(recipe_names))
 
-def main():
-    pdf_path = "../../HSCARECIPES/HSCA_Recipes.pdf"
+def count_all_recipes():
+    """Count recipes from all sources to understand the discrepancy."""
+    from pathlib import Path
+    import json
 
-    print("🔍 FINAL PDF RECIPE AUDIT")
-    print("=" * 50)
+    counts = {}
+
+    # Count TypeScript database recipes
+    ts_recipes = []
+    for category_dir in Path('src/data/recipes').iterdir():
+        if not category_dir.is_dir() or category_dir.name.endswith('PENDING'):
+            continue
+        recipes_dir = category_dir / 'recipes'
+        if recipes_dir.exists():
+            for recipe_file in recipes_dir.glob('*.ts'):
+                ts_recipes.append(recipe_file.name)
+    counts['typescript_database'] = len(ts_recipes)
+
+    # Count all JSON extraction files
+    extraction_files = {}
+    for json_file in Path('enhanced_extracted_recipes').glob('*.json'):
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+                if isinstance(data, dict) and 'extracted_recipes' in data:
+                    count = len(data['extracted_recipes'])
+                elif isinstance(data, list):
+                    count = len(data)
+                else:
+                    count = 0
+                extraction_files[json_file.name] = count
+        except:
+            extraction_files[json_file.name] = 0
+    counts['extraction_files'] = extraction_files
+
+    # Check pending recipes
+    pending_count = 0
+    if Path('staging/pending_recipes').exists():
+        for file in Path('staging/pending_recipes').glob('*.json'):
+            try:
+                with open(file, 'r') as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        pending_count += len(data)
+            except:
+                pass
+    counts['pending_recipes'] = pending_count
+
+    # Check manual extraction results
+    try:
+        with open('manual_extraction_results.json', 'r') as f:
+            data = json.load(f)
+            counts['manual_extractions'] = len(data.get('recipes', []))
+    except:
+        counts['manual_extractions'] = 0
+
+    return counts
+
+def main():
+    print("🔍 COMPREHENSIVE RECIPE COUNT ANALYSIS")
+    print("=" * 60)
+
+    # Get comprehensive counts
+    counts = count_all_recipes()
+
+    print("📊 RECIPE COUNTS BY SOURCE:")
+    print(f"  TypeScript Database: {counts['typescript_database']} recipes")
+    print(f"  Pending Recipes: {counts['pending_recipes']} recipes")
+    print(f"  Manual Extractions: {counts['manual_extractions']} recipes")
+    print()
+
+    print("📁 EXTRACTION FILES:")
+    for name, count in counts['extraction_files'].items():
+        if count > 0:
+            print(f"  {name}: {count} recipes")
+    print()
+
+    total_from_extractions = max(counts['extraction_files'].values()) if counts['extraction_files'] else 0
+    total_calculated = counts['typescript_database'] + counts['pending_recipes'] + counts['manual_extractions']
+
+    print("📈 SUMMARY:")
+    print(f"  Highest extraction count: {total_from_extractions} recipes")
+    print(f"  Current database total: {total_calculated} recipes")
+    print(f"  User reported count: 444 recipes")
+    print(f"  Original PDF pages: 507 pages")
+    print()
+
+    if total_calculated >= 444:
+        print("✅ Database appears complete or exceeds user count")
+    elif total_from_extractions >= 444:
+        print("⚠️  Extractions show sufficient recipes, but database may be missing some")
+    else:
+        print("❌ DISCREPANCY: Fewer recipes found than user count")
+
+    pdf_path = "/Users/GregCastro/Desktop/HSCARECIPES/HSCA_Recipes.pdf"
+
+    print("\n🔍 FINAL PDF RECIPE AUDIT")
+    print("-" * 50)
 
     # Extract recipe names from PDF
     print("📖 Extracting recipe names from PDF...")
