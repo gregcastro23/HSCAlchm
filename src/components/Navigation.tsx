@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 const categories = [
   { name: 'Home', path: '/' },
@@ -9,8 +9,8 @@ const categories = [
   { name: 'Salads', path: '/recipes/salad' },
   { name: 'Desserts', path: '/recipes/dessert' },
   { name: 'Beverages', path: '/recipes/beverage' },
-  { name: 'Condiments', path: '/recipes/condiment' }
-]
+  { name: 'Condiments', path: '/recipes/condiment' },
+];
 
 export default function Navigation() {
   return (
@@ -19,7 +19,7 @@ export default function Navigation() {
         <ul className="flex flex-wrap space-x-6 py-4">
           {categories.map((category) => (
             <li key={category.name}>
-              <Link 
+              <Link
                 href={category.path}
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
@@ -30,5 +30,5 @@ export default function Navigation() {
         </ul>
       </div>
     </nav>
-  )
+  );
 }

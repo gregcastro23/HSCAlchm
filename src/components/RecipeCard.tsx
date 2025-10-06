@@ -1,13 +1,13 @@
-import Link from 'next/link'
-import { Recipe } from '../types/recipe'
+import Link from 'next/link';
+import { Recipe } from '../types/recipe';
 
 interface RecipeCardProps {
   recipe: Recipe
 }
 
 export default function RecipeCard({ recipe }: RecipeCardProps) {
-  const totalIngredients = recipe.ingredients.length
-  const primaryMealType = recipe.mealType[0] || 'General'
+  const totalIngredients = recipe.ingredients.length;
+  const primaryMealType = recipe.mealType[0] || 'General';
 
   return (
     <Link href={`/recipes/${encodeURIComponent(recipe.name.toLowerCase().replace(/\s+/g, '-'))}`}>
@@ -51,8 +51,8 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
                 Fire: 'bg-red-400',
                 Earth: 'bg-amber-400',
                 Water: 'bg-blue-400',
-                Air: 'bg-green-400'
-              }
+                Air: 'bg-green-400',
+              };
               return (
                 <div
                   key={element}
@@ -60,7 +60,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
                   style={{ width: `${percentage * 100}%` }}
                   title={`${element}: ${(percentage * 100).toFixed(0)}%`}
                 />
-              )
+              );
             })}
           </div>
         </div>
@@ -88,5 +88,5 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
         </div>
       </div>
     </Link>
-  )
+  );
 }

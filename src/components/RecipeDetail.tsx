@@ -1,7 +1,7 @@
-import { ArrowLeft, Clock, ChefHat, Flame, Leaf, Droplets, Wind } from 'lucide-react'
-import Link from 'next/link'
-import { Recipe } from '../types/recipe'
-import ElementalBalanceChart from './ElementalBalanceChart'
+import { ArrowLeft, Clock, ChefHat, Flame, Leaf, Droplets, Wind } from 'lucide-react';
+import Link from 'next/link';
+import { Recipe } from '../types/recipe';
+import ElementalBalanceChart from './ElementalBalanceChart';
 
 interface RecipeDetailProps {
   recipe: Recipe
@@ -12,8 +12,8 @@ export default function RecipeDetail({ recipe }: RecipeDetailProps) {
     Fire: Flame,
     Earth: Leaf,
     Water: Droplets,
-    Air: Wind
-  }
+    Air: Wind,
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -131,7 +131,7 @@ export default function RecipeDetail({ recipe }: RecipeDetailProps) {
               <ElementalBalanceChart balance={recipe.elementalBalance} />
               <div className="mt-4 space-y-2">
                 {Object.entries(recipe.elementalBalance).map(([element, percentage]) => {
-                  const IconComponent = elementalIcons[element as keyof typeof elementalIcons]
+                  const IconComponent = elementalIcons[element as keyof typeof elementalIcons];
                   return (
                     <div key={element} className="flex items-center justify-between">
                       <div className="flex items-center">
@@ -142,7 +142,7 @@ export default function RecipeDetail({ recipe }: RecipeDetailProps) {
                         {(percentage * 100).toFixed(0)}%
                       </span>
                     </div>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -203,5 +203,5 @@ export default function RecipeDetail({ recipe }: RecipeDetailProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }

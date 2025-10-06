@@ -19,5 +19,5 @@ export const allRecipes: Recipe[] = [
   ...saladsRecipes,
   ...beveragesRecipes,
   ...condimentsRecipes,
-  ...soupsRecipes
-]; 
+  ...soupsRecipes,
+];

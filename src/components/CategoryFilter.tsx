@@ -1,5 +1,5 @@
-import { ChevronDown } from 'lucide-react'
-import { useState } from 'react'
+import { ChevronDown } from 'lucide-react';
+import { useState } from 'react';
 
 interface CategoryFilterProps {
   categories: string[]
@@ -10,11 +10,11 @@ interface CategoryFilterProps {
 export default function CategoryFilter({
   categories,
   selectedCategory,
-  onCategoryChange
+  onCategoryChange,
 }: CategoryFilterProps) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-  const allCategories = ['all', ...categories]
+  const allCategories = ['all', ...categories];
 
   return (
     <div className="relative">
@@ -42,8 +42,8 @@ export default function CategoryFilter({
               <button
                 key={category}
                 onClick={() => {
-                  onCategoryChange(category)
-                  setIsOpen(false)
+                  onCategoryChange(category);
+                  setIsOpen(false);
                 }}
                 className={`w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors ${
                   selectedCategory === category
@@ -58,5 +58,5 @@ export default function CategoryFilter({
         </>
       )}
     </div>
-  )
+  );
 }

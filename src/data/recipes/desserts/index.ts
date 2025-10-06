@@ -4,5 +4,5 @@ import { applephylloroll } from './recipes/apple-phyllo-roll.ts';
 
 export const dessertsRecipes: Recipe[] = [
   applepearcrisp,
-  applephylloroll
+  applephylloroll,
 ];

@@ -4,7 +4,7 @@ import { Recipe } from '../types/recipe';
 
 export default function RecipeBuilder() {
   const [mealType, setMealType] = useState('Appetizer');
-  const [generatedRecipe, setGeneratedRecipe] = useState<Recipe | null>(null);
+  const [generatedRecipe] = useState<Recipe | null>(null);
 
   const handleGenerate = () => {
     // Temporarily disabled - recipe generation not implemented
@@ -47,4 +47,4 @@ export default function RecipeBuilder() {
       )}
     </div>
   );
-} 
+}

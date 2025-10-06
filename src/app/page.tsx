@@ -1,39 +1,39 @@
-'use client'
+'use client';
 
-import { useState, useMemo } from 'react'
-import { allRecipes } from '../data/recipes/index'
-import RecipeCard from '../components/RecipeCard'
-import SearchBar from '../components/SearchBar'
-import CategoryFilter from '../components/CategoryFilter'
+import { useState, useMemo } from 'react';
+import { allRecipes } from '../../recipes-temp/index';
+import RecipeCard from '../components/RecipeCard';
+import SearchBar from '../components/SearchBar';
+import CategoryFilter from '../components/CategoryFilter';
 
 export default function HomePage() {
-  const [searchTerm, setSearchTerm] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState<string>('all')
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   const categories = useMemo(() => {
-    const categorySet = new Set<string>()
+    const categorySet = new Set<string>();
     allRecipes.forEach(recipe => {
-      recipe.mealType.forEach(type => categorySet.add(type))
-    })
-    return Array.from(categorySet).sort()
-  }, [])
+      recipe.mealType.forEach(type => categorySet.add(type));
+    });
+    return Array.from(categorySet).sort();
+  }, []);
 
   const filteredRecipes = useMemo(() => {
     return allRecipes.filter(recipe => {
       const matchesSearch = searchTerm === '' ||
         recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         recipe.ingredients.some(ing =>
-          ing.name.toLowerCase().includes(searchTerm.toLowerCase())
+          ing.name.toLowerCase().includes(searchTerm.toLowerCase()),
         ) ||
         recipe.cuisine.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.description.toLowerCase().includes(searchTerm.toLowerCase())
+        recipe.description.toLowerCase().includes(searchTerm.toLowerCase());
 
       const matchesCategory = selectedCategory === 'all' ||
-        recipe.mealType.includes(selectedCategory)
+        recipe.mealType.includes(selectedCategory);
 
-      return matchesSearch && matchesCategory
-    })
-  }, [searchTerm, selectedCategory])
+      return matchesSearch && matchesCategory;
+    });
+  }, [searchTerm, selectedCategory]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -98,5 +98,5 @@ export default function HomePage() {
         )}
       </div>
     </div>
-  )
+  );
 }
