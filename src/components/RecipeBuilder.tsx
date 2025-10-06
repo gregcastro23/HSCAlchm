@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { generateRecipe } from '../utils/recipeGenerator';
+// import { generateRecipe } from '../utils/recipeGenerator';
 import { Recipe } from '../types/recipe';
 
 export default function RecipeBuilder() {
@@ -7,13 +7,8 @@ export default function RecipeBuilder() {
   const [generatedRecipe, setGeneratedRecipe] = useState<Recipe | null>(null);
 
   const handleGenerate = () => {
-    try {
-      const newRecipe = generateRecipe(mealType);
-      setGeneratedRecipe(newRecipe);
-    } catch (error) {
-      console.error(error);
-      alert('Failed to generate recipe. Try a different meal type.');
-    }
+    // Temporarily disabled - recipe generation not implemented
+    alert('Recipe generation is not currently available.');
   };
 
   return (

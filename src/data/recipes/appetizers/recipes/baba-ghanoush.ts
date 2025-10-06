@@ -34,4 +34,4 @@ export const babaghanoush: Recipe = {
       'Let eggplant cool, cut in half, and scoop out flesh or peel off charred skin.',
       'In food processor, blend flesh with tahini, garlic, lemon juice, and salt. Adjust seasonings for desired taste.'
     ]
-  },;
+};

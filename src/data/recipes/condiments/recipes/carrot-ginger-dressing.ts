@@ -5,7 +5,7 @@ export const carrotgingerdressing: Recipe = {
     description: 'A light and refreshing Japanese-inspired dressing perfect for salads.',
     ingredients: [
       { name: 'carrots, roughly chopped', amount: 2, unit: 'medium' },
-      { name: 'fresh ginger, peeled', amount: 2, unit: 'inches' },
+      { name: 'fresh ginger, peeled', amount: 2, unit: 'inch' },
       { name: 'yellow onion, chopped', amount: 0.25, unit: 'cup' },
       { name: 'rice vinegar', amount: 0.25, unit: 'cup' },
       { name: 'sesame oil', amount: 2, unit: 'tbsp' },
@@ -38,4 +38,4 @@ export const carrotgingerdressing: Recipe = {
       'If needed, thin with additional water to reach desired consistency.',
       'Store in an airtight container in the refrigerator for up to 1 week.'
     ]
-  },;
+};

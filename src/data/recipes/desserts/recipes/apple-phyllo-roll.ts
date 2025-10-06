@@ -4,7 +4,7 @@ export const applephylloroll: Recipe = {
     name: 'Apple Phyllo Roll',
     description: 'A delicate and crispy pastry filled with spiced apples and wrapped in flaky phyllo dough.',
     ingredients: [
-      { name: 'phyllo dough sheets', amount: 8, unit: 'sheets' },
+      { name: 'phyllo dough sheets', amount: 8, unit: '' },
       { name: 'apples', amount: 4, unit: 'large', notes: 'peeled and thinly sliced' },
       { name: 'lemon juice', amount: 1, unit: 'tbsp' },
       { name: 'maple syrup', amount: 0.25, unit: 'cup' },
@@ -42,4 +42,4 @@ export const applephylloroll: Recipe = {
       'Brush top with remaining coconut oil.',
       'Bake for 25-30 minutes until golden brown and crispy.'
     ]
-  },;
+  };

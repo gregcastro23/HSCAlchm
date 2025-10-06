@@ -42,4 +42,4 @@ export const applepearcrisp: Recipe = {
       'Bake for 45-50 minutes until fruit is tender and topping is golden brown.',
       'Let cool slightly before serving.'
     ]
-  },;
+  };

@@ -39,4 +39,4 @@ export const blueberryalmondovernightoats: Recipe = {
       'Top with additional fresh blueberries and sliced almonds before serving, if desired.',
       'Enjoy cold or warm in the microwave for 1-2 minutes.'
     ]
-  },;
+};
