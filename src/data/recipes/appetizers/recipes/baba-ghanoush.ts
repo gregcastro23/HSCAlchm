@@ -29,7 +29,7 @@ export const babaghanoush: Recipe = {
     Air: 0.1,
   },
   instructions: [
-    'Cook eggplant on top of stove over medium-low flame, turning often with tongs until skin is completely charred and flesh is fork tender (about 15 minutes).',
+    'Cook eggplant on stovetop over medium-low flame, turning often with tongs until skin is completely charred and flesh is fork tender (about 15 minutes).',
     'Transfer eggplant to covered bowl and let sweat for 15 minutes.',
     'Let eggplant cool, cut in half, and scoop out flesh or peel off charred skin.',
     'In food processor, blend flesh with tahini, garlic, lemon juice, and salt. Adjust seasonings for desired taste.',

@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { allRecipes } from '../../recipes-temp/index';
+import { allRecipes } from '../data/recipes/index';
+import { Recipe } from '../types/recipe';
 import RecipeCard from '../components/RecipeCard';
 import SearchBar from '../components/SearchBar';
 import CategoryFilter from '../components/CategoryFilter';
@@ -12,17 +13,17 @@ export default function HomePage() {
 
   const categories = useMemo(() => {
     const categorySet = new Set<string>();
-    allRecipes.forEach(recipe => {
-      recipe.mealType.forEach(type => categorySet.add(type));
+    allRecipes.forEach((recipe: Recipe) => {
+      recipe.mealType.forEach((type: string) => categorySet.add(type));
     });
     return Array.from(categorySet).sort();
   }, []);
 
   const filteredRecipes = useMemo(() => {
-    return allRecipes.filter(recipe => {
+    return allRecipes.filter((recipe: Recipe) => {
       const matchesSearch = searchTerm === '' ||
         recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.ingredients.some(ing =>
+        recipe.ingredients.some((ing) =>
           ing.name.toLowerCase().includes(searchTerm.toLowerCase()),
         ) ||
         recipe.cuisine.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -84,7 +85,7 @@ export default function HomePage() {
         {/* Recipe Grid */}
         {filteredRecipes.length > 0 ? (
           <div className="recipe-grid">
-            {filteredRecipes.map((recipe, index) => (
+            {filteredRecipes.map((recipe: Recipe, index: number) => (
               <RecipeCard key={`${recipe.name}-${index}`} recipe={recipe} />
             ))}
           </div>
