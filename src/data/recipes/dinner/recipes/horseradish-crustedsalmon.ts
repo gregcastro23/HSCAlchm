@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const horseradishCrustedsalmon: Recipe = {
+  name: 'Horseradish Crustedsalmon',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Ipoundssaimon Skinedanddividedintosixa Ounceportions', amount: 1.0 },
+    { name: 'Saitandpepper Toseasonfish', amount: 1.0 },
+    { name: 'Y Cuipmayonaise', amount: 0.25, unit: 'cup' },
+    { name: 'o.sounceparsiey Stemmedandfinelychopped', amount: 1.0 },
+    { name: 'Eouncestreshhorseradish Peeledandfinelygrated', amount: 1.0 },
+    { name: 'Zestof', amount: 1.0 },
+    { name: 'Nemon', amount: 1.0, unit: 'whole', notes: 'juice only' },
+    { name: 'Juiceof', amount: 2.0 },
+    { name: 'Iemons Approximately', amount: 1.0 },
+    { name: 'Ea Cuppankobreadcrumbs', amount: 0.5, unit: 'cup' },
+    { name: 'Teaspeonblackpepper', amount: 0.25, unit: 'tsp', notes: 'ground' },
+    { name: 'Tspeasait', amount: 0.125, unit: 'tsp' },
+    { name: '0.5 Heatconvectionovento', amount: 1.0 },
+    { name: 'Etsf', amount: 1.0 },
+    { name: 'seasonfnetwithsaitandpepper.', amount: 1.0 },
+  ],
+  instructions: [
+    'Heat convection oven to 375° F.',
+    'Season filet with salt and pepper.',
+    'Combine mayonnaise, parsley, horseradish, lemon zest, lemon, bread crumbs, salt, and',
+    'Spread mixture in even layer over flesh side of fish.',
+    'Transfer to half sheet tray lined with lightly oiled parchment paper.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const chickenkotletkyChickenburgers: Recipe = {
+  name: 'Chickenkotletky chickenburgers)',
+  description: 'A protein-packed plant-based patty perfect for a satisfying meal.',
+  ingredients: [
+    { name: 'Y Cupwhoiewheatbreadcrumbs', amount: 1.0 },
+    { name: 'Cupmnk', amount: 1.0, unit: 'tsp', notes: 'ground' },
+    { name: 'Ipoundsgroundchickenorturkey', amount: 1.0 },
+    { name: 'Bouncesanion imedinum)', amount: 1.0 },
+    { name: 'Tspdrieddniweed', amount: 1.0 },
+    { name: 'Itspseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Teaspoonfreshiygroundblackpepper', amount: 0.25, unit: 'tsp' },
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'issprigsfreshdno.2saounce)', amount: 1.0 },
+    { name: 'o.sheatovento', amount: 1.0 },
+    { name: 'esof.', amount: 1.0 },
+  ],
+  instructions: [
+    'Heat oven to 350° F.',
+    'Toss bread crumbs and milk in medium-size bowl until bread has soaked up all milk.',
+    'Using 4% cup measure, portion chicken burgers.',
+    'Heat oil in 12-inch sauté pan over medium-high flame, and lightly brown patties on both',
+    'Transfer burgers from sauté pan to half sheet tray lined with parchment.',
+    'Transfer burgers to oven and bake for 15 minutes.',
+    'Garnish with sour cream and fresh dill sprigs.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

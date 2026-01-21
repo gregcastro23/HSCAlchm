@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const chocolatePeanutbutterfrosting: Recipe = {
+  name: 'Chocolate Peanutbutterfrosting',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'i2ounces Iaacups Coconutmnk', amount: 1.0 },
+    { name: 'Itablespoon', amount: 1.0 },
+    { name: 'Tspagarpowder', amount: 2.0, unit: 'tsp' },
+    { name: 'Bouncescoconutcream icup)', amount: 1.0 },
+    { name: 'o.scuppeanutbutter', amount: 1.0 },
+    { name: 'o.scupmapiecrystais', amount: 0.5, unit: 'cup' },
+    { name: 'Eacupcocoapowder Sifted', amount: 0.25, unit: 'cup' },
+    { name: 'Pinchseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Gouncessemi Sweetdarkchocoiate icup)', amount: 2.0, unit: 'cups' },
+    { name: 'o.sin', amount: 1.0 },
+    { name: 'Quartpot Combinecoconutmnkandagarpowder Setasideforatieast', amount: 1.0 },
+    { name: 'sminutes.', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+  ],
+  instructions: [
+    'In21/2 quart pot, combine coconut milk and agar powder. Set aside for at least 5 minutes.',
+    'Prepare ice bath.',
+    'In food processor, combine coconut cream, peanut butter, maple crystals, cocoa powder,',
+    'Bring coconut milk-agar mixture to boil. Simmer until agar powder has dissolved, stirring',
+    'Slowly and carefully add coconut milk-agar mixture and melted chocolate to processor',
+    'Using spatula, transfer contents from food processor to small bow] over ice bath until',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

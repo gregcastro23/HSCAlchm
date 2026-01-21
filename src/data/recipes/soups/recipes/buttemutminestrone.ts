@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const buttemutminestrone: Recipe = {
+  name: 'Buttemutminestrone',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Tablespoonsextra virgin olive oil Ican Iaounce Choppedtomatces', amount: 1.0 },
+    { name: 'i2ouncesonion narge)', amount: 1.0 },
+    { name: 'Itspeasait Isprigfreshrosemary iaounce)', amount: 1.0 },
+    { name: 'Pinchcrackedredpepperfiakes Isprigfreshsage o.i2sounce)', amount: 1.0 },
+    { name: 'Bouncesieeks 2staiks)', amount: 1.0 },
+    { name: 'rinsedweio.eeeouncesgreenbeans I Inchdiagonaisnce', amount: 1.0 },
+    { name: 'Bouncescarrots narge)', amount: 1.0 },
+    { name: 'Ribscelery Smandice Seasaitandblackpeppertotaste', amount: 1.0 },
+    { name: 'Iargeciovesgarlicc Minced 2tablespoons) 2tablespoonsparsiey Chopped aaounce)', amount: 1.0 },
+    { name: 'Icupwhitebeans Soakedovemight', amount: 1.0 },
+    { name: 'Drainedandrinsed', amount: 15.0, unit: 'oz' },
+    { name: 'o.sini Ganonpot Heatonovermediumfiame Sweatonienswithsaitandredpepperfiakes', amount: 1.0 },
+    { name: 'Untilonionsaretransiucent Addieeks Carrots Celery Andgarlicc Continuesweatinguntil', amount: 1.0 },
+    { name: 'Vegetablesbegintosoften Abouts tminutes.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, heat oil over medium flame. Sweat onions with salt and red pepper flakes',
+    'Add white beans, tomatoes, stock, rosemary, and sage to pot with vegetables. Simmer',
+    'Add butternut squash to pot and continue to simmer until squash begins to break down',
+    'When beans are tender, season soup with vinegar, salt, and pepper.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

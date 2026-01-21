@@ -26,8 +26,8 @@ def extract_export_name(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-            # Look for export const name = ...
-            match = re.search(r'export const (\w+) =', content)
+            # Look for export const name = ... or export const name: Recipe = ...
+            match = re.search(r'export const (\w+)\s*[:=]', content)
             if match:
                 return match.group(1)
     except Exception as e:

@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const creamofcarrotsoupwitharboriorice: Recipe = {
+  name: 'Creamofcarrotsoupwitharboriorice',
+  description: 'A comforting and nourishing soup perfect for any season.',
+  ingredients: [
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Nargeonion i2ounces)', amount: 0.5 },
+    { name: 'Y Teaspeonseasait', amount: 1.0 },
+    { name: 'Poundscarrots Peeled Aa Inchrounds', amount: 1.0 },
+    { name: 'S Gcupsstock', amount: 4.0, unit: 'cups' },
+    { name: 'Cuparboriorice', amount: 1.0 },
+    { name: 'Iteaspooniemenjuice iaiemon)', amount: 1.0 },
+    { name: 'Itspgingerjuice iaounce)', amount: 0.25, unit: 'cup', notes: 'approximately 3-inch piece' },
+    { name: 'tablespoonschoppeddno.saounce)', amount: 1.0 },
+    { name: 'Ganonpot Heatonovermediumfiame Addonionsandsait Sweatuntilonionsare', amount: 1.0 },
+    { name: 'Softened abouto.g2sminutes).stiroftentopreventbrowning.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, heat oil over medium flame. Add onions and salt. Sweat until onions are',
+    'Add carrots, cover pot, and sweat over low heat for 5-6 minutes. Stir to prevent browning.',
+    'Add stock and rice to pot. Raise heat and bring soup to boil. Reduce heat and simmer',
+    'Blend soup until creamy, adding additional stock to achieve desired consistency.',
+    'Return soup to pot. Re-heat and season to taste with lemon and ginger juices.',
+    'Garnish with dill.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const bakedmilletcroquettes: Recipe = {
+  name: 'Bakedmilletcroquettes',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'o.scupmniet Washedanddrained', amount: 1.0 },
+    { name: 'Cupswater', amount: 2.0, unit: 'cups' },
+    { name: 'Tspait', amount: 1.0 },
+    { name: 'Cupsunfiowerseeds Toastedandgroundinfoodprocessor', amount: 1.0 },
+    { name: 'Bunchscanions Minced', amount: 1.0 },
+    { name: 'Y Bunchparsiey Minced', amount: 1.0 },
+    { name: 'o.ssmanearrot Finelygrated', amount: 1.0 },
+    { name: 'Atablespoonsshoyu', amount: 1.0 },
+    { name: 'o.spreheat oven to', amount: 1.0 },
+    { name: 'esobf.', amount: 1.0 },
+    { name: 'Dryroastmnietovermediumheat Stirringconstantiyforabout', amount: 1.0 },
+    { name: 'Iominutes', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+    { name: 'oruntilitsmensnkepopcom.', amount: 1.0 },
+  ],
+  instructions: [
+    'Insauce pot, dry roast millet over medium heat for 5 to 10 minutes, stirring constantly.',
+    'Add water and salt, cover, and bring to boil. Simmer 40 minutes or until water is',
+    'Transfer millet to large bowl with breadcrumbs and let cool. Squeeze grain until sticky.',
+    'Add scallions, parsley, and shoyu to millet.',
+    'Using % cup measure, form croquettes. Mold croquettes with wet hands. Dredge in',
+    'Heat % inch of oil in large sauté pan. Prepare plate lined with paper towel for draining.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

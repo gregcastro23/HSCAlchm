@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const creamyfreshhorseradishdressing: Recipe = {
+  name: 'Creamyfreshhorseradishdressing',
+  description: 'A flavorful and versatile condiment to enhance and elevate your dishes.',
+  ingredients: [
+    { name: 'Itablespoonpeeled Freshiygratedhorseradish', amount: 1.0 },
+    { name: 'Ypoundsnkentofu bianchedo.ggtminutesanddrained', amount: 1.0 },
+    { name: 'Tablespoonsextravirginonvean', amount: 1.0 },
+    { name: 'Tablespoonschickpeamiso', amount: 1.0 },
+    { name: 'Cupsoymnk', amount: 1.0 },
+    { name: 'Igarliccciove Slicedthin', amount: 2.0 },
+    { name: 'Iaiemon Juiced', amount: 1.0 },
+    { name: 'Itablespoonbrownricevinegar', amount: 1.0, unit: 'tbsp' },
+    { name: 'Teaspoondijonmustard', amount: 1.0, unit: 'tsp' },
+    { name: 'Pepper', amount: 2.0, unit: 'large', notes: 'roasted, peeled, seeded' },
+    { name: 'Tabascoorhotsauce', amount: 1.0 },
+    { name: 'Combinehorseradish Tofu Oil Miso Soymnk Garlicc Iemon Vinegar And', amount: 1.0 },
+    { name: 'Mustard Processuntilcreamyandsmooth Addpepperandtabascototaste Biending', amount: 1.0 },
+    { name: 'untilincorporated.', amount: 1.0 },
+    { name: 'Instituteofcunaryeducation Courseg Ibg', amount: 1.0 },
+    { name: 'o.sessont9e Brunchpreparation', amount: 1.0 },
+  ],
+  instructions: [
+    'Combine horseradish, tofu, oil, miso, water, garlic, lemon, vinegar, umeboshi paste, and',
+    'Add pepper and Tabasco to taste, blending until incorporated.',
+    'In food processor, combine all ingredients; process until smooth and creamy. Adjust',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

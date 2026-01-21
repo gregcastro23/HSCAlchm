@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const sauteedmushroomswithherbs: Recipe = {
+  name: 'Sauteedmushroomswithherbs',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Servesb', amount: 1.0 },
+    { name: 'Etablespoonsonvean', amount: 1.0 },
+    { name: 'Ishanot Sliced', amount: 0.333, unit: 'cup' },
+    { name: 'Sciovesgarlicc Minced', amount: 0.25, unit: 'cup' },
+    { name: 'Iaapoundshntakemushrooms', amount: 2.0, unit: 'oz' },
+    { name: 'Poundcreminimushreoms', amount: 24.0, unit: 'medium' },
+    { name: 'itspait.', amount: 1.0 },
+    { name: 'Cupswhitewine', amount: 1.0, unit: 'cup' },
+    { name: 'Iacupoatfiour', amount: 1.0 },
+    { name: 'Cupsvegetablestock', amount: 2.0, unit: 'cups' },
+    { name: 'Additionaisaitandpeppertotaste', amount: 1.0 },
+    { name: 'Iapoundreggianoparmesancheese Grated optionai)', amount: 0.5, unit: 'cup' },
+    { name: 'Heatonovermediumfiame Addshanotsandgarlicc Iowerheat Andsaute', amount: 1.0 },
+    { name: 'foro.sminutes Addmushroomswithsaittopanandsauteuntilwellcaramenzed', amount: 1.0 },
+    { name: 'Stirringoniyoccasionany Io isminutes.', amount: 1.0 },
+  ],
+  instructions: [
+    'Inlarge pan, heat oil over medium flame. Add shallots and garlic, lower heat, and sauté',
+    'Add wine to pan, turn up heat, and simmer until wine has evaporated.',
+    'All flour to pan. Stir until incorporated. Add stock and simmer until sauce is thickened,',
+    'Add cheese to taste, if using.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const balinesechilemarinade: Recipe = {
+  name: 'Balinesechilemarinade',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Cupextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Cupwater', amount: 2.0, unit: 'cups' },
+    { name: 'Mediumciovesgarlicc', amount: 1.0 },
+    { name: 'Ismanredonion Chopped', amount: 1.0, unit: 'large' },
+    { name: 'Tablespoonstomatopuree', amount: 1.0 },
+    { name: 'Iteaspoongingerjuice', amount: 0.25, unit: 'cup', notes: 'approximately 3-inch piece' },
+    { name: 'Cupmacadamianuts', amount: 1.0 },
+    { name: 'Ismanjaiapenopepper', amount: 1.0 },
+    { name: 'Y Teaspeonturmeric', amount: 4.0, unit: 'oz' },
+    { name: 'Teaspeonredpepperfiakes', amount: 0.25, unit: 'tsp' },
+    { name: 'Tspsait', amount: 1.0 },
+    { name: 'Y Cupnmejuice', amount: 1.0, unit: 'cup', notes: 'approximately 6 limes' },
+    { name: 'Water Garlicc Redonion Tomatopuree Gingerjuice Macadamianuts', amount: 1.0 },
+    { name: 'Jaiapenopepper Turmeric Redpepperfiakes Saitandnmejuiceinbiender Processto', amount: 1.0 },
+    { name: 'Makethinpaste addwatertothinifnecessary.', amount: 1.0 },
+    { name: 'Instituteofcunaryeducation Coursee ib9', amount: 1.0 },
+    { name: 'o.sessonao Grnng', amount: 1.0 },
+  ],
+  instructions: [
+    'Combine olive oil, water, garlic, red onion, tomato puree, ginger juice, macadamia nuts,',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

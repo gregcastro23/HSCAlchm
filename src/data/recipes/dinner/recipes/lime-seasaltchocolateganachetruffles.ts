@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const limeSeasaltchocolateganachetruffles: Recipe = {
+  name: 'Lime Seasaltchocolateganachetruffles',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Ea Cupcoconutmnk', amount: 3.5, unit: 'cups' },
+    { name: 'Teaspoonmezest Tightiypacked', amount: 1.0 },
+    { name: 'Teaspeonseasait', amount: 1.0 },
+    { name: 'Cupsfinelychoppedsemisweetchocoiate', amount: 1.0 },
+    { name: 'Finishingandgamish', amount: 1.0 },
+    { name: 'Chocoiatecoating recipefonowing)', amount: 1.0 },
+    { name: 'Zestof', amount: 1.0 },
+    { name: 'Nmes', amount: 2.0, notes: 'sliced for garlicish' },
+    { name: 'About', amount: 1.0 },
+    { name: 'Itablespoonmaidonseasait', amount: 1.0 },
+    { name: 'Tspnmezest And atspsaittosimmerin2 quartpot.', amount: 1.0 },
+  ],
+  instructions: [
+    'Bring coconut milk, 4 tsp lime zest, and \\ tsp salt to simmer in 2-quart pot.',
+    'Remove coconut milk from heat. Add chocolate. Stir with spatula until smooth.',
+    'Pour chocolate mixture into shallow baking pan and chill in freezer for 30 minutes, or',
+    'Form 1-inch diameter truffles using small half-ounce scoop or teaspoon.',
+    'Return truffles to freezer to firm.',
+    'Dip truffles in Chocolate Coating (recipe following) and garnish with lime zest and sea',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

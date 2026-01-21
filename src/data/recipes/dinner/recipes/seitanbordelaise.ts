@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const seitanbordelaise: Recipe = {
+  name: 'Seitanbordelaise',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Poundseitan Cutintoia Inchsnces', amount: 1.0 },
+    { name: 'Cupwhoiewheatfiour fordredging)', amount: 1.0 },
+    { name: 'Etablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Icupsvegetablestock', amount: 2.0, unit: 'cups' },
+    { name: 'Cupredwine', amount: 1.0 },
+    { name: 'Etablespoonsmincedshanots iounce)', amount: 1.0 },
+    { name: 'i2 Shntakemushrooms Stemmed Thiniysliced', amount: 1.0 },
+    { name: 'Itablespoonmincedfreshthyme aounce)', amount: 1.0 },
+    { name: 'Seasaitandfreshiygroundblackpeppertotaste', amount: 1.0 },
+    { name: '0.5 dredgeseitaninfiourandshakeoffanyexcess.', amount: 1.0 },
+    { name: 'Inchsautepanovermedium Highfiame Heatonandsearseitanuntilghtiy', amount: 1.0 },
+    { name: 'Caramenzedonbothsides Removeseitanfrompanandsetaside Addshanotstopanand', amount: 1.0 },
+    { name: 'sauteuntilcaramenzed.', amount: 1.0 },
+  ],
+  instructions: [
+    'Dredge seitan in flour and shake off any excess.',
+    'In 10-inch sauté pan over medium-high flame, heat oil and sear seitan until lightly',
+    'Add seitan back to pan with stock, red wine, shiitake mushrooms, and thyme. Simmer',
+    'Season to taste with salt and pepper.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const plaincrepesDassic: Recipe = {
+  name: 'Plaincrepes dassic)',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Ieupan Purposefiour', amount: 2.25, unit: 'cups' },
+    { name: 'Pinehofseasait', amount: 1.0 },
+    { name: 'Eorganiceggs', amount: 2.0, unit: 'tbsp' },
+    { name: 'To', amount: 1.0 },
+    { name: 'Ecupsorganicmnk', amount: 1.0 },
+    { name: 'Tablespoonsbutter Meited', amount: 1.0 },
+    { name: 'Iaacupciarifiedbutter Forcrepepan', amount: 1.0 },
+    { name: 'Brandyorrum Optionai', amount: 1.0 },
+    { name: 'Siftfiourwithsait Makewellincenterofdryingredients Breakeggsinto', amount: 1.0 },
+    { name: 'Wellandwhiskuntilthoroughiyincorporated Immediateiyadd', amount: 1.0 },
+    { name: 'Cupsofmnk Meited', amount: 1.0 },
+    { name: 'Butterandbrandyorrum gifusing).whisktogetheruntilincorporated.', amount: 1.0 },
+    { name: 'Strainmixturethroughfinechinoistoremoveanyiumps Addmoremnk Ifnecessary To', amount: 1.0 },
+    { name: 'achieveconsisteneyofthincream.', amount: 1.0 },
+  ],
+  instructions: [
+    'In mixing bowI, sift flour with salt. Make well in center of dry ingredients. Break eggs into',
+    'Strain mixture through fine chinois to remove any lumps. Add more milk, if necessary, to',
+    'Refrigerate mixture for 30 minutes.',
+    'In 7-inch crépe pan, fry crépes. If storing, layer with parchment paper and wrap tightly so',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const massagedkalesaladwithroastedchickpeasandpickledredonion: Recipe = {
+  name: 'Massagedkalesaladwithroastedchickpeasandpickledredonion',
+  description: 'A fresh and vibrant salad featuring seasonal ingredients and crisp textures.',
+  ingredients: [
+    { name: 'Roastedchickpeas Pickiedredonion', amount: 1.0 },
+    { name: 'Y Cupchickpeas Soakedovemight Drained Aouncesredonion isman)', amount: 1.0 },
+    { name: 'Andrinsed 2cupsboningwater', amount: 1.0 },
+    { name: 'Tspeasait o.stablespoonappiecidervinegar', amount: 1.0 },
+    { name: 'o.sbayieaf Aatspeasait', amount: 1.0 },
+    { name: 'Sprigsthyme Iteaspoonagavesyrup', amount: 1.0 },
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Yteaspoongroundfenei Massagedkaie', amount: 1.0 },
+    { name: 'ipoundo.sacinatokaie ibunch)', amount: 1.0 },
+    { name: 'Tspmokedpaprika Chitfonade', amount: 0.5, unit: 'tsp' },
+    { name: 'Pinchredpepperfiakes Y Teaspeonseasait', amount: 1.0 },
+    { name: 'Additionaisaittotaste Iteaspooniemonzest', amount: 1.0 },
+    { name: 'Itablespooniemonjuice aiemon)', amount: 1.0 },
+    { name: 'Itablespoonextra Virginolive oil', amount: 3.0, unit: 'tbsp' },
+    { name: 'Cuppittedkaiamataonves Coarseiychopped', amount: 1.0 },
+    { name: 'Roastedchickpeas', amount: 12.0, unit: 'oz' },
+  ],
+  instructions: [
+    'Combine red onions in medium bow! with boiling water and let sit 5-10 minutes. Drain.',
+    'Combine kale in medium bow! with salt, lemon zest and lemon juice. Massage with gloved',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

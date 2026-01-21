@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const lemonwhippedcoconutcream: Recipe = {
+  name: 'Lemonwhippedcoconutcream',
+  description: 'A rich and creamy plant-based alternative perfect for sauces and desserts.',
+  ingredients: [
+    { name: 'o.scan Ie Ggounces Coconutmnk', amount: 1.0 },
+    { name: 'Itablespoonagarpowder', amount: 1.0 },
+    { name: 'S Aounceseach Coconutcream Meited', amount: 1.0 },
+    { name: 'o.scupagavesyrup', amount: 0.25, unit: 'cup' },
+    { name: 'Tspiemonzest 2iemons)', amount: 1.0 },
+    { name: 'Cupiemonjunce o.ggtiemons)', amount: 1.0 },
+    { name: 'Pinchseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Ycupscoconutbutter Meited', amount: 1.0 },
+    { name: 'o.sin', amount: 1.0 },
+    { name: 'Quartpot Combinecoconutmnk Agar Andcoconutcream Setasideforatieasts', amount: 1.0 },
+    { name: 'minutes.', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+  ],
+  instructions: [
+    'Prepareicebath bringcoconutmixturetosimmerconstantiystirringuntilantheagaris.',
+    'Invitamix Combinecoconutmixture Agavesyrup Iemonzest Iemonjuice andsait.',
+    'Bienduntilsmocth siowiyaddcoconutbutterandbiendtocombine.',
+    'Transfertobowi and set overicebath untilchnied.',
+    'Processfrostinginfoodprocessor untilsmooth.',
+    'Nstituteofcunaryeducation Coursee iob.',
+    'Lessongo cakeandfrostingproduction.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

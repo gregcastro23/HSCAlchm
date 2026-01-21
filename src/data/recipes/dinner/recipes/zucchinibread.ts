@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const zucchinibread: Recipe = {
+  name: 'Zucchinibread',
+  description: 'Freshly baked goods with wholesome ingredients and amazing flavor.',
+  ingredients: [
+    { name: 'x9 Inchioaf', amount: 1.0 },
+    { name: 'Itablespoonfiaxseed Ground Mixedwith', amount: 1.0 },
+    { name: 'Etablespoonswater', amount: 1.0 },
+    { name: 'Iacupmeitedon', amount: 1.0 },
+    { name: 'Iateaspoonvaniaextract', amount: 0.5, unit: 'tsp' },
+    { name: 'Itablespoonricewinevinegar', amount: 1.0, unit: 'tbsp' },
+    { name: 'Gounceszucchini Grated', amount: 4.0, unit: 'medium' },
+    { name: 'o.ggtcuppecans Roughiychopped', amount: 2.0, unit: 'medium' },
+    { name: 'Iaacupscoconutsugar', amount: 1.0 },
+    { name: 'Iteaspoongroundcinamon', amount: 0.5, unit: 'tsp' },
+    { name: 'Tspait', amount: 1.0 },
+    { name: 'Iateaspoonbakingsoda', amount: 1.0, unit: 'tsp' },
+    { name: 'Teaspoonbakingpowder', amount: 2.0, unit: 'tsp' },
+    { name: 'Etablespoonsan Purposefiour', amount: 1.0 },
+    { name: 'Etablespoonswhoiewheatpastryfiour', amount: 1.0 },
+  ],
+  instructions: [
+    'Heat convection oven to 350° F. Line a 4 4% x 9-inch loaf pan with parchment.',
+    'Whisk together flax mixture, canola oil, vanilla, and rice vinegar in bowl. Stir in zucchini',
+    'In separate bowl, sift together coconut sugar, cinnamon, salt, baking soda, baking powder,',
+    'Let bread cool completely before slicing and serving.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

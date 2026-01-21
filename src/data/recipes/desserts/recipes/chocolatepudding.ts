@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const chocolatepudding: Recipe = {
+  name: 'Chocolatepudding',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Cupsaimondmnk', amount: 1.0, unit: 'cup', notes: 'plus more for serving' },
+    { name: 'Tablespoonscocoapowder', amount: 0.25, unit: 'cup' },
+    { name: 'Tablespoonsagarfiakes', amount: 1.0 },
+    { name: 'Pinchseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Etablespoonskuzu', amount: 1.0 },
+    { name: 'Cupwater', amount: 2.0, unit: 'cups' },
+    { name: 'Iaacupsmapiesyrup', amount: 1.5, unit: 'tbsp', notes: 'or to taste' },
+    { name: 'Itablespoonvania', amount: 1.0 },
+    { name: 'Etablespoonscashewbutter', amount: 1.0 },
+    { name: 'I In', amount: 2.0, unit: 'tbsp' },
+    { name: 'Quartsaucepan Overmediumheat Simmertogethermnk Cocoa Agar Andseasait', amount: 1.0 },
+    { name: 'forabout2o 2sminutes whiskingtofunydissaiveagar.', amount: 1.0 },
+    { name: 'Dissoivekuzuinwater Pourintosaucepanwithcocoamixture Stirring', amount: 1.0 },
+    { name: 'Untilquidretumstobon continuetocookoneminutemoreuntilmixtureisthicker.', amount: 1.0 },
+  ],
+  instructions: [
+    'In21/2 quart saucepan, over medium heat, simmer together milk, cocoa, agar, and sea salt',
+    'Insmall bowl, dissolve kuzu in water. Pour into saucepan with cocoa mixture, stirring',
+    'Add maple syrup and vanilla to taste. Cook 2 to 3 minutes more.',
+    'Remove pot from heat and mix some of cocoa mixture with cashew butter until cashew',
+    'Pour cocoa mixture into shallow pan and cool until firm. In food processor, blend mixture',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

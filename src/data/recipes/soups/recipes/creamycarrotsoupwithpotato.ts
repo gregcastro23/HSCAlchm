@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const creamycarrotsoupwithpotato: Recipe = {
+  name: 'Creamycarrotsoupwithpotato',
+  description: 'A comforting and nourishing soup perfect for any season.',
+  ingredients: [
+    { name: 'Tablespoonsextra Virginolive oil', amount: 3.0, unit: 'tbsp' },
+    { name: 'Nargeyenowonion', amount: 4.0, notes: 'sliced' },
+    { name: 'Tspeasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Giargecarrots', amount: 3.0, unit: 'medium', notes: 'cut into 2-inch pieces' },
+    { name: 'Bcupsstock', amount: 1.0 },
+    { name: 'Mediumpotato', amount: 1.0 },
+    { name: 'Iteaspooniemonjuice Ormoretotaste', amount: 1.0 },
+    { name: 'Iatspgingerjuice Ormoretotaste', amount: 1.0 },
+    { name: 'Itablespoondni Choppedforgamish', amount: 1.0 },
+    { name: 'Ganonpot Heatonovermedium Iowheat Addonionsandsait Sweatuntilonions', amount: 1.0 },
+    { name: 'Aresoftened abouto.g2sminutes).stiroftentopreventbrowning.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, heat oil over medium-low heat. Add onions and salt. Sweat until onions',
+    'Add carrots, cover pot and sweat carrots over low heat for 5-6 minutes. Stir to prevent',
+    'Add stock and potatoes to pot. Raise heat and bring to boil. Reduce heat to low and',
+    'Blend soup until creamy, adding additional stock to achieve desired consistency.',
+    'Add lemon and ginger juice. Readjust seasonings.',
+    'Garnish with dill and serve.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

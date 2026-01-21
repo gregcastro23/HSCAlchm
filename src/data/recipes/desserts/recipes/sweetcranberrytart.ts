@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const sweetcranberrytart: Recipe = {
+  name: 'Sweetcranberrytart',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Ibnd baked9 Inchtartshen', amount: 1.0 },
+    { name: 'Ecupscranberries Rinsed', amount: 2.0, unit: 'cups' },
+    { name: 'Ea Cupmapiesyrup', amount: 1.5, unit: 'tbsp', notes: 'or to taste' },
+    { name: 'o.scupcurrants', amount: 1.0 },
+    { name: 'Cupappiejuice', amount: 1.0, unit: 'cup' },
+    { name: 'Itablespoonagarfiakes', amount: 1.0 },
+    { name: 'itablespoonkuzudissoivedino.eeecuporangejuice', amount: 1.0 },
+    { name: 'Itablespoonfinelygratedorangezest', amount: 1.0 },
+    { name: 'o.scuptoasted Choppedwainuts', amount: 1.0 },
+    { name: 'Ganonpot Mixcranberries Mapiesyrup Andcurrants Bringmixturetobon Reduce', amount: 1.0 },
+    { name: 'Tosimmer andcookuntilancranberrieshavepopped.', amount: 1.0 },
+    { name: 'In', amount: 1.0 },
+    { name: 'Quartpot Bringappiejuiceandagartobon Reduceheatandcookuntilagaris', amount: 1.0 },
+    { name: 'dissoived.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, mix cranberries, maple syrup, and currants. Bring mixture to boil, reduce',
+    'In 2% quart pot, bring apple juice and agar to boil. Reduce heat and cook until agar is',
+    'Mix together kuzu/orange juice slurry and orange zest. Stir kuzu slurry into cranberry',
+    'Spoon filling into baked tart shell and chill to set.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const bakedtofu: Recipe = {
+  name: 'Bakedtofu',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Iaouncesfirmtofu ibiock)', amount: 1.0 },
+    { name: 'Siabs Pressedfor', amount: 1.0 },
+    { name: 'Eominutes', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+    { name: 'Teaspoongroundcumin', amount: 1.0, unit: 'tsp' },
+    { name: 'Teaspoonpaprika', amount: 1.0 },
+    { name: 'Teaspoongarliccpowder', amount: 1.0 },
+    { name: 'Cupappiejuice', amount: 1.0, unit: 'cup' },
+    { name: 'Tablespoonstamari', amount: 1.0 },
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'o.sreciperomescosauce recipefonowing)', amount: 1.0 },
+    { name: 'o.sheatovento', amount: 1.0 },
+    { name: 'esof.', amount: 1.0 },
+    { name: 'Snceeachsiaboftofuinto', amount: 1.0 },
+    { name: 'igcubes.', amount: 2.0, unit: 'cups', notes: 'for serving' },
+    { name: 'Combinetofuwithcumin Paprika Garliccpowder Appiejuice', amount: 1.0 },
+    { name: 'Tamari Andon', amount: 1.0, unit: 'tbsp' },
+  ],
+  instructions: [
+    'Heat oven to 350° F.',
+    'Slice each slab of tofu into 16 cubes.',
+    'Inasmall baking vessel, combine tofu with cumin, paprika, garlic powder, apple juice,',
+    'Transfer to oven and bake 15 - 20 minutes. Remove from oven and serve with Romesco',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

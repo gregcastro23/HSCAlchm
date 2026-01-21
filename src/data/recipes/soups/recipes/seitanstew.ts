@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const seitanstew: Recipe = {
+  name: 'Seitanstew',
+  description: 'A hearty and warming stew with deep, complex flavors.',
+  ingredients: [
+    { name: 'Itablespoonextra Virginolive oil Gcupsvegetablestock', amount: 1.0 },
+    { name: 'i2ouncesonion narge)', amount: 1.0 },
+    { name: 'Ribscelery Ia Inchthickdiagonaisnces Ipoundsseitan Ea Inchchunks', amount: 1.0 },
+    { name: 'Gouncesburdeck ipiece)', amount: 1.0 },
+    { name: 'i2ouncescarrot narge)', amount: 1.0 },
+    { name: 'Ipounddaikon imedium)', amount: 1.0 },
+    { name: 'Moonsnces Stablespoonskuzu Disseivedin', amount: 1.0 },
+    { name: 'Poundshntakemushrooms Stemmedand Coidstock', amount: 1.0 },
+    { name: 'Haived 2tablespoonsjuicedginger 2ounces)', amount: 1.0 },
+    { name: 'Poundsbuttemutsquash imedium)', amount: 4.0, unit: 'cups' },
+    { name: 'Peeled I Inchdice 2scanions Thindiagonaisnce Forgamish', amount: 1.0 },
+    { name: 'o.sini Ganonpot Heatolive oilovermediumfiameandsweatonionuntilsoftened Add', amount: 1.0 },
+    { name: 'Celery Burdock Carrots Anddaikon Sweatuntilvegetablesbegintosoften Abouts T', amount: 1.0 },
+    { name: 'Minutes Addmushroomsandsweatuntiltender About', amount: 1.0 },
+    { name: 'iminute.', amount: 1.0 },
+  ],
+  instructions: [
+    'In 1-gallon pot, heat olive oil over medium flame and sweat onion until softened. Add',
+    'Add squash and stock to just cover vegetables, about 6 cups. Cover pot and bring to boil.',
+    'Add kuzu slurry and simmer until mixture slightly thickens. Stir in ginger juice. Season to',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

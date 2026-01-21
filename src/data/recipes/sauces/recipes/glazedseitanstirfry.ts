@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const glazedseitanstirfry: Recipe = {
+  name: 'Glazedseitanstirfry',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'suirfry: giaze:', amount: 1.0 },
+    { name: 'Cupcanoiaon Gtablespoonsmapiesyrup', amount: 1.0 },
+    { name: 'i2ouncesseitan Cutintoia Inchwide Aacuporangejuice 2oranges)', amount: 1.0 },
+    { name: 'Stripsandpatteddry 2tablespoonsshoyu', amount: 1.0 },
+    { name: 'Ouncesonion Sautesnce Itablespooncanoiaon', amount: 1.0 },
+    { name: 'Bouncescarrots Matchstick Itablespoonarrowrootdissoivedin', amount: 1.0 },
+    { name: 'Eiargeciovesgarlicc Thiniysliced 2tablespoonscoidwater', amount: 1.0 },
+    { name: 'o.stablespoonmincedginger iounce)', amount: 1.0 },
+    { name: 'Ouncessnowpeas Cutinhaifonbias gamish:', amount: 1.0 },
+    { name: 'Pinchcrushedredpepperfiakes Iteaspoontoastedsesameon', amount: 1.0 },
+    { name: 'Cupcashews Toasted Coarseiychopped', amount: 1.0 },
+    { name: 'Scanions Trimmed Thindiagenaisnce', amount: 1.0 },
+    { name: 'Heatonovermedium Highfiame Addseitanandstir fryuntilcaramenzed.', amount: 1.0 },
+  ],
+  instructions: [
+    'In wok, heat oil over medium-high flame. Add seitan and stir-fry until caramelized.',
+    'Add onions and stir-fry until lightly caramelized. Add carrots and continue stir-frying',
+    'In small bowl, combine all glaze ingredients and whisk to combine. Pour glaze over',
+    'Drizzle with toasted sesame oil and garnish with cashews and scallions.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

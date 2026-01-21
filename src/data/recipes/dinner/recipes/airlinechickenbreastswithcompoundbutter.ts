@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const airlinechickenbreastswithcompoundbutter: Recipe = {
+  name: 'Airlinechickenbreastswithcompoundbutter',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Poundsairnechickenbreasts a)', amount: 1.0 },
+    { name: 'Iquartwater', amount: 2.0, unit: 'cups' },
+    { name: 'Itablespoonseasait', amount: 1.0 },
+    { name: 'Tablespoonsbutter Softened', amount: 1.0, unit: 'cup' },
+    { name: 'Etablespoonschoppedgarlicc eiargeciovesgarlicc)', amount: 1.0 },
+    { name: 'Zestof', amount: 1.0 },
+    { name: 'Nemon', amount: 1.0, unit: 'whole', notes: 'juice only' },
+    { name: 'Etablespoonsiemonjuice nemons)', amount: 1.0 },
+    { name: 'itablespoonchoppedbasio.2saounce)', amount: 1.0 },
+    { name: 'Seasaitandfreshiygroundblackpeppertotaste', amount: 1.0 },
+    { name: 'Tablespoonsghee', amount: 1.0 },
+  ],
+  instructions: [
+    'tablespoons butter, softened',
+    'Combine chicken breasts in medium bowl with water and salt to brine. Refrigerate one',
+    'Combine butter, garlic, lemon zest, lemon juice, and basil in food processor. Process until',
+    'Remove compound butter mixture from processor and divide into 4 equal portions. Set',
+    'Preheat convection oven to 400° F.',
+    'Gently separate skin from breast, taking care not to tear it. Spread compound butter',
+    'Heat ghee in 12-inch sauté pan. Place breasts skin side down in pan. Sear over medium-',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

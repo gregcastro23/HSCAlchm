@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const veganbechamel: Recipe = {
+  name: 'Veganbechamel',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Tspcocenuton', amount: 1.0 },
+    { name: 'o.sounceshanot isman)', amount: 1.0 },
+    { name: 'Iounces Aacup Oatfiour', amount: 1.0 },
+    { name: 'Gcupsfreshaimondmnk Ceoied seefonowingrecipe)', amount: 1.0 },
+    { name: 'Isprigfreshthyme', amount: 2.0, unit: 'tsp', notes: 'chopped' },
+    { name: 'o.sbayieaf', amount: 1.0 },
+    { name: 'Pinchnutmeg', amount: 0.25, unit: 'tsp' },
+    { name: 'o.ggttablespoonsiemonjuice eaiemon)', amount: 1.0 },
+    { name: 'Seasaitandfreshiygroundblackpeppertotaste', amount: 1.0 },
+    { name: 'o.sin', amount: 1.0 },
+    { name: 'Quartsaucepan Heatonovermediumfiame sweatshanotsuntiltransiucent.', amount: 1.0 },
+  ],
+  instructions: [
+    'Addfiourandcookoveriowheat stirringconstantiyforabout.',
+    'Siowiywhiskinaimondmnkwiththyme Bayieaf andnutmeg.',
+    'Increaseheattosimmerandcontinuecookingforabout2o 2sminutes stirringoften.',
+    'Untilsaucethickens.',
+    'Strainsaucethroughchinois Addiemonjuice seasontotaste.',
+    'Nstituteofcunaryeducation course2 isg.',
+    'Lesson22 saucei.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

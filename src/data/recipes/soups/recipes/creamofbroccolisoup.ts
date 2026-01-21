@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const creamofbroccolisoup: Recipe = {
+  name: 'Creamofbroccolisoup',
+  description: 'A comforting and nourishing soup perfect for any season.',
+  ingredients: [
+    { name: 'Ibouncesbroccon ismanbunch)', amount: 1.0 },
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Nargeonion i2ounces)', amount: 0.5 },
+    { name: 'Itspeasait Divided', amount: 1.0 },
+    { name: 'S Gcupsstock', amount: 4.0, unit: 'cups' },
+    { name: 'Gtablespoonsarboriorice', amount: 1.0 },
+    { name: 'Cupssoakedcashews', amount: 1.0 },
+    { name: 'Saitandfreshiygroundblackpeppertotaste', amount: 1.0 },
+    { name: 'tablespoonschoppeddno.saounce)', amount: 1.0 },
+    { name: 'Separatebrocconfioretsintobite Sizepieces setaside.', amount: 1.0 },
+    { name: 'Ganonpot Heatonovermediumfiame Addonionand', amount: 1.0 },
+    { name: 'Iateaspoonofsait Sweat', amount: 1.0 },
+    { name: 'Untilonionsaretransiucent About', amount: 1.0 },
+    { name: 'Iominutes stiroftentopreventbrowning.', amount: 1.0 },
+  ],
+  instructions: [
+    'Peel and slice broccoli stems. Separate broccoli florets into bite-size pieces. Set aside.',
+    'In 1-gallon pot, heat oil over medium flame. Add onion and 1% teaspoon of salt. Sweat',
+    'Add stock, rice, and cashews to pot. Raise heat and bring to boil. Reduce heat and simmer',
+    'In separate 1- gallon pot, bring 2 quarts water to boil with remaining salt. Prepare ice',
+    'Combine onion-rice and broccoli in Vitamix. Blend until creamy.',
+    'Return soup to pot. Re-heat and season to taste with salt and pepper.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

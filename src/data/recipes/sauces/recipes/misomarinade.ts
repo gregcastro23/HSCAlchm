@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const misomarinade: Recipe = {
+  name: 'Misomarinade',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Cupwhitemiso', amount: 0.25, unit: 'cup' },
+    { name: 'Eciovesgarlicc Sliced', amount: 0.25, unit: 'cup' },
+    { name: 'Etablespoonsgingerjuice I inchknob)', amount: 1.0 },
+    { name: 'Tablespoonsbrownricevinegar', amount: 1.0, unit: 'tbsp' },
+    { name: 'Juiceofniemon 2tablespoons)', amount: 1.0 },
+    { name: 'Cupricesyrup', amount: 1.25, unit: 'tbsp' },
+    { name: 'Icupwater omitifmarinatingfish)', amount: 1.0 },
+    { name: '0.5 combineaningrecientsinbienderuntilsmoothandwellmixed.', amount: 1.0 },
+    { name: 'Instituteofcunaryeducation Coursee Es', amount: 1.0 },
+    { name: 'o.sesson29 Soyfooddemo', amount: 1.0 },
+    { name: 'Miso marinatedsao.smon', amount: 1.0 },
+    { name: 'Ipoundssaimonfnet Skinedandcutinto', amount: 1.0 },
+    { name: 'Cupsmisomarinade recipebeiow)', amount: 1.0 },
+    { name: 'Tablespoonssesameon optionai)', amount: 1.0 },
+    { name: '0.5 Preheat oven to', amount: 1.0 },
+    { name: 'esofdegrees.', amount: 4.0, unit: 'cups' },
+  ],
+  instructions: [
+    'Combine all ingredients in blender until smooth and well mixed.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

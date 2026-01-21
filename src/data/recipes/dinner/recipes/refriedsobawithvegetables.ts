@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const refriedsobawithvegetables: Recipe = {
+  name: 'Refriedsobawithvegetables',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Tablespoonssesameon', amount: 1.0 },
+    { name: 'Tspginger Minced', amount: 2.0, unit: 'tbsp' },
+    { name: 'Iargeciovesgarlicc Peeledandminced', amount: 1.0 },
+    { name: 'Ieavesbokchoy ieavesandstems)', amount: 1.0 },
+    { name: 'o.sredpepper Cutintojunene', amount: 1.0 },
+    { name: 'Ibunchscanions Slicedinte', amount: 1.0 },
+    { name: 'Inchdiagonaisnces', amount: 1.0 },
+    { name: 'Icupsbeansprouts', amount: 1.0, unit: 'pound', notes: 'finely shredded' },
+    { name: 'Ijaiapenopepper Minced', amount: 1.0 },
+    { name: 'Cupshoyu', amount: 2.0, unit: 'tbsp' },
+    { name: 'Itablespoontoastedsesameon', amount: 1.0, unit: 'tbsp' },
+    { name: 'Saittotaste', amount: 1.0 },
+    { name: 'Poundsobanoodies Cooked Drained Andrinsed', amount: 1.0, unit: 'can' },
+    { name: 'Addsesameon Gingerandgarlicc Cook', amount: 1.0 },
+    { name: 'iminute.', amount: 1.0 },
+  ],
+  instructions: [
+    'Heat large wok; add sesame oil, ginger and garlic. Cook 1 minute.',
+    'Add bok choy stems, then add leaves, red pepper and scallions. Cook until pepper is just',
+    'Add shoyu and toasted sesame oil. Season with salt to taste. Add noodles. Mix well and',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

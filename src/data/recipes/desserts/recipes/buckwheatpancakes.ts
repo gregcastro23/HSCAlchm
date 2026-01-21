@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const buckwheatpancakes: Recipe = {
+  name: 'Buckwheatpancakes',
+  description: 'A sweet and satisfying treat made with quality ingredients.',
+  ingredients: [
+    { name: 'Cupssiftedunbieachedwhitefiour', amount: 1.0 },
+    { name: 'Ieupbuckwheatfiour', amount: 1.5, unit: 'cups' },
+    { name: 'Teaspoonbakingpowder', amount: 2.0, unit: 'tsp' },
+    { name: 'Iatspait', amount: 1.0 },
+    { name: 'Iteaspoonbakingsoda', amount: 1.0, unit: 'tsp' },
+    { name: 'Tspmapiecrystais', amount: 0.5, unit: 'cup' },
+    { name: 'Etablespoonsappiecidervinegar', amount: 2.0, unit: 'tbsp' },
+    { name: 'Ecupsaimondmnk', amount: 1.0 },
+    { name: 'o.sveryripebanana Pureed', amount: 1.0 },
+    { name: 'Combinefiours Bakingpowder Salt Bakingsoda andmapiecrystais.', amount: 1.0 },
+    { name: 'setaside.', amount: 1.0 },
+    { name: 'Combineappiecidervinegar Andaimondmnk o.setsitfors iominutes.', amount: 1.0 },
+    { name: 'Addbanana', amount: 1.0 },
+  ],
+  instructions: [
+    'In medium bowl, combine flours, baking powder, salt, baking soda, and maple crystals.',
+    'In separate bowl, combine apple cider vinegar, and almond milk. Let sit for 5-10 minutes.',
+    'Add dry ingredients to wet ingredients. Beat batter only until blended.',
+    'Using 1-ounce ladle, pour batter onto griddle. Cook cakes until bubbles in batter break on',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

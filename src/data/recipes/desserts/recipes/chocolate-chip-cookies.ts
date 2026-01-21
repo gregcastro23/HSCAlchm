@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const chocolateChipCookies: Recipe = {
+  name: 'Chocolate Chip Cookies',
+  description: 'Classic homemade chocolate chip cookies.',
+  ingredients: [
+    { name: 'all-purpose flour', amount: 2.25, unit: 'cups' },
+    { name: 'baking soda', amount: 1.0, unit: 'tsp' },
+    { name: 'salt', amount: 1.0, unit: 'tsp' },
+    { name: 'butter, softened', amount: 1.0, unit: 'cup' },
+    { name: 'granulated sugar', amount: 0.75, unit: 'cup' },
+    { name: 'packed brown sugar', amount: 0.75, unit: 'cup' },
+    { name: 'vanilla extract', amount: 1.0, unit: 'tsp' },
+    { name: 'large eggs', amount: 2.0 },
+    { name: 'semisweet chocolate chips', amount: 2.0, unit: 'cups' },
+  ],
+  instructions: [
+    'Preheat oven to 350° F (300° F in convection oven). Line 2 sheet trays with parchment',
+    'Cream together butter, brown sugar, and white sugar in stand mixer, until sugars are',
+    'Add egg and vanilla. Mix to incorporate.',
+    'In separate bowl, sift together flour, baking soda and salt.',
+    'Add flour mixture to butter/sugar/egg mixture in 4 cup increments until flour is',
+    'Using 1-ounce scoop, drop cookies onto baking sheet at 2-inch intervals.',
+    'Cook 10-12 minutes or until golden at edges. Let cool.',
+    'Low Fat (AMDR 20%)',
+    'High Fat (AMDR 35%)',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const romainesaladwithsherryvinaigrette: Recipe = {
+  name: 'Romainesaladwithsherryvinaigrette',
+  description: 'A fresh and vibrant salad featuring seasonal ingredients and crisp textures.',
+  ingredients: [
+    { name: 'thedressing:', amount: 1.0 },
+    { name: 'Cupsherryvinegar', amount: 0.25, unit: 'cup' },
+    { name: 'Iteaspoondijonmustard', amount: 1.0, unit: 'tsp' },
+    { name: 'Iteaspoonmincedshanot', amount: 1.0 },
+    { name: 'Itspait', amount: 1.0, unit: 'tbsp' },
+    { name: 'Cupolive oil', amount: 1.0 },
+    { name: 'thesaiad:', amount: 1.0 },
+    { name: 'o.sheadromaineiettuce Chopped', amount: 1.0 },
+    { name: 'Ribscelery Diagonaisnce', amount: 1.0 },
+    { name: 'o.sappie Smandice', amount: 1.0 },
+    { name: 'Cupraisins', amount: 1.0 },
+    { name: 'Cuppecans Toastedandchopped', amount: 0.5, unit: 'cup' },
+    { name: 'Mustard Shallot Andsaitinbowi Siowiydrizzieinolive oilwhne', amount: 1.0 },
+    { name: 'whiskinguntildressingisproperiyemuisified/', amount: 1.0 },
+  ],
+  instructions: [
+    'Whisk together vinegar, mustard, shallot, and salt in bowl. Slowly drizzle in olive oil while',
+    'Toss lettuce, celery, and apple in bowl with enough dressing to coat.',
+    'Divide salad into portions, ladling on extra dressing as needed. Garnish each salad with',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const bakedquinoawithpeasandherbs: Recipe = {
+  name: 'Bakedquinoawithpeasandherbs',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'o.scupquinoa Washedanddrained', amount: 1.0 },
+    { name: 'o.stablespoon', amount: 1.0 },
+    { name: 'Iteaspoonextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Icupboningwaterorstock', amount: 1.0 },
+    { name: 'Y Teaspeonseasait', amount: 1.0 },
+    { name: 'Poundfrozenpeas About', amount: 1.0 },
+    { name: 'cup)', amount: 1.0 },
+    { name: 'Tablespoonsmincedparsiey', amount: 1.0 },
+    { name: 'Tablespoonsmincedcnantro About', amount: 1.0 },
+    { name: 'bunch)', amount: 1.0 },
+    { name: 'Tablespoonsmincedchives About', amount: 1.0 },
+    { name: 'iabunch)', amount: 1.0 },
+    { name: 'Itablespooniemonjuice', amount: 1.0 },
+    { name: 'Teaspeonseasait', amount: 1.0 },
+    { name: 'o.spreheat oven to', amount: 1.0 },
+    { name: 'esof.', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to 350° F.',
+    'Transfer quinoa to 8 x 8 baking casserole. Roast about 20 minutes or until quinoa is dry.',
+    'Add water and % teaspoon salt to quinoa. Tightly cover with tin foil and bake 20 minutes',
+    'Add peas, parsley, cilantro, chives, remaining 1 teaspoon oil, and lemon juice to cooked',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

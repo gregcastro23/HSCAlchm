@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const peanutbuttercookies: Recipe = {
+  name: 'Peanutbuttercookies',
+  description: 'A sweet and satisfying treat made with quality ingredients.',
+  ingredients: [
+    { name: 'Cupbrownsugar', amount: 0.5, unit: 'cup' },
+    { name: 'Cupwhitesugar', amount: 1.0 },
+    { name: 'Cupbutter', amount: 1.0 },
+    { name: 'Iegg', amount: 4.0 },
+    { name: 'o.scuppeanutbutter', amount: 1.0 },
+    { name: 'Y Teaspeonvaniaextract', amount: 0.5, unit: 'tsp' },
+    { name: 'Tspait', amount: 1.0 },
+    { name: 'Teaspoonbakingsoda', amount: 1.0, unit: 'tsp' },
+    { name: 'Icupsan Purposefiour', amount: 2.25, unit: 'cups' },
+    { name: '0.5 Preheat oven to', amount: 1.0 },
+    { name: 'Esof eoofinconvectionoven).prepare', amount: 1.0 },
+    { name: 'Sheettrayswithparchment', amount: 1.0 },
+    { name: 'paper.', amount: 3.0, unit: 'tbsp' },
+  ],
+  instructions: [
+    'Preheat oven to 350° F. Line 2 half-sheet trays with parchment.',
+    'In medium bowl, sift flour, baking powder, and salt together.',
+    'In stand mixer, blend peanut butter, oil, maple syrup, and vanilla.',
+    'Add flour mixture to peanut butter mixture in stand mixer.',
+    'Using l-ounce scoop, form cookies onto parchment-lined baking sheets and press cookies',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

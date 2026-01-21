@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const almondOatcrustForalmondFruittart: Recipe = {
+  name: 'Almond Oatcrust Foralmond fruittart)',
+  description: 'A delicious and nutritious dish made with quality ingredients.',
+  ingredients: [
+    { name: 'Eacupbianchedaimonds', amount: 4.0, unit: 'cups' },
+    { name: 'Iacupronedoats', amount: 0.5, unit: 'cup' },
+    { name: 'Eacupoatfiour', amount: 1.0 },
+    { name: 'Cupt', amount: 1.0 },
+    { name: 'Itablespoonmapiesyrup', amount: 1.0 },
+    { name: 'Pinchseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Itablespoonmeitedcoconutonormeitedbutter', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to.',
+    'F on9 Inchtartpanandnewithparchmentpaperoruses g.',
+    'Four Inch Non stickpapertartpans.',
+    'Intoodprocessor Grindaimonds Oats andoatfiourtogetheruntilpuiverizedtofine.',
+    'Insmanbowi Combinemapiesyrup Salt Andonorbutter whiskuntilemuisified.',
+    'Pourmapie Onmixtureintofoodprocessor Puisingtoformcohesivedough ifdoughis.',
+    'Toamoisttoworkwith Transfertofridgefors iominutes.',
+    'Usingfingers Pressdougheveniyintopreparedpan bndbakewithpieweightsto.',
+    'Preventcrustfrompuffingup Bakeis 2ominutesoruntiledgesofcrustarebrowned.',
+    'Etasidetocooi.',
+    'Nstituteofcunaryeducation Courseg it9.',
+    'Lessontt Wheatandgiuten freebaking.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

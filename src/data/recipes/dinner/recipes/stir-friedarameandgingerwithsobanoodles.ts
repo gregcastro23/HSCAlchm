@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const stirFriedarameandgingerwithsobanoodles: Recipe = {
+  name: 'Stir Friedarameandgingerwithsobanoodles',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Ouncessobanoodies Brokeninhaif', amount: 1.0 },
+    { name: 'Ganonsaitedwater', amount: 1.0, unit: 'cup' },
+    { name: 'Tablespoonssesameon', amount: 1.0 },
+    { name: 'Itablespoontoastedsesameon', amount: 1.0, unit: 'tbsp' },
+    { name: 'Ouncesginger Peeled Snvered 2tablespoons)', amount: 1.0 },
+    { name: 'Nargeciovegarlicc Snvered itablespoon)', amount: 1.0 },
+    { name: 'Iominutesinwatertocover Drained', amount: 1.0 },
+    { name: 'eounces)', amount: 1.0 },
+    { name: 'Schinesecabbagesieaves Chiffonade', amount: 1.0 },
+    { name: 'Cupwater', amount: 2.0, unit: 'cups' },
+    { name: 'Itablespoonstamari', amount: 1.0 },
+    { name: 'Tspumeboshivinegar', amount: 2.0, unit: 'tbsp' },
+    { name: 'Itablespoonmapiesyrup', amount: 1.0 },
+    { name: 'Scanions iabunch)', amount: 1.0 },
+    { name: 'Aboutb Iominutes Drain Rinseincoidwater andsetaside.', amount: 1.0 },
+  ],
+  instructions: [
+    'Boil seba until tender, about 8-10 minutes. Drain, rinse in cold water, and set aside.',
+    'Coarsely chop arame. Set aside.',
+    'Heat wok with both sesame oils. Add ginger and stir well. Add garlic. Cook until ginger',
+    'Mix water, tamari, umeboshi vinegar, and maple syrup in small bowl. Pour over',
+    'Add scallions and stir to combine.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const sweetandsourmangobarbequesauce: Recipe = {
+  name: 'Sweetandsourmangobarbequesauce',
+  description: 'A flavorful and versatile condiment to enhance and elevate your dishes.',
+  ingredients: [
+    { name: 'Itablespooncanoiaon ycupounces)', amount: 1.0 },
+    { name: 'Ouncesonion isman)', amount: 1.0 },
+    { name: 'Tspcasait Scupwater', amount: 1.0 },
+    { name: 'Iteaspeonchnipowder Cuporanegcjuice 2oranges)', amount: 1.0 },
+    { name: 'Ytspmokedpaprika Icuporganicketchup', amount: 1.0 },
+    { name: 'Yteaspoongroundcumin 2tablespoonmapiesyrup', amount: 1.0 },
+    { name: 'Itablespoonmincedgarliccgiargeciove Scasaittotaste', amount: 1.0 },
+    { name: 'Ismanjaiapeno Seeded Ribsremoved', amount: 1.0 },
+    { name: 'Mineed', amount: 0.25, unit: 'cup' },
+    { name: 'Itablespoongroundinstantcoffee', amount: 0.25, unit: 'cup' },
+    { name: 'Etablespoonscoconutsugar', amount: 1.0 },
+    { name: 'Ganonpot Heatononmediumfiame Addoniens Salt Chnipowder Paprika', amount: 1.0 },
+    { name: 'Andcumin sweatuntilonionsbecometransiuccnt.', amount: 1.0 },
+  ],
+  instructions: [
+    'In 1-gallon pot, heat oil on medium flame. Add onions, salt, chili powdcr, paprika,',
+    'Add garlic and jalapeno and continue sweating until all vegetables are tender.',
+    'Reduce flamc to low and add coffec and coconut sugar to pot and simmer for 5',
+    'Inablendcr, combine the Worcestershire sauce, mangos, watcr and orange juicc.',
+    'Add blended mixture to pot along with ketchup and maple syrup.',
+    'Simmer sauce 10-15 minutes or to desired consistency. Scason to taste.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

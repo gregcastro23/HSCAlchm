@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const zucchinilatkeswithcremefraicheandherbs: Recipe = {
+  name: 'Zucchinilatkeswithcremefraicheandherbs',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'o.satkes', amount: 2.0, unit: 'tbsp' },
+    { name: 'Ipoundzucchini Shredded iargesideofgrater)', amount: 1.0 },
+    { name: 'Cupmincedredonion 2ounces)', amount: 1.0 },
+    { name: 'o.stablespoonchoppeddno.2sounce)', amount: 1.0 },
+    { name: 'Nargeegg', amount: 2.0 },
+    { name: 'Gtablespoonsricefiour', amount: 1.0 },
+    { name: 'Tspeasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Canoiaonforfrying o.ggteup)', amount: 1.0 },
+    { name: 'Gamish', amount: 1.0 },
+    { name: 'o.tstablespoons Icunce Cremefraiche', amount: 1.0 },
+    { name: 'Odnifronds', amount: 10.0, unit: 'oz' },
+    { name: 'Combinezucchini Onions Dni Egg Flour Salt Andpepper Drainin', amount: 1.0 },
+    { name: 'Coianderfor', amount: 0.25, unit: 'bunch' },
+    { name: 'iominutesandsqueezeoutexcessnquid.', amount: 1.0 },
+  ],
+  instructions: [
+    'In medium bowl, combine zucchini, onions, dill, egg, flour, salt, and pepper. Drain in',
+    'Form latkes using tablespoon measure.',
+    'In 8-inch, non-stick sauté pan, heat oil over medium-high flame. Fry latkes in batches',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

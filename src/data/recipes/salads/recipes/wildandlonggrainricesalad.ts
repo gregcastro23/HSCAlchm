@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const wildandlonggrainricesalad: Recipe = {
+  name: 'Wildandlonggrainricesalad',
+  description: 'A fresh and vibrant salad featuring seasonal ingredients and crisp textures.',
+  ingredients: [
+    { name: 'saiad:', amount: 1.0 },
+    { name: 'Icupscookedionggrainrice Cocied', amount: 1.0 },
+    { name: 'Icupscookedwndrice Cooied', amount: 1.0 },
+    { name: 'Ribscelery Stringsremoved Bruncise', amount: 1.0 },
+    { name: 'Gradishes Bruncise', amount: 1.0 },
+    { name: 'Cupcurrants', amount: 1.0 },
+    { name: 'Cupwainuts Toastedandchepped', amount: 1.0 },
+    { name: 'Saitandfreshiygroundblackpepper Totaste', amount: 1.0 },
+    { name: 'dressing:', amount: 1.0 },
+    { name: 'Stablespoonsbrownricevinegar', amount: 1.0, unit: 'tbsp' },
+    { name: 'Itablespoonmejuice', amount: 2.0, unit: 'cups' },
+    { name: 'Itablespoonstone Groundmustard', amount: 1.0 },
+    { name: 'Etspait', amount: 1.0 },
+    { name: 'Iteaspoontreshherbs Optionai', amount: 1.0 },
+    { name: 'Gtablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'o.sinmediumbowi Combinerice Celery Radishes currantsandwainuts.', amount: 1.0 },
+    { name: 'combinedressingingredients.', amount: 1.0 },
+  ],
+  instructions: [
+    'In medium bowl, combine rice, celery, radishes, currants and walnuts.',
+    'Inblender, combine dressing ingredients.',
+    'Add dressing to rice-vegetable mixture.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

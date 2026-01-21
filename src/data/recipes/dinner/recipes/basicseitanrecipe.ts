@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const basicseitanrecipe: Recipe = {
+  name: 'Basicseitanrecipe',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Seitanstock Giuten', amount: 1.0 },
+    { name: 'Iocupswater Iocupswheiewheatbreadfiour', amount: 1.0 },
+    { name: 'Iocupsunbieachedwhitebreadfiour', amount: 1.0 },
+    { name: 'Eouncesslicedginger Iocupscoidwater', amount: 1.0 },
+    { name: 'Siargeciovesgarlicc Extrawhitebreadfiourforkneading', amount: 1.0 },
+    { name: 'o.sbayieaf', amount: 1.0 },
+    { name: 'Piecekombu', amount: 2.0 },
+    { name: 'o.sint Ganonpot Combinewater Shoyu Ginger Garlicc Bayieaf Andkombu Bringstockto', amount: 1.0 },
+    { name: 'Bon Reducetosimmer andcover.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, combine water, shoyu, ginger, garlic, bay leaf, and kombu. Bring stock to',
+    'Combine flours in large mixing bowI, stirring well. Pour in water gradually, stirring to',
+    'Knead dough well to thoroughly and evenly develop gluten, about 15 minutes. Add extra',
+    'Cover dough with cold water in bowl and keep submerged for at least 30 minutes. Dough',
+    'Transfer dough from bowl to colander and place in sink. Under warm running water,',
+    'Atacertain point, it will seem as though dough is falling apart. After several minutes of',
+    'Pull pieces of gluten into small billiard-size balls. Drop gluten into stock, one piece at a',
+    'Simmer seitan for 1 4 to 2 hours, depending on size of pieces.',
+    'For improved flavor and firmer texture, cool seitan to room temperature in broth. Store in',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

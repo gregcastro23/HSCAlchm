@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const potatoCrustedbassfilets: Recipe = {
+  name: 'Potato Crustedbassfilets',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Ipoundrussetpotatoes Peeled Grated Soakedfor', amount: 1.0 },
+    { name: 'Isminutesinwater', amount: 1.0 },
+    { name: 'o.scupan Purposefiour', amount: 2.25, unit: 'cups' },
+    { name: 'Tspait', amount: 1.0 },
+    { name: 'Teaspoonblackpepper', amount: 0.25, unit: 'tsp', notes: 'ground' },
+    { name: 'Ouncethyme Pickedandfinelychopped', amount: 1.0 },
+    { name: 'eggs', amount: 4.0 },
+    { name: 'Bbassfnets Skinremoved Seasonedwithsaitandpepper', amount: 1.0 },
+    { name: 'Canoiaontopanfry', amount: 1.0 },
+    { name: 'o.sdrainpotatoes squeezeasmuchexcesswaterfrompotateesaspossibiewithcheesecioth.', amount: 1.0 },
+    { name: 'setaside.', amount: 1.0 },
+  ],
+  instructions: [
+    'Drain potatoes, squeeze as much excess water from potatoes as possible with cheesecloth.',
+    'Combine flour, salt, pepper, and thyme in bowl. Set aside.',
+    'Combine and whisk eggs in large bowl.',
+    'Dredge fish filet with flour, shaking off excess.',
+    'Heat non-stick sauté pan over medium heat with 4-inch canola oil.',
+    'Transfer filets to pan and brown on both sides. If filets are thick, transfer browned filets to',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

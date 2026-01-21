@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const carobcakewithwalnuts: Recipe = {
+  name: 'Carobcakewithwalnuts',
+  description: 'A sweet and satisfying treat made with quality ingredients.',
+  ingredients: [
+    { name: 'Tabiespoenswhoiewheatpastryfiour', amount: 1.0 },
+    { name: 'Etablespoonscarobpowder', amount: 1.0 },
+    { name: 'Tspbakingpowder', amount: 2.0, unit: 'tsp' },
+    { name: 'Y Teaspeonseasait', amount: 1.0 },
+    { name: 'Gtablespoonscanoiaormeitedcoconuton', amount: 1.0 },
+    { name: 'o.ggtcupmapiesyrup Roomtemperature', amount: 1.0 },
+    { name: 'Eacupaimondmnkorsoymnk Roomtemperature', amount: 1.0 },
+    { name: 'Iteaspoonvaniaextract', amount: 0.5, unit: 'tsp' },
+    { name: 'Coarseiychopped optionaifortopofcake)', amount: 1.0 },
+    { name: '0.5 Preheat oven to', amount: 1.0 },
+    { name: 'Esof Onandfiouroneb Inchcakepanandnebottomwith', amount: 1.0 },
+    { name: 'parchment.', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to 350° F. Oil and flour one 8-inch cake pan and line bottom with',
+    'Combine dry ingredients in bow] and whisk together to combine. Set aside.',
+    'In separate bowl, whisk together wet ingredients and pour into dry. Mix well.',
+    'Pour batter into prepared baking pan.',
+    'Sprinkle walnuts on top.',
+    'Bake for 35 to 40 minutes or until toothpick inserted in center of cake comes out clean.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

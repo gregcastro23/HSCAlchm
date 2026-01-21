@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const orangewhippedcoconutcream: Recipe = {
+  name: 'Orangewhippedcoconutcream',
+  description: 'A rich and creamy plant-based alternative perfect for sauces and desserts.',
+  ingredients: [
+    { name: 'i2ounces Iaacups Coconutmnk', amount: 1.0 },
+    { name: 'Itablespoonagarpowder', amount: 1.0 },
+    { name: 'i2ounces Iacups Coconutcream Meited', amount: 1.0 },
+    { name: 'Icupagavesyrup', amount: 0.25, unit: 'cup' },
+    { name: 'Tsporangezest iorange)', amount: 1.0 },
+    { name: 'Cuporangejuice iorange)', amount: 2.0, unit: 'tbsp' },
+    { name: 'Pinchseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Cupcoconutbutter Meited', amount: 0.333, unit: 'cup' },
+    { name: 'o.sin', amount: 1.0 },
+    { name: 'Quartpot Combinecocenutmnkandagar Setasideforatieast', amount: 1.0 },
+    { name: 'sminutes.', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+  ],
+  instructions: [
+    'Prepareicebath Invitamix Combinemeitedcocenutcream Agavesyrup orangezest,.',
+    'Orangejuice Andsait Bienduntilsmeoth siowiyaddcoconutbutterandbiendto.',
+    'Bringcoconut Agarmixturetosimmer simmeruntilanagarpowderhasdissoived,.',
+    'Stirringconstantiytoavoidscorching.',
+    'Siowiyaddboningcoconut agarmixturetoevitamixwithotheringredientsandbiendto.',
+    'Usingspatuia transfermixturetomediumbowiandsetovericebathuntilchnied.',
+    'Processfrostinginfoodprocessor untilsmooth.',
+    'Nstituteofcunaryeducation Coursee io9.',
+    'Lessongo cakeandfrostingproduction.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

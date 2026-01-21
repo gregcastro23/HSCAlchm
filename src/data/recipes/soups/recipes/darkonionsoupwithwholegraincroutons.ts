@@ -1,0 +1,48 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const darkonionsoupwithwholegraincroutons: Recipe = {
+  name: 'Darkonionsoupwithwholegraincroutons',
+  description: 'A comforting and nourishing soup perfect for any season.',
+  ingredients: [
+    { name: 'Etablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Epoundsonions o.tsiarge)', amount: 1.0 },
+    { name: 'Itspeasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Pinchblackpepper', amount: 0.25, unit: 'tsp', notes: 'ground' },
+    { name: 'Etablespoonssherry', amount: 1.0 },
+    { name: 'Ciovesgarlicc Thiniysliced', amount: 1.0 },
+    { name: 'Sprigsthyme', amount: 1.0, unit: 'tbsp' },
+    { name: 'o.sbayieaf', amount: 1.0 },
+    { name: 'Gcupsbrownstock savedfromstockpracticum)', amount: 1.0 },
+    { name: 'Itablespoontamariortotaste', amount: 1.0 },
+    { name: 'Itablespoonricevinegarortotaste', amount: 1.0 },
+    { name: 'Whoiegraincroutons tecipebeiow)', amount: 1.0 },
+    { name: 'Ganonpot heatonovermediumfiameandsweatonionswithsaituntiltransiucent.', amount: 1.0 },
+    { name: 'o.sowerheat Andcontinuetosweatuntilonionsbegintosoftenandcoior Stirringoftento', amount: 1.0 },
+    { name: 'Preventbuming Continueuntilonionsarecaramenzed brownandsoft)', amount: 1.0 },
+    { name: 'Minutes Addblackpepper Sherry Andgarliccandcontinuecookinguntilsherryreduces', amount: 1.0 },
+    { name: 'andgarliccsoftens.', amount: 1.0 },
+  ],
+  instructions: [
+    'In 1-gallon pot, heat oil over medium flame and sweat onions with salt until translucent.',
+    'Add thyme sprigs, bay leaf, and brown stock. Simmer 20-25 minutes.',
+    'Season to taste with tamari and vinegar.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

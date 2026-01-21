@@ -32,7 +32,6 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "src/data/recipes/**/recipes/**"
+    "node_modules"
   ]
 }

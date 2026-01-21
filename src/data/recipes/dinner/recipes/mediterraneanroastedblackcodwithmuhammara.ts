@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const mediterraneanroastedblackcodwithmuhammara: Recipe = {
+  name: 'Mediterraneanroastedblackcodwithmuhammara',
+  description: 'A flavorful dish with caramelized, roasted vegetables and savory notes.',
+  ingredients: [
+    { name: 'Teaspoonfeneiseed', amount: 1.0 },
+    { name: 'Teaspeoncuminseed', amount: 0.25, unit: 'cup' },
+    { name: 'Teaspoonanspice', amount: 1.0 },
+    { name: 'Tspumac', amount: 1.0 },
+    { name: 'Ipoundsblackcod Skined', amount: 1.0 },
+    { name: 'o.i2stspeasait', amount: 1.0 },
+    { name: 'Scant', amount: 0.5, unit: 'tsp' },
+    { name: 'Iateaspoonblackpepper', amount: 0.25, unit: 'tsp' },
+    { name: 'Extra virgin olive oilforbrushing', amount: 2.0, unit: 'tbsp' },
+    { name: 'Muhammara recipebeiow)', amount: 1.0 },
+    { name: 'o.spreheat oven to', amount: 1.0 },
+    { name: 'sof.', amount: 1.0 },
+    { name: 'removefromheat.', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to 450° F.',
+    'Insmall sauté pan over low heat lightly toast fennel and cumin. Remove from heat.',
+    'When spices are cool, powder them in coffee grinder and add allspice and sumac.',
+    'Divide black cod into six portions and sprinkle spice mixture on both sides of fish. Season',
+    'Transfer fish to parchment-lined half sheet pan. Lightly brush fish with oil.',
+    'Roast fish for about 7-8 minutes or until inside of fish is opaque. Remove from oven and',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

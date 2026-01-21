@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const pinenutricottaontrevisoleaves: Recipe = {
+  name: 'Pinenutricottaontrevisoleaves',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'o.scuppinenuts Soakedovemightin', amount: 1.0 },
+    { name: 'Cupswater Anddrained', amount: 1.0 },
+    { name: 'o.sheadgarlicec Roasted Cooied Andpasteextracted', amount: 1.0 },
+    { name: 'Tablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'o.stablespoonchickpeaormenowmiso', amount: 1.0 },
+    { name: 'Itablespooniemonjuice aaiemon)', amount: 1.0 },
+    { name: 'Itspumeboshipaste', amount: 1.0, unit: 'tbsp' },
+    { name: 'Pinchofseasaitandfreshiygroundblackpeppertotaste', amount: 1.0 },
+    { name: 'Tablespoonschoppedchives aaounce)', amount: 1.0 },
+    { name: 'Tablespoonsredpepper Brunoise', amount: 1.0 },
+    { name: 'Tablespoonsyenowpepper Bruncise', amount: 1.0 },
+    { name: 'Etablespoonstoastedpinenuts', amount: 1.0 },
+    { name: 'Headstreviso redendive)', amount: 1.0 },
+    { name: 'Pureepinenuts Garliccpaste Oil Miso Iemonjuice Andumeboshi', amount: 1.0 },
+    { name: 'Paste Seasonwithsaitandpepper Transfermixturetomediumbowiorpastrybagwith', amount: 1.0 },
+    { name: 'roundtip.', amount: 1.0 },
+  ],
+  instructions: [
+    'In food processor, puree pine nuts, garlic paste, oil, miso, lemon juice, and umeboshi',
+    'Dollop or pipe 1 heaping tablespoon of nut filling in each Treviso leaf and garnish with',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

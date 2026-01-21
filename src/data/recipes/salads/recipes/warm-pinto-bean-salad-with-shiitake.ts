@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const warmPintoBeanSaladWithShiitake: Recipe = {
+  name: 'Warm Pinto Bean Salad with Shiitake',
+  description: 'A hearty warm salad combining tender pinto beans with umami-rich shiitake mushrooms.',
+  ingredients: [
+    { name: 'pinto beans, cooked', amount: 3.0, unit: 'cups' },
+    { name: 'shiitake mushrooms', amount: 8.0, unit: 'oz', notes: 'sliced' },
+    { name: 'olive oil', amount: 3.0, unit: 'tbsp' },
+    { name: 'shallots', amount: 2.0, unit: 'medium', notes: 'finely diced' },
+    { name: 'garlic cloves', amount: 3.0, notes: 'minced' },
+    { name: 'fresh thyme', amount: 2.0, unit: 'tsp', notes: 'chopped' },
+    { name: 'apple cider vinegar', amount: 2.0, unit: 'tbsp' },
+    { name: 'tamari', amount: 1.0, unit: 'tbsp' },
+    { name: 'fresh parsley', amount: 0.5, unit: 'cup', notes: 'chopped' },
+    { name: 'sea salt', amount: 0.5, unit: 'tsp' },
+    { name: 'black pepper', amount: 0.25, unit: 'tsp' },
+  ],
+  instructions: [
+    'Bring beans, kombu, and water to cover beans (plus 3 inches above) to full pressure in',
+    'In 10-inch sauté pan, lightly sauté fresh shiitake mushrooms in oil. Set aside.',
+    'Combine shiitakes, onion and radishes in medium mixing bowl.',
+    'In small bowl, combine shoyu, mustard, rice syrup, and vinegars. Slowly whisk in olive oil',
+    'Drain beans, add to vegetables, and toss until well mixed.',
+    'Gently mix in chives and watercress right before serving.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

@@ -106,18 +106,24 @@ export default function RecipeDetail({ recipe }: RecipeDetailProps) {
               <h2 className="text-2xl font-serif font-semibold text-gray-900 mb-6">
                 Instructions
               </h2>
-              <ol className="space-y-4">
-                {recipe.instructions.map((instruction, index) => (
-                  <li key={index} className="flex">
-                    <span className="flex-shrink-0 w-8 h-8 bg-orange-100 text-orange-800 rounded-full flex items-center justify-center text-sm font-medium mr-4 mt-0.5">
-                      {index + 1}
-                    </span>
-                    <span className="text-gray-700 leading-relaxed">
-                      {instruction}
-                    </span>
-                  </li>
-                ))}
-              </ol>
+              {recipe.instructions && recipe.instructions.length > 0 ? (
+                <ol className="space-y-4">
+                  {recipe.instructions.map((instruction, index) => (
+                    <li key={index} className="flex">
+                      <span className="flex-shrink-0 w-8 h-8 bg-orange-100 text-orange-800 rounded-full flex items-center justify-center text-sm font-medium mr-4 mt-0.5">
+                        {index + 1}
+                      </span>
+                      <span className="text-gray-700 leading-relaxed">
+                        {instruction}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <div className="text-gray-500 italic py-4">
+                  Instructions are not available for this recipe.
+                </div>
+              )}
             </div>
           </div>
 

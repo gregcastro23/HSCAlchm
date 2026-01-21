@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const glutenFreeirishsodabread: Recipe = {
+  name: 'Gluten Freeirishsodabread',
+  description: 'Freshly baked goods with wholesome ingredients and amazing flavor.',
+  ingredients: [
+    { name: 'Iacupsgiuten Freefiourbiend seepreviousrecipe)', amount: 1.0 },
+    { name: 'Iteaspoonbakingpowder', amount: 2.0, unit: 'tsp' },
+    { name: 'Iateaspoonbakingsoda', amount: 1.0, unit: 'tsp' },
+    { name: 'Iatspait', amount: 1.0 },
+    { name: 'Iacupmapiecrystais', amount: 0.5, unit: 'cup' },
+    { name: 'Tablespoonsbutter Meited', amount: 1.0 },
+    { name: 'Iegg', amount: 4.0 },
+    { name: 'Nacupsbuttermnk Chnied', amount: 1.0 },
+    { name: 'Cupraisins', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to.',
+    'Iniargebowi Whisktogetherfiour Bakingpowder Bakingsoda Salt andmapieerystais.',
+    'Inseparatebowi Combinebutter Eggs Andbuttermnkandbeattocombinewell add.',
+    'Createwellincenterofdryingredients addbuttermnkandeggmixtureandmixgentiy.',
+    'Tocombine transferdoughtomuftinmoids,.',
+    'Bakebreadabouteo Aominutes oruntilgoidenincoiorandtoothpickinsertedinquick.',
+    'Breadcomesoutciean Removefromoven andanowbreadtocoonmuffinformsfor.',
+    'Minutesbe foreinvertingfinishedbreadontocoongrack.',
+    'Nstituteofcunaryeducation Courseg bb.',
+    'Lessonte quickbread2.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

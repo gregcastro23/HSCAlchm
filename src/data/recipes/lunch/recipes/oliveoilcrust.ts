@@ -1,0 +1,47 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const oliveoilcrust: Recipe = {
+  name: 'Oliveoilcrust',
+  description: 'A satisfying and balanced meal perfect for midday dining.',
+  ingredients: [
+    { name: 'Ea Cupwhoiewheatpastryfiour', amount: 1.5, unit: 'cups' },
+    { name: 'Ea Cupunbieachedwhitefiour', amount: 1.0 },
+    { name: 'Y Teaspeonseasait', amount: 1.0 },
+    { name: 'Teaspeonbakingpowder optionai)', amount: 1.0 },
+    { name: 'Ycupicecoidolive oil', amount: 1.0 },
+    { name: 'Acupicecoidfnteredwater', amount: 1.0, unit: 'cup' },
+    { name: 'o.sinmediumbowi Sifttogetherfiour saitandbakingpowder.', amount: 1.0 },
+  ],
+  instructions: [
+    'Cutonintofiourmixtureanatoncebutdonotmix tossfiouraroundnghtiycoatingfat.',
+    'Tocreatenttiebansoffiourcoatedfat Anghttouchisimportanthere finaibiendingwni.',
+    'Takepiaceonpastryboardinroning.',
+    'Addjustenoughwater Onetablespoonatatime Toformban Beingcarefuinotover mix.',
+    'Andcreateteomuchgiuten.',
+    'Fiattendoughintodisc Wrapinpiastic andrefrigeratefor.',
+    'Minutestoreiax thedough.',
+    'Rontodesiredshape transterroneddoughtopieortartpanandchnifor.',
+    'Heatovento.',
+    'F fnierustandbake.',
+    'Nstituteofcunaryeducation Coursee ige.',
+    'Lessonga piesandtarts.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

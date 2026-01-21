@@ -1,0 +1,46 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const creamofcurriedsweetpotatosoup: Recipe = {
+  name: 'Creamofcurriedsweetpotatosoup',
+  description: 'A comforting and nourishing soup perfect for any season.',
+  ingredients: [
+    { name: 'Itablespooncocanuton', amount: 1.0 },
+    { name: 'Bouncesonion imedium)', amount: 1.0 },
+    { name: 'Itspseasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Itspcurrypowder', amount: 1.0 },
+    { name: 'Poundssweetpotatoes 2iarge)', amount: 2.0, unit: 'medium', notes: 'cut into 2-inch pieces' },
+    { name: 'Gcupsvegetablestock', amount: 2.0, unit: 'cups' },
+    { name: 'o.scupcoconutmnk', amount: 3.5, unit: 'cups' },
+    { name: 'Saittotaste', amount: 1.0 },
+    { name: 'Itablespoonmejuice nime)', amount: 1.0 },
+    { name: 'Nmes Slicedinto', amount: 1.0 },
+    { name: 'Thinrounds Forgamish', amount: 1.0 },
+    { name: 'o.sini Ganonpot Heatcoconutonovermediumfiame Addonion Salt andcurrypowder.', amount: 1.0 },
+    { name: 'sweatuntilonionsaretransiucent.', amount: 1.0 },
+  ],
+  instructions: [
+    'In1-gallon pot, heat coconut oil over medium flame. Add onion, salt, and curry powder.',
+    'Add sweet potatoes and stock to pot. Raise heat bring and bring to boil. Reduce heat and',
+    'Puree soup in blender until creamy.',
+    'Return soup to pot. Re-heat and whisk in coconut milk. Season to taste with salt and lime',
+    'Garnish with lime rounds.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

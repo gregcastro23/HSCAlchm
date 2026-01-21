@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const grilledchickentenderswithpeanutsauce: Recipe = {
+  name: 'Grilledchickentenderswithpeanutsauce',
+  description: 'A flavorful and versatile condiment to enhance and elevate your dishes.',
+  ingredients: [
+    { name: 'Tspunrefinedsesameon', amount: 1.0, unit: 'tbsp' },
+    { name: 'Itablespoontamari', amount: 1.0 },
+    { name: 'Itspmirin', amount: 2.0, unit: 'tbsp' },
+    { name: 'Pinchredpepperfiakes', amount: 0.25, unit: 'tsp' },
+    { name: 'Ipoundchickentenders', amount: 1.0 },
+    { name: 'Peanutsauce recipebeiow)', amount: 1.0 },
+    { name: '0.5 Soak', amount: 1.0 },
+    { name: 'bwoodenskewersinbowiofwatertopreventbumingongrni.', amount: 1.0 },
+    { name: 'Sizebowi Whisktogethersesameon Tamari Mirin andredpepperfiakes.', amount: 1.0 },
+    { name: 'Addtenderstomixtureandmarinatefor', amount: 1.0 },
+    { name: 'sminutes.', amount: 2.0, unit: 'cups', notes: 'approximately ½ ounce' },
+  ],
+  instructions: [
+    'Heatca stirongriddiegrni overmedium heat.',
+    'Threadtendersonskewers Dependingonsize useoneortwotendersperskewer.',
+    'Discardmarinade.',
+    'Grnitenderseachsideabout.',
+    'Minutesor untilchickenhasgrnimarks andisopaquein.',
+    'Appearance servewithpeanutsauce,.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

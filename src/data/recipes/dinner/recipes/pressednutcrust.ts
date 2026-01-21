@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const pressednutcrust: Recipe = {
+  name: 'Pressednutcrust',
+  description: 'A delicious and hearty dish ideal for evening meals.',
+  ingredients: [
+    { name: 'Cupaimonds', amount: 0.5, unit: 'cup', notes: 'finely chopped' },
+    { name: 'Cupoats', amount: 1.0 },
+    { name: 'Ea Cupoatfiour', amount: 1.0 },
+    { name: 'Teaspeoncinamon', amount: 0.5, unit: 'tsp' },
+    { name: 'Pinchofsait', amount: 1.0 },
+    { name: 'Cupmapiesyrup', amount: 1.5, unit: 'tbsp', notes: 'or to taste' },
+    { name: 'cupcanoiaonor2tablespoonsmeitedcoconuton', amount: 1.0 },
+    { name: 'o.spreheat oven to', amount: 1.0 },
+    { name: 'Esof on9 inchpieortartpan.', amount: 1.0 },
+  ],
+  instructions: [
+    'Preheat oven to 350° F. Oil 9-inch pie or tart pan.',
+    'Grind almonds in food processor to form fine almond meal.',
+    'Grind oats coarsely in food processor.',
+    'In medium bowl, combine almonds, cats, oat flour, cinnamon and salt; mix well.',
+    'In separate bowl, whisk together maple syrup, and canola or melted coconut oil.',
+    'Mix wet ingredients into dry ingredients.',
+    'With wet fingertips, press crust into oiled pie or tart pan.',
+    'Bake crust 20 to 25 minutes or until golden and completely baked.',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};

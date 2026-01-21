@@ -1,0 +1,45 @@
+import { Recipe } from '../../../../types/recipe';
+
+export const tomatosauce: Recipe = {
+  name: 'Tomatosauce',
+  description: 'A flavorful and versatile condiment to enhance and elevate your dishes.',
+  ingredients: [
+    { name: 'Etablespoonsextra virgin olive oil', amount: 2.0, unit: 'tbsp' },
+    { name: 'Nargeonion Smandice', amount: 0.5 },
+    { name: 'Sciovesgarlicc Minced', amount: 0.25, unit: 'cup' },
+    { name: 'Itspeasait', amount: 0.125, unit: 'tsp' },
+    { name: 'Iateaspoondryrosemary', amount: 1.0 },
+    { name: 'Iateaspoondrythyme', amount: 1.0 },
+    { name: 'Iateaspoondrybasn', amount: 1.0 },
+    { name: 'Iateaspoonchnifiakes', amount: 1.0 },
+    { name: 'Chopped puisedinfoodprocessor)', amount: 1.0 },
+    { name: 'Cupsredwine', amount: 1.0 },
+    { name: 'Seasaitandpeppertotaste', amount: 1.0 },
+  ],
+  instructions: [
+    'Strain whole tomatoes from juice. Reserve juice and set aside. Blend whole tomatoes in',
+    'In 12-inch sauté pan, heat oil over low flame. Add garlic and salt. Sweat until garlic',
+    'Raise heat to medium-high.',
+    'Add pureed whole tomatoes to pan. Sauté tomatoes for 12-15 minutes.',
+    'Lower heat, add agave, red pepper flakes, and reserved tomato juice. Simmer until sauce',
+    'Add basil leaves. Simmer 2-3 minutes more. Adjust seasoning to taste with salt and',
+  ],
+  nutrition: {
+    calories: 200,
+    protein: 8,
+    carbs: 25,
+    fat: 12,
+    vitamins: ['C', 'K'],
+    minerals: ['Potassium', 'Iron'],
+  },
+  timeToMake: '30 minutes',
+  season: ['all'],
+  cuisine: 'HSCA',
+  mealType: ['Health Supportive'],
+  elementalBalance: {
+    Fire: 0.25,
+    Earth: 0.25,
+    Water: 0.25,
+    Air: 0.25,
+  },
+};
